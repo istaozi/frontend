@@ -1,0 +1,915 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的新新贷v3.0</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-blue.css" rel="stylesheet">
+    <link href="../css/xxd.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <div id="errorie">
+        <div>您所使用的IE浏览器版本过旧，为了您获得更好的浏览体验，请升级您的浏览器到 IE8以上版本</div>
+    </div>
+    <![endif]-->
+</head>
+<body>
+<!--top start-->
+
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+            <p class="index_leftP relative">
+                <span class="font-666 mr10">客服热线：4000-168-521</span>
+                <span class="mobile_ver font-666 mr10">手机版</span>
+                <span class="mobile_erweima_ver" style="display:none;"></span>
+                <a href="http://weibo.com/xinxindai/profile?" target="_blank" class="weibo_ver mr10"><img class="mtf3"
+                                                                                                          src="../images/public/weibo.png"></a>
+                <span class="weixin_ver mr10"><img class="mtf3" src="../images/public/weixin.png"></span>
+                <span class="weixin_erweima_ver" style="display:none;"></span>
+            </p>
+
+            <!-- 登录状态topbar start-->
+            <nav class="nav-collapse user">
+                <div class="user-info pull-right">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <div>欢迎<span>新新贷用户户习大大</span></div>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href=""><span class="glyphicon glyphicon-user"></span> 我的新新贷</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> 充值</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> 站内信<span
+                                    class="badge">12</span></a></li>
+                            <li class="divider"></li>
+                            <li><a href=""><span class="icon-signout"></span> 退出登录</a></li>
+                        </ul>
+                        <a href="#" class="top-link right">关于我们</a>
+                        <a href="#" class="top-link right">帮助</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- 登录状态topbar over-->
+            <!-- 未登录状态topbar start-->
+            <nav class="nav-collapse user" style="display:none;">
+                <div class="user-info pull-right nologin">
+                    <a href="#" class="top-link">关于我们</a>
+                    <a href="#" class="top-link"></a>
+                    <a href="xxd-register.html" class="red">注册</a>
+                    <a href="xxd-register.html" class="blue">登录</a>
+                </div>
+            </nav>
+            <!-- 未登录状态topbar over-->
+        </div>
+    </div>
+</header>
+<!-- top over-->
+
+<!-- 导航栏 start-->
+<div class="navbar">
+    <div class="top-menu">
+        <div class="container">
+            <div class="xxd-logo"><img src="../images/public/xxd-logo-default2.png"/></div>
+            <nav class="nav-collapse main-menu">
+                <ul class="nav">
+                    <li class="haslink">
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown"
+                           id="MenuDropdown0">首页</a>
+
+                    <li class="haslink">
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown"
+                           id="MenuDropdown1">我要投资</a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown1">
+                            <li><a href="#">日日盈</a></li>
+                            <li><a href="#">散标投资</a></li>
+                            <li><a href="#">债权转让</a></li>
+                            <li><a href="#">新元宝</a></li>
+                            <li><a href="#">票小宝</a></li>
+                            <li><a href="#">新新宝</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown"
+                           id="MenuDropdown2">我要借款</a>
+                    </li>
+                    <li><a href="/wamp/www/frontend/Special-web/newbie-guide/newbie_guide.html" class="main-menu-tit">新手指引</a>
+                    </li>
+                    <li><a href="#" class="main-menu-tit" style="padding-right:8px;">社区</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+</div>
+<!-- 导航栏 over-->
+
+<!-- main content start-->
+<div class="myaccount mt40">
+    <div class="container">
+        <div class="account-box clearfix leftmenu_bg">
+            <!-- 左侧菜单 start-->
+
+
+            <!-- 左侧菜单 start-->
+            <div class="account-menubox account-menubox-new  darkblue">
+                <!--             	<div class="account-head" style="position:relative;"> -->
+                <!--                 	<img src="/static/images/user/personal_r2_c2.png" id="leftheadImg"/>                	 -->
+                <!--                     <a href="/personal/changheadimg.html" class="ac-changehead">修改头像</a> -->
+                <!--                 </div> -->
+                <!--                 <div class="account-name">Hi,<span>apptest1<span class="badge"><a href="/help/aboutcreditlevel.html" data-toggle="tooltip" data-placement="top" title="点击查看新新贷信用等级规则" id="xydj">E</a></span></span></div> -->
+                <!--                 <div class="account-recomend clearfix"> -->
+                <!-- 此处格式 实名认证-姓名 / 实名认证-未认证 / 手机-未绑定 / 手机-已绑定 /-->
+                <!--                 	<a href="/personal/info.html" class="recomend-id-active" data-toggle="tooltip" data-placement="top" title="实名认证-"  id="nameh"> </a> -->
+                <!--                     <a href="/personal/info.html" class="recomend-phone-active" data-toggle="tooltip" data-placement="top" title="手机-"  id="mobileh"> </a> -->
+                <!--                     <a href="/personal/info.html" class="recomend-email" data-toggle="tooltip" data-placement="top" title="邮箱认证-"  id="emailh"> </a> -->
+                <!--                     <a href="/personal/info.html" class="recomend-vip" data-toggle="tooltip" data-placement="top" title="vip-" id="viph"> </a> -->
+                <!--                 </div> -->
+                <!--                 <div class="account-level"> -->
+                <!--                 	<h6 id="dj">账户安全等级</h6> -->
+                <!--                     <div class="layout clearfix"> -->
+                <!--                         <div class="progress account-progress"> -->
+                <!--                             <div id="securityLevel" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"> -->
+                <!--                                 <span class="sr-only">60% Complete</span> -->
+                <!--                             </div> -->
+                <!--                         </div> -->
+                <!--                         <a href="/personal/info.html" class="right ic-blue" style="margin-top:4px;" name="info">提升</a> -->
+                <!--                     </div> -->
+                <!--                 </div> -->
+                <ul class="account-menu account-menu-new ">
+                    <li>
+                        <a href="/accountshow/myaccount.html" class="myxxd-title font18 bluefont minexxd">我的新新贷</a>
+                    </li>
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-mymoney-new"></span>资金记录</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/account/moneyRecord.html" name="jymx">交易明细</a></div>
+                        <div><a href="/accountrecharge/topup.html" name="cz">充值</a></div>
+                        <div><a href="/account/initDrawmoney.html" name="tx">提现</a></div>
+                        <div><a href="/account/coinLog/0.html" name="xxb">新新币</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-loan-new"></span>投资管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/commpd/mytender/sevengold.html" name="sevengold">七天大胜</a></div>
+                        <div><a href="/commpd/mytender/monthgold.html" name="monthgold">月进斗金</a></div>
+                        <div><a href="#" name="fund">日日盈</a></div>
+                        <div><a href="#" name="xplan">新元宝</a></div>
+                        <div><a href="/account/investment.html" name="cjjj">散标直投</a></div>
+                        <div><a href="/traderequest/transfer.html" name="zqzr">债权转让</a></div>
+                        <div style="display: none;"><a href="/xxb/mytender.html" name="xxbao">新新宝</a></div>
+                        <div style="display: none;"><a href="/xsb/mytender.html" name="xsb">新手标</a></div>
+                        <div><a href="/account/autobid.html" name="auto">自动投标设置</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-inverst-new"></span>借款管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/account/loanmanage.html" name="jksq">借款申请</a></div>
+                        <div><a href="/account/repaydetail.html" name="hkmx">还款明细</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-id-new"></span>个人资料</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/personal/basic.html" name="wdzl">我的资料</a></div>
+                        <div><a href="/personal/banksetup.html" name="bank">银行设置</a></div>
+                        <div><a href="/personal/changepassword.html" name="aq">安全设置</a></div>
+                        <div><a href="/question/loadQuestionList.html" name="qu">问卷调查</a></div>
+                        <div><a href="/contractsigning/loadcontract.html" name="sign">签约管理</a></div>
+                    </li>
+
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-activity-new"></span>互动管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/popularize/gomypopularizeactivity.html" name="xxtg">新新推广</a></div>
+                        <div><a href="/coupon/gomycoupon.html" name="wdlj">我的礼券</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-inbox-new"></span>消息管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone mb10  flip-bottom">
+                        <div><a href="/account/message.html" name="znx">站内信</a></div>
+                        <div><a href="/userNotice/userNoticeConfig.html" name="userNotice">用户消息设置</a></div>
+                    </li>
+                    <li class="flip flip-new" style="border:none;">
+                    </li>
+                </ul>
+            </div>
+            <!-- 左侧菜单 over-->
+
+            <script type="text/javascript" src="/static/js/myxxd_left_menu.js"></script>
+
+
+            <input type="hidden" name="menuname" id="menuname" value="overview">
+            <!-- 左侧菜单 over-->
+
+            <!-- 右侧内容 start-->
+            <div class="account-contentbox  clearfix">
+
+                <!-- 第一个div start -->
+                <div class="person_info  clearfix">
+
+                    <div class="left person_info_left clearfix">
+                        <!-- 问候及认证状态 -->
+                        <div class="person_info_topl clearfix">
+                            <div class="account-head person_pic left mg0" style="position:relative;">
+                                <a href="/personal/changheadimg.html"><img src="../images/user/personal_r2_c2.png" id="leftheadImg"></a>
+                            </div>
+							<span class="left ml20 clearfix">
+								<div class="font16 black ml5 ">
+                                    下午好，
+									<span class="font-004789 account-name">
+										<a href="/personal/basic.html">
+                                            apptest1
+                                        </a>
+										<span class="badge"><a href="/help/aboutcreditlevel.html" data-toggle="tooltip" data-placement="right" title="点击查看新新贷信用等级规则">HR</a></span>
+	                       			</span>
+                                </div>
+								<p class="account-recomend account-recomend-new clearfix">
+                                    <!-- 此处格式 实名认证-姓名 / 实名认证-未认证 / 手机-未绑定 / 手机-已绑定 /-->
+                                    <a href="/personal/info.html" class="recomend-email-active-new" data-toggle="tooltip" data-placement="top" title="" data-original-title="邮箱-已认证"> </a>
+                                    <a href="/personal/info.html" class="recomend-phone-active-new" data-toggle="tooltip" data-placement="top" title="手机-已绑定"> </a>
+                                    <a href="/personal/info.html" class="recomend-payPass-active-new" data-toggle="tooltip" data-placement="top" title="" data-original-title="支付密码-已认证"> </a>
+                                    <a href="/personal/info.html" class="recomend-id-active-new" data-toggle="tooltip" data-placement="top" title="实名-已认证"> </a>
+                                    <a href="/personal/info.html" class="recomend-vip-active-new" data-toggle="tooltip" data-placement="top" title="" data-original-title="vip-已认证"> </a>
+                                </p>
+							</span>
+                        </div>
+
+                        <!-- 安全等级 -->
+                        <div class="person_info_bottoml clearfix ">
+                            <p class="wq-70">安全等级 :</p>
+
+                            <p class="left safep">
+
+
+                                <span class="safe safe-curretn" style="border-radius:3px 0 0 3px;">低</span>
+                                <span class="safe safe-curretn">中</span>
+                                <span class="safe safe-curretn" style="border-radius: 0 3px 3px 0;">高</span>
+
+                            </p>
+
+
+                        </div>
+                    </div>
+                    <div class="right person_info_right clearfix">
+                        <p class="font12 font-666 ">&nbsp;上次登录：2016年04月13日 15:47:25</p>
+
+                        <p class="font14  black tealrig redline">红包 : <a href="/coupon/gomycoupon.html" class="bluefont">0</a> 个</p>
+
+                        <p class="font14  black tealrig redline">新新币 : <a href="/account/coinLog/0.html" class="bluefont">10810</a> 个</p>
+
+                        <p class="clearfix">
+                            <button class="btn btn-xxd-small mr20 left" onclick="window.location.href='/accountrecharge/topup.html'">充值</button>
+                            <button class="right btn-xxd-small-white btn-small-hover " onclick="window.location.href='/account/initDrawmoney.html'">提现</button>
+                        </p>
+                    </div>
+                </div>
+                <!-- 第一个div over -->
+
+                <!-- 投资账户 借款账户 start-->
+                <div class="bgfff">
+
+                    <ul class="nav nav-tabs index-nav-tabs clearfix myxxd_tabs" role="tablist" style="margin-bottom: 10px;">
+                        <li role="presentation" class=" active clearfix">
+                            <a href="#investacc" role="tab" data-toggle="tab" class="mailcolor" style="font-size:16px;color:#000000;">投资账户</a>
+                        </li>
+                        <li role="presentation" class="clearfix">
+                            <a href="#loanacc" role="tab" data-toggle="tab" class="mailcolor " style="font-size:16px;color:#000000;" id="showLoanList">借款账户</a>
+                        </li>
+                    </ul>
+
+
+                    <!-- Tab panes start-->
+                    <div class="tab-content">
+                        <!--投资账户 start-->
+                        <div role="tabpanel" class="tab-pane fade in active text-center  font16" id="investacc">
+                            <div class="pie_p_pos relative   rightradius clearfix">
+
+                                <div class="pie_inner clearfix">
+                                    <p class="black mt54 font14 text-center">140,487.64元</p>
+
+                                    <p class="black mt54 font14 pie_inner_p2">账户净资产总额
+
+                                    </p>
+                                </div>
+                                <!-- 累计赚取 累计收益 start-->
+                                <div class="yh_div">
+
+                                    <a  href="income-info.html" class="yh_a">
+                                        <div class="font-666 left  disblock font14 w288">
+                                            <div class="yh_br">
+                                                <p class=" font14 text-left pl20 yh_div_P1">本月累计赚取(元)</p>
+                                                <p class="font-ed6100 font30  text-left pl20 yh_a1">40,387.90</p>
+                                            </div>
+                                            <p class=" font14 text-left pl20 yh_br2">今年累计赚取(元)<span class="color-eb6100  font16 pl5 yh_a1">345,345,345.16</span></p>
+                                        </div>
+
+                                        <div class="font-666 left  disblock font14 w288">
+                                            <div class="yh_br">
+                                                <p class=" font14 text-left pl20 yh_div_P1">本月待收收益(元)</p>
+                                                <p class="font-2096e9 font30  text-left pl20 yh_a2">40,387.90</p>
+                                            </div>
+                                            <p class=" font14 text-left pl20 yh_br2">累计待收收益(元)<span class="font-2096e9  font16 pl5 yh_a2">345,345,345.16</span></p>
+                                        </div>
+                                    </a>
+                                    <div class="font-666 left  disblock font14  relative yh_div_p3">
+                                        <div class="ljcz_ahover_1">
+                                            <a href="#" class="ljcz_ahover ljcza_tips font14 text-left  lh32  disblock  yh_div_p31">累计充值(元)</a>
+                                            <p class="font16 mg0 ljcz_hp">345,345,345.16</p>
+                                        </div>
+                                        <div class="word_tips_tyj ljcz_atips disnone">
+                                            <p class="zj_jj"></p>
+
+                                            <p>现金充值：115,115,115.05元</p>
+
+                                            <p>新新币折现充值：115,115,115.05元</p>
+
+                                            <p>推广奖励充值：115,115,115.05元</p>
+                                        </div>
+                                        <a href="#" class="ljcz_ahover font14 text-left pl20 lh32 pt10 disblock">累计提现(元)<p class=" font16">345,345,345.16</p></a>
+                                    </div>
+                                </div>
+                                <!-- 累计赚取 累计收益 end-->
+
+                                <!-- 账户资产 start-->
+                                <div class="text-left pl26 mt20 left dis_line_block" href="#">
+                                    <p class="font16 font-000"><span class="squer_blue"></span>账户资产<span class="font-666 font14 pl30">账户净资产总额<span style="margin:0 2px;" class="q-small queblue mglr2" data-toggle="tooltip" data-placement="top" data-original-title="不包含待收利息">?</span>=当前持有投资<span style="margin:0 2px;" class="q-small queblue" data-toggle="tooltip" data-placement="top" data-original-title="当前持有的金额本金">?</span>+冻结金额+可用余额</span></p>
+                                </div>
+                                <!-- 账户资产 end-->
+
+
+                                <div class="myxxd_piepos clearfix" id="piechart_id">
+                                </div>
+                            </div>
+                            <div class="mt94 bgfff">
+                                <div class="myinvest text-left"><span class="squer_blue"></span>我的投资</div>
+                                <table class="xxd_table font14 font-666" cellpadding="0" cellspacing="0" border="0">
+                                    <tbody>
+                                    <tr>
+                                        <td class="black">产品类型</td>
+                                        <td class="black">当前持有投资</td>
+                                        <td class="black">
+                                            待收收益(元)
+                                            <!--<span class="q-small queblue queblue_pf1 ml6" data-toggle="tooltip" data-placement="top" data-original-title="累计您投资转入的金额（不包含复利资金）">?</span>-->
+                                        </td>
+                                        <td class="black"> 累计投资(元)</td>
+                                        <td class="black">
+                                            累计收益(元)
+                                            <!--<span class="q-small queblue queblue_pf1 ml6" data-toggle="tooltip" data-placement="top" data-original-title="收益可能因提前还款等原因变动">?</span>-->
+                                        </td>
+                                        <td class="black text-center">操作</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>七天大胜</td>
+                                        <td>1000.00</td>
+                                        <td>100.00</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td class="clearfix text-right xxd-lasttd text-center">
+                                            <a style="float: none;" class="xxd-tzinfo bluefont font14" onclick="window.location.href='/commpd/itemId/sevengold.html'">立即投资</a>
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>月进斗金</td>
+                                        <td>1000.00</td>
+                                        <td>100.00</td>
+                                        <td>10,000.00</td>
+                                        <td>206.66</td>
+                                        <td class="clearfix text-center xxd-lasttd">
+                                            <a href="/commpd/mytender/monthgold.html" class=" xxd-tzinfo bluefont left">查看详情</a>
+                                            <a class="bluefont xxd-tzinfo right font14 color-eb6100" href="#">即将到期</a>
+                                        </td>
+
+
+                                    </tr>
+
+                                    <tr>
+                                        <td>日日盈</td>
+                                        <td>1000.00</td>
+                                        <td>100.00</td>
+                                        <td class="relative">500.00<span class="word_tips tips_rry_ljsy"></span><span class="word_tips_tyj disnone">使用红包：500.00元</span></td>
+                                        <td class="relative">10.00</td>
+                                        <!--<span class="word_tips tips_rry_ljtz"></span><span class="word_tips_tyj disnone">使用体验金：500,.00元</span>-->
+                                        <td class="clearfix text-center xxd-lasttd">
+                                            <a href="#" class=" xxd-tzinfo bluefont left">查看详情</a>
+                                            <a class="bluefont xxd-tzinfo right font14" style="color: red" href="#"><font style="width:56px;display: block">已到期</font></a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>新元宝</td>
+                                        <td>1000.00</td>
+                                        <td>100.00</td>
+                                        <td class="relative">113,522.00<span class="word_tips tips_xyb_ljtz"></span><span class="word_tips_tyj disnone">使用红包：500.00元</span></td>
+                                        <td>8,587.13</td>
+                                        <td class="clearfix text-center xxd-lasttd">
+                                            <a href="#" class="xxd-tzinfo bluefont left">查看详情</a>
+                                            <a class="bluefont xxd-tzinfo right font14" href="#">立即投资</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>散标直投</td>
+                                        <td>1000.00</td>
+                                        <td>100.00</td>
+                                        <td>1,235,626.97</td>
+                                        <td class="relative">22,996.98</td>
+                                        <!--<span class="word_tips tips_sbzt_ljtz"></span><span class="word_tips_tyj disnone">使用体验金：500,.00元</span>-->
+                                        <td class="clearfix text-center xxd-lasttd">
+                                            <a href="/account/investment.html" class="xxd-tzinfo bluefont left">查看详情</a>
+                                            <a class="bluefont xxd-tzinfo right font14" href="#">立即投资</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>债权转让</td>
+                                        <td>1000.00</td>
+                                        <td>100.00</td>
+                                        <td>113,522.00</td>
+                                        <td>8,587.13</td>
+                                        <td class="clearfix text-center xxd-lasttd">
+                                            <a href="/account/investment.html" class="xxd-tzinfo bluefont left">查看详情</a>
+                                            <a class="bluefont xxd-tzinfo right font14" href="#">立即投资</a>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>其他投资
+                                            <span class="q-small queblue queblue_pf1" data-toggle="tooltip" data-placement="top" data-original-title="包括已下线的产品类型：新新宝, 新手标等">?</span>
+                                        </td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_x font-000">累计</td>
+                                        <td class="bottom_x font-e89100">6,000.00</td>
+                                        <td class="bottom_x font-e89100">600.00</td>
+                                        <td class="bottom_x font-e89100">1,473,170.97</td>
+                                        <td class="bottom_x font-e89100">40,387.90</td>
+                                        <td class="bottom_x font-e89100"></td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!--投资账户 end-->
+
+                        <!--借款账户 start-->
+
+                        <div role="tabpanel" class="tab-pane fade in  text-center  font16 " style="height: 806px;" id="loanacc">
+                            <div class=" mylenddiv">
+                                <p class="font-666 left  mt16 disblock font14">
+                                    待还总额：<span class="font16" id="repaymentSumSpan">15,418.07</span>元
+                                </p>
+
+                                <p class="font-666 left ml30 mt16 disblock font14">
+                                    累计借款：<span class="font16" id="loanSumSpan">30,000.00</span>元
+                                </p>
+
+                                <p class="clearfix  right mt16  font14 ">
+                                    <a href="/account/repaydetail.html" class="clo-blue font14">还款明细</a>
+                                </p>
+                            </div>
+                            <div class="myinvest text-left">我的借款</div>
+                            <table class="xxd_table font14 font-666" cellpadding="0" cellspacing="0" border="0">
+                                <thead>
+                                <tr>
+                                    <td class="black">下一还款日</td>
+                                    <td class="black">借款标题</td>
+                                    <td class="black">借款类型</td>
+                                    <td class="black">借款金额</td>
+                                    <td class="black">年利率</td>
+                                    <td class="black">期限</td>
+                                    <td class="black text-center">操作</td>
+                                </tr>
+                                </thead>
+                                <tbody id="borrowListTable">
+                                </tbody>
+                            </table>
+                            <div class="layout paggin_h" id="borrowListPage" style="margin-top:20px;padding-right:20px;">
+                                <ul class="pagination right"></ul>
+                            </div>
+                        </div>
+
+                        <!--借款账户 end-->
+                    </div>
+                    <!-- Tab panes end-->
+                </div>
+                <!-- 投资账户 借款账户 end-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- main content over-->
+<!-- footer start-->
+<div class="index-footer">
+    <div class="container">
+        <div class="footer-cont">
+            <div class="footer-kf"></div>
+            <div class="footer-aboutus"><span class="left">关注我们</span>
+
+                <div class="footer-weibo"></div>
+                <div class="footer-weixin"></div>
+                <span class="left ml50">下载手机客户端</span>
+
+                <div class="footer-apple"></div>
+                <div class="footer-android"></div>
+                <div class="erweima-box weibo-box">
+                    <div class="erweima-weibo"></div>
+                </div>
+                <div class="erweima-box weixin-box">
+                    <div class="erweima-weixin"></div>
+                </div>
+                <div class="erweima-box apple-box">
+                    <div class="erweima-apple"></div>
+                </div>
+                <div class="erweima-box android-box">
+                    <div class="erweima-android"></div>
+                </div>
+            </div>
+            <ul class="left mt40 mr20 fixaaa">
+                <li class="yh13">关于新新贷</li>
+                <li><a href="/about/aboutcompany.html">新新贷介绍</a></li>
+                <li><a href="/index/newsNoticesThree.html?typeName=news_notices">公告和新闻</a></li>
+                <li><a href="/about/contactus.html">联系我们</a></li>
+                <!--  <li><a href="/about/blogroll.html">友情链接</a>
+                        </li>-->
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">安全保障</li>
+                <!--<li><a href="/security/guarantee_plan.html">本金保障</a>
+                        </li>-->
+                <li><a href="/security/guarantee_plan.html">阳光透明</a></li>
+                <li><a href="/security/pwd_suggestion.html">隐私保护</a></li>
+                <li><a href="/security/risk_group.html">风险控制</a></li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">帮助中心</li>
+                <li><a href="/help/aboutxxd.html">常见问题</a></li>
+                <li><a href="/help/operation.html">操作演示</a></li>
+                <li><a href="/help/fee.html">资费介绍</a></li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">兄弟品牌</li>
+                <li><a href="http://www.xinxinwealth.com" id="xxcf" target="_blank"> </a></li>
+            </ul>
+        </div>
+        <div class="index_blog_roll">
+            <div class="blogrolltitlea">友情链接：</div>
+            <ul id="index_blog_rollul" class="showone">
+                <li><a href="http://www.xinxindai.com/loan/category.html" target="view_window">小额贷款条件</a></li>
+                <li><a href="https://www.weicaifu.com/v/index" target="view_window">新浪微财富</a></li>
+                <li><a href="http://www.rongjinsuo.com" target="view_window">P2P理财</a></li>
+                <li><a href="http://www.xinxindai.com" target="view_window">网贷平台</a></li>
+                <li><a href="http://bbs.xinxindai.com/" target="view_window">P2P网贷论坛</a></li>
+                <li><a href="http://loans.cardbaobao.com/" target="view_window">小额贷款</a></li>
+                <li><a href="http://www.cjdao.com" target="view_window">财经道</a></li>
+                <li><a href="http://www.itf-mag.com" target="view_window">互联网金融杂志</a></li>
+                <li><a href="http://finance.ifeng.com/itfinance/" target="view_window">凤凰互联网金融</a></li>
+                <li><a href="http://www.zixinke.com" target="view_window">资信客</a></li>
+                <li><a href="http://bbs.wacai.com/" target="view_window">挖财社区</a></li>
+                <li><a href="http://www.itbt.com.cn/" target="view_window">P2P投资理财</a></li>
+                <li><a href="http://www.cr.cn" target="view_window">从容网</a></li>
+                <li><a href="http://iof.hexun.com" target="view_window">和讯互联网金融</a></li>
+                <li><a href="http://www.icaifu.com/" target="view_window">研报下载</a></li>
+                <li><a href="http://shenzhen.rong360.com/" target="view_window">深圳贷款</a></li>
+                <li><a href="http://shanghai.roadoor.com/" target="view_window">上海贷款</a></li>
+                <li><a href="http://www.rongdaitong.cn/" target="view_window">融贷通</a></li>
+                <li><a href="http://www.wangdaidp.com" target="view_window">网贷点评</a></li>
+                <li><a href="http://www.soudai360.com" target="view_window">P2P网贷</a></li>
+                <div class="clear"></div>
+            </ul>
+            <a class="showmoreblogroll show_more" id="show_more" style="display:block;"> </a> <a
+                class="showmoreblogroll show_reg" id="show_reg"> </a></div>
+    </div>
+    <!-- 版权与可信认证 start-->
+    <div class="xxd_pagefoot">
+        <div class="container">
+            <div class="newfoot_copyright"> Copyright @上海涌信金融信息服务有限公司 沪ICP备12026657号-1 版权所有，未经许可不得复制、转载或摘编，违者必究！
+                <!-- cnzz统计代码 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253077251'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253077251%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                <span id="cnzz_stat_icon_1253077251"><a href="http://www.cnzz.com/stat/website.php?web_id=1253077251"
+                                                        target="_blank" title="站长统计"><img border="0" hspace="0"
+                                                                                          vspace="0"
+                                                                                          src="http://icon.cnzz.com/img/pic.gif"></a></span>
+                <script src=" http://s19.cnzz.com/z_stat.php?id=1253077251&amp;show=pic"
+                        type="text/javascript"></script>
+                <script src="http://c.cnzz.com/core.php?web_id=1253077251&amp;show=pic&amp;t=z" charset="utf-8"
+                        type="text/javascript"></script>
+                <!-- 百度统计代码 -->
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78e9b60f68bcb0ca48e187efedec7fb9' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+                <script src=" http://hm.baidu.com/h.js?78e9b60f68bcb0ca48e187efedec7fb9"
+                        type="text/javascript"></script>
+            </div>
+            <div class="new_identification">
+                <!--  <a id="icon001" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank"><img src="/images/icon001.jpg"/></a>
+                        <a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20140224003875003530' target='_blank'><img src='https://search.szfw.org/cert.png?l=CX20140224003875003530'></a>
+                        <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                        <span id="kx_verify"></span><script type="text/javascript">(function (){var _kxs = document.createElement('script');_kxs.id = 'kx_script';_kxs.async = true;_kxs.setAttribute('cid', 'kx_verify');_kxs.src = ('https:' == document.location.protocol ? 'https://ss.knet.cn' : 'http://rr.knet.cn')+'/static/js/icon3.js?sn=e14050731010948597brpb000000&tp=icon3';_kxs.setAttribute('size', 0);var _kx = document.getElementById('kx_verify');_kx.parentNode.insertBefore(_kxs, _kx);})();</script>-->
+                <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank" class="id_xin"> </a> <a
+                    href="https://ss.knet.cn/verifyseal.dll?sn=e14050731010948597brpb000000&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.xinxindai.com"
+                    target="_blank" class="id_kexin"> </a> <a
+                    href="https://search.szfw.org/cert/l/CX20140224003875003530" target="_blank"
+                    class="id_chengxin"> </a></div>
+        </div>
+    </div>
+    <!-- 版权与可信认证 over-->
+</div>
+<!-- footer over-->
+<!-- index main content over-->
+<script src="../js/jquery1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/browser.js"></script>
+<script src="../js/echarts-all.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#moredata").click(function () {
+            $(".index-data").slideUp();
+            $(".small-data").delay(0).fadeIn();
+        });
+        $(".xxd-partener>li").mouseover(function () {
+            $(this).children("div").addClass("borderd");
+            $(this).children("a").addClass("hover");
+        });
+        $(".xxd-partener>li").mouseout(function () {
+            $(this).children("div").removeClass("borderd");
+            $(this).children("a").removeClass("hover");
+        });
+        $("#show_more").click(function () {
+            $("#index_blog_rollul").addClass("showall");
+            $("#show_reg").show();
+            $("#show_more").hide();
+        });
+        $("#show_reg").click(function () {
+            $("#index_blog_rollul").removeClass("showall");
+            $("#show_reg").hide();
+            $("#show_more").show();
+        });
+        $(".footer-weibo").mouseover(function () {
+            $(".weibo-box").fadeIn(100);
+        });
+        $(".footer-weibo").mouseout(function () {
+            $(".weibo-box").fadeOut(100);
+        });
+        $(".footer-weixin").mouseover(function () {
+            $(".weixin-box").fadeIn(100);
+        });
+        $(".footer-weixin").mouseout(function () {
+            $(".weixin-box").fadeOut(100);
+        });
+        $(".footer-apple").mouseover(function () {
+            $(".apple-box").fadeIn(100);
+        });
+        $(".footer-apple").mouseout(function () {
+            $(".apple-box").fadeOut(100);
+        });
+        $(".footer-android").mouseover(function () {
+            $(".android-box").fadeIn(100);
+        });
+        $(".footer-android").mouseout(function () {
+            $(".android-box").fadeOut(100);
+        });
+        $('ul.nav li').hover(function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+        }, function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+        });
+        //我的新新贷左侧菜单收啦js
+        $(".flip").click(function () {
+            $(this).next(".flip-panel").slideToggle(100);
+            //白色箭头变化
+            $(this).find("a").toggleClass("activeflip");
+        });
+        var filppanela = $(".flip-panel a");
+        filppanela.each(function () {
+            $(this).hover(
+                    function () {
+                        //获取当前类 判断当前元素是否已被 click选中
+                        var cls = $(this).attr("class");
+                        if ($(this).hasClass("current_new")) {
+                            return false;
+                        }
+                        filppanela.removeClass("current_new_hover");
+                        $(this).addClass("current_new_hover");
+                    }, function () {
+                        $(this).removeClass("current_new_hover");
+                    }
+            );
+        });
+
+        filppanela.each(function () {
+            $(this).click(function () {
+                filppanela.removeClass("current_new_hover");
+                filppanela.removeClass("current_new");
+                $(this).addClass("current_new");
+                //点击其他页面的时候 ， 将“我的新新贷”字体恢复白色
+                $(".myxxd-title").removeClass("bluefont");
+            });
+        });
+
+        //点击“投资产品”页签 显示“投资记录”
+        /**$(".myxxd_tabs li a").click(function(){
+		 var tabid=$(this).attr("href");
+		 if(tabid=="#makingmoney"){
+			$(".tzjl_a").show();
+		 }else{
+			$(".tzjl_a").hide();
+		 }
+	 });**/
+            //悬浮到头像 右下角显示可编辑图片。
+        $(".person_pic").hover(function () {
+            var edite_pic = '<span class="edite-icon disblock"> </span>';
+            $(this).append(edite_pic);
+        }, function () {
+            $(this).children("span").remove();
+        });
+        //~~~~~~~~注意点击整个头像图片 去编辑~~~~~~~~
+        $(".person_pic").click(function () {
+            alert("注意点击整个头像图片 去编辑，编辑部分用原来的");
+        });
+        var dataChartB = echarts.init(document.getElementById('piechart_id'));
+        dataChartB.setOption({
+
+            //鼠标悬浮
+            tooltip: {
+                show: false,
+                formatter: "{b} : {c}"
+            },
+            series: [
+                {
+                    name: '',
+                    type: 'pie',
+                    center: ['52%', '32%'],
+                    radius: [80, 100],
+                    clockWise: true,
+                    data: [
+                        {
+                            value: 500.06, name: '可用余额 5.06元',
+                            itemStyle: {
+                                normal: {
+                                    color: '#87c786',
+                                    //线条设置
+                                    labelLine: {
+                                        show: true,
+                                        length: 40,
+                                        lineStyle: {
+                                            color: '#dedede',
+                                            width: 1
+                                        }
+                                    },
+                                    //文字设置
+                                    label: {
+                                        show: true,
+                                        textStyle: {
+                                            color: '#87c786',
+                                            baseline: 'middle',
+                                            fontFamily: '微软雅黑',
+                                            fontSize: 14
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            value: 6000, name: '当前持有投资 6,000.00元',
+                            itemStyle: {
+                                normal: {
+                                    color: '#f4ab1a',
+                                    //线条设置
+                                    labelLine: {
+                                        show: true,
+                                        length: 40,
+                                        lineStyle: {
+                                            color: '#dedede',
+                                            width: 1
+                                        }
+                                    },
+                                    //文字设置
+                                    label: {
+                                        show: true,
+                                        textStyle: {
+                                            color: '#f4ab1a',
+                                            baseline: 'middle',
+                                            fontFamily: '微软雅黑',
+                                            fontSize: 14
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            value: 1033.58, name: '冻结金额1,033.58元',
+                            itemStyle: {
+                                normal: {
+                                    color: '#4eb1f3',
+                                    //线条设置
+                                    labelLine: {
+                                        show: true,
+                                        length: 40,
+                                        lineStyle: {
+                                            color: '#dedede',
+                                            width: 1
+                                        }
+                                    },
+                                    //文字设置
+                                    label: {
+                                        show: true,
+                                        textStyle: {
+                                            color: '#4eb1f3',
+                                            baseline: 'middle',
+                                            fontFamily: '微软雅黑',
+                                            fontSize: 14
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    ]
+                }
+            ]
+        });
+
+
+    });
+</script>
+<script>
+    //日日盈 累计收益 提示
+    $(".tips_rry_ljsy").hover(function () {
+        $(".tips_rry_ljsy").next().show();
+    }, function () {
+        $(".tips_rry_ljsy").next().hide();
+    });
+    //日日盈 待收收益 提示
+    $(".tips_rry_ljtz").hover(function () {
+        $(".tips_rry_ljtz").next().show();
+    }, function () {
+        $(".tips_rry_ljtz").next().hide();
+    });
+
+    //新元宝 累计收益 提示
+    $(".tips_xyb_ljtz").hover(function () {
+        $(".tips_xyb_ljtz").next().show();
+    }, function () {
+        $(".tips_xyb_ljtz").next().hide();
+    });
+
+    //散标直投 待收收益 提示
+    $(".tips_sbzt_ljtz").hover(function () {
+        $(".tips_sbzt_ljtz").next().show();
+    }, function () {
+        $(".tips_sbzt_ljtz").next().hide();
+    });
+    //累计充值 提示
+    $(".ljcz_ahover_1").hover(function () {
+        $(".ljcz_ahover_1").next().removeClass("disnone").addClass("disblock");
+    }, function () {
+        $(".ljcz_ahover_1").next().removeClass("disblock").addClass("disnone");
+    });
+    $(".ljcz_atips").hover(function(){
+        $(".ljcz_ahover_1").next().removeClass("disnone").addClass("disblock");
+    }, function () {
+        $(".ljcz_ahover_1").next().removeClass("disblock").addClass("disnone");
+    });
+
+    //悬浮字体颜色变深
+    $(".yh_a").hover(function(){
+        $(".yh_a1").addClass('color-C75404');
+        $(".yh_a2").addClass('font-0E85D8');
+    },function(){
+        $(".yh_a1").removeClass('color-C75404');
+        $(".yh_a2").removeClass('font-0E85D8');
+    });
+</script>
+</body>
+</html>
