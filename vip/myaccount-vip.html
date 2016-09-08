@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的新新贷-vip</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-blue.css" rel="stylesheet">
+    <link href="../css/xxd.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <div id="errorie">
+        <div>您所使用的IE浏览器版本过旧，为了您获得更好的浏览体验，请升级您的浏览器到 IE8以上版本</div>
+    </div>
+    <![endif]-->
+</head>
+<body>
+<!--top start-->
+
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+            <p class="index_leftP relative">
+                <span class="font-666 mr10">客服热线：4000-168-521</span>
+                <span class="mobile_ver font-666 mr10">手机版</span>
+                <span class="mobile_erweima_ver" style="display:none;"></span>
+                <a href="http://weibo.com/xinxindai/profile?" target="_blank" class="weibo_ver mr10"><img class="mtf3"
+                                                                                                          src="../images/public/weibo.png"></a>
+                <span class="weixin_ver mr10"><img class="mtf3" src="../images/public/weixin.png"></span>
+                <span class="weixin_erweima_ver" style="display:none;"></span>
+            </p>
+
+            <!-- 登录状态topbar start-->
+            <nav class="nav-collapse user">
+                <div class="user-info pull-right">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <div>欢迎<span>新新贷用户户习大大</span></div>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href=""><span class="glyphicon glyphicon-user"></span> 我的新新贷</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> 充值</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> 站内信<span
+                                    class="badge">12</span></a></li>
+                            <li class="divider"></li>
+                            <li><a href=""><span class="icon-signout"></span> 退出登录</a></li>
+                        </ul>
+                        <a href="#" class="top-link right">关于我们</a>
+                        <a href="#" class="top-link right">帮助</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- 登录状态topbar over-->
+            <!-- 未登录状态topbar start-->
+            <nav class="nav-collapse user" style="display:none;">
+                <div class="user-info pull-right nologin">
+                    <a href="#" class="top-link">关于我们</a>
+                    <a href="#" class="top-link"></a>
+                    <a href="xxd-register.html" class="red">注册</a>
+                    <a href="xxd-register.html" class="blue">登录</a>
+                </div>
+            </nav>
+            <!-- 未登录状态topbar over-->
+        </div>
+    </div>
+</header>
+<!-- top over-->
+
+<!-- 导航栏 start-->
+<div class="navbar" style="margin-bottom:0;margin-top:-1px;">
+    <div class="top-menu min-w1000" style="margin-bottom:0;">
+        <div class="container">
+            <div class="xxd-logo">
+                <a href="/"><img src="../images/public/xxd-logo-default2.png"/></a>
+            </div>
+            <nav class="main-menu">
+                <ul class="nav">
+                    <li>
+                        <a href="/" class="dropdown-toggle main-menu-tit">首页</a>
+                    </li>
+                    <li class="haslink">
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown" id="MenuDropdown1">
+                            我要投资
+                            <span class="ic-arrow-right"> </span>
+                        </a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown1">
+
+                            <li><a href="/commpd/itemId/sevengold.html"><font class="hot">七天大胜</font></a></li>
+
+
+                            <li><a href="/commpd/itemId/monthgold.html">月进斗金</a></li>
+
+
+                            <li><a href="/fund/buyFund.html"> 日日盈</a></li>
+
+                            <li><a href="/xplan/search/list.html"> 新元宝</a></li>
+                            <li><a href="/borrow/search/list.html"> 散标直投</a></li>
+                            <li><a href="/traderequest/tradeRequestMoreSearch.html"> 债权转让</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- 登录状态-->
+
+                        <a href="/myloan/loan/9.html" class="dropdown-toggle main-menu-tit">我要借款</a>
+
+                        <!-- 未登录状态-->
+
+                    </li>
+                    <li><a href="/introduce/guide.html" class="main-menu-tit">新手指引</a></li>
+
+
+                    <!-- 登录状态-->
+
+                    <li><a href="/bbs/goToBbs.html" target="_blank" class="main-menu-tit" style="padding-right:8px;">社区</a></li>
+
+                    <!-- 未登录状态-->
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- 导航栏 over-->
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="/index.html">首页</a></li>
+        <li><a href="/accountshow/myaccount.html">我的新新贷</a></li>
+        <li><a href="#">资金记录</a></li>
+        <li>新新币记录</li>
+    </ol>
+</div>
+<!-- main content start-->
+<div class="myaccount ">
+    <div class="container">
+        <div class="account-box clearfix leftmenu_bg">
+            <!-- 左侧菜单 start-->
+            <div class="account-menubox account-menubox-new  darkblue">
+                <ul class="account-menu account-menu-new ">
+                    <li>
+                        <a href="/accountshow/myaccount.html" class="myxxd-title font18 minexxd">我的新新贷</a>
+                    </li>
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-mymoney-new"></span>资金记录</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone" style="display: block;">
+                        <div><a href="/account/moneyRecord.html" name="jymx">交易明细</a></div>
+                        <div><a href="/accountrecharge/topup.html" name="cz">充值</a></div>
+                        <div><a href="/account/initDrawmoney.html" name="tx">提现</a></div>
+                        <div><a href="/account/coinLog/0.html" name="xxb" class="current_new">新新币记录</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-loan-new"></span>投资管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/commpd/mytender/sevengold.html" name="sevengold">七天大胜</a></div>
+                        <div><a href="/commpd/mytender/monthgold.html" name="monthgold">月进斗金</a></div>
+                        <div><a href="#" name="fund">日日盈</a></div>
+                        <div><a href="#" name="xplan">新元宝</a></div>
+                        <div><a href="#" name="stephigh">步步高升</a></div>
+                        <div><a href="/account/investment.html" name="cjjj">散标直投</a></div>
+                        <div><a href="/traderequest/transfer.html" name="zqzr">债权转让</a></div>
+                        <div style="display: none;"><a href="/xxb/mytender.html" name="xxbao">新新宝</a></div>
+                        <div style="display: none;"><a href="/xsb/mytender.html" name="xsb">新手标</a></div>
+                        <div><a href="/account/autobid.html" name="auto">自动投标设置</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-inverst-new"></span>借款管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/account/loanmanage.html" name="jksq">借款申请</a></div>
+                        <div><a href="/account/repaydetail.html" name="hkmx">还款明细</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-id-new"></span>个人资料</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/personal/basic.html" name="wdzl">我的资料</a></div>
+                        <div><a href="/personal/banksetup.html" name="bank">银行设置</a></div>
+                        <div><a href="/personal/changepassword.html" name="aq">安全设置</a></div>
+                        <div><a href="/question/loadQuestionList.html" name="qu">问卷调查</a></div>
+                        <div><a href="/contractsigning/loadcontract.html" name="sign">签约管理</a></div>
+                    </li>
+
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-activity-new"></span>互动管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/popularize/gomypopularizeactivity.html" name="xxtg">新新推广</a></div>
+                        <div><a href="/coupon/gomycoupon.html" name="wdlj">我的礼券</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-inbox-new"></span>消息管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone mb10  flip-bottom">
+                        <div><a href="/account/message.html" name="znx">站内信</a></div>
+                        <div><a href="/userNotice/userNoticeConfig.html" name="userNotice">用户消息设置</a></div>
+                    </li>
+                    <li class="flip flip-new" style="border:none;">
+                    </li>
+                </ul>
+            </div>
+            <!-- 左侧菜单 over-->
+
+            <script type="text/javascript" src="/static/js/myxxd_left_menu.js"></script>
+
+
+            <input type="hidden" name="menuname" id="menuname" value="overview">
+            <!-- 左侧菜单 over-->
+
+            <!-- 右侧内容 start-->
+            <div class="account-contentbox">
+                <!-- 筛选条 start-->
+                <div class="layout border-radius-layout">
+                    <h5>
+                        当前账户新新币：
+                        <span class="red">30000</span>个
+                        <span class="ml20"> </span>
+                        可兑换现金：
+                        <span class="red">300</span>元
+                        <a class="btn btn-xxd-small vip_center_btn left signin right mtf8" data-toggle="modal" data-target="#changemony_modal">兑换现金</a>
+                    </h5>
+                </div>
+                <div class="layout mt10">
+                    <ul class="fliter-ul clearfix fix-ul-blue ml3">
+                        <li class="tit" style="color: #808080;">交易类型：</li>
+                        <li class="choosed"><a href="/account/coinLog/0.html?temp=2"><span class="c">不限</span><span> </span></a></li>
+                        <li class=""><a href="/account/coinLog/1.html?temp=2" class=""><span class="c">投资赠送</span></a><span> </span>
+                        </li>
+                        <li class=""><a href="/account/coinLog/2.html?temp=2" class=""><span class="c">兑换现金</span></a><span> </span>
+                        </li>
+                        <li class=""><a href="/account/coinLog/3.html?temp=2" class=""><span class="c">活动奖励</span></a><span> </span>
+                        </li>
+                    </ul>
+
+                    <ul class="fliter-ul ml0 clearfix fix-ul-blue ml3">
+                        <li class="tit" style="color: #808080;">交易时间：</li>
+                        <li class="choosed"><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=">全部</a></span></li>
+
+                        <li class=""><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=0">最近一周</a></span>
+                        </li>
+
+                        <li class=""><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=1">1个月</a></span>
+                        </li>
+
+                        <li class=""><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=2">2个月</a></span>
+                        </li>
+
+                        <li class=""><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=3">3个月</a></span>
+                        </li>
+
+                        <li class=""><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=6">6个月</a></span>
+                        </li>
+
+                        <li class=""><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=12">12个月</a></span>
+                        </li>
+
+                        <li class=""><span class="c"><a href="/account/moneyRecord.html?type=&amp;limit=13">12个月以上</a></span>
+                        </li>
+
+                    </ul>
+                    <!-- 筛选条 over-->
+                    <div class="layout">
+                        <table class="table-nstyle">
+                            <thead class="table-nstyle-thead vip_xxb_thead">
+                            <tr>
+                                <th class="w150" style="padding-left:11px;">交易时间</th>
+                                <th>交易类型</th>
+                                <th>交易方式</th>
+                                <th>新新币金额</th>
+                                <th>当前新新币余额</th>
+                                <th>备注</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            <tr class="bbd">
+                                <td>2016-05-05</td>
+                                <td>投资赠送</td>
+                                <td>收入</td>
+                                <td>+300个</td>
+                                <td>2000个</td>
+                                <td>投资散标赠送</td>
+                            </tr>
+
+                            <tr class="bbd">
+                                <td>2016-05-05</td>
+                                <td>兑换先机</td>
+                                <td>收入</td>
+                                <td>+300个</td>
+                                <td>2000个</td>
+                                <td>新新币兑换现金3元</td>
+                            </tr>
+                            <tr class="bbd">
+                                <td>2016-05-05</td>
+                                <td>投资赠送</td>
+                                <td>收入</td>
+                                <td>+300个</td>
+                                <td>2000个</td>
+                                <td>投资散标赠送</td>
+                            </tr>
+                            <tr class="bbd">
+                                <td>2016-05-05</td>
+                                <td>投资赠送</td>
+                                <td>收入</td>
+                                <td>+300个</td>
+                                <td>2000个</td>
+                                <td>投资散标赠送</td>
+                            </tr>
+                            <tr class="bbd">
+                                <td>2016-05-05</td>
+                                <td>投资赠送</td>
+                                <td>收入</td>
+                                <td>+300个</td>
+                                <td>2000个</td>
+                                <td>投资散标赠送</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- <div class="layout">
+                         <ul class="pagination right">
+                             <li class="disabled"><a href="/account/coinLog/0.html?temp=2&amp;currentPage=1">«</a>
+                             </li>
+                             <li class="active"><a href="/account/coinLog/0.html?temp=2&amp;currentPage=1"> 1 </a>
+                             </li>
+                             <li>
+                                 <a href="/account/coinLog/0.html?temp=2&amp;currentPage=1">»</a>
+                             </li>
+                         </ul>
+                     </div>-->
+
+                </div>
+
+                <!--成功兑换金币提示框-->
+                <div class="fadein_xxb" style="display: none">
+                    <p class="font16 font-666">您已使用了500个新新币兑换了5元现金！</p>
+                    <p class="font13 font-666">请关注相关账户资金变化</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main content over-->
+</div>
+
+<div class="modal fade modal-credittransfer vip_cdialog " id="changemony_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="top:45%;">
+    <div class="sign_dialog" style="width: 680px;">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" class="close closeslow" onclick="closeslow(1);"><span aria-hidden="true">×</span><span id="aclose_mini" class="sr-only">关闭</span></button>
+                <h4 class="modal-title"><span>新新币兑换现金</span></h4>
+            </div>
+            <div class="modal-body  clearfix" style="min-height: 580px;">
+                <div class="lh60 ml38">
+                    <div class="clearfix">
+                        <span class="cxxb_name" style="padding-left: 0;text-align: left;">当前可用新新币</span>
+                        <span class="xxb_sum">1000000个</span>
+                        <span class="pl20 font-c8c8c8">可兑换金额：1000.00<span class="pl3">元</span></span>
+                    </div>
+                </div>
+                <div class="lh60 ml38">
+                    <div class="clearfix">
+                        <span class="cxxb_name">我要兑换</span>
+                        <input type="text" class="lh36" id="exchange_xxb"/>
+                        <span class="danwei_xxb">个</span>
+                        <span class="pl20 font-c8c8c8">折合人民币：<label id="xxbtormb" class="dis_line_block" style="font-weight: normal;">10.00</label><span class="pl3">元</span></span>
+                    </div>
+                </div>
+                <div class="lh60 ml38">
+                    <div class="clearfix">
+                        <span class="cxxb_name">支付密码</span>
+                        <input type="text" class="lh36" placeholder="请输入支付密码"/>
+                        <span><a href="#" class="pl20  mt10 bluefont font14">忘记支付密码</a></span>
+                    </div>
+                </div>
+                <div class="lh60 ml38">
+                    <div class="clearfix">
+                        <span class="cxxb_name" style="padding-left:28px;">验证码</span>
+                        <input type="text" class="lh36" placeholder="请输入验证码"/>
+                        <img src="../images/public/ranimg.png" class="ranpos_vip">
+
+                    </div>
+                </div>
+                <div class="login6_tips_cl  login6_tips_info disnone" style="margin-left: 152px;">
+                    错误提示
+                </div>
+                <button type="button" id="changexxb_sure" class="btn-xxd-large btn-xxd-large3 h36  " style=";width: 176px;margin:7px 0 15px 152px;">确认兑换</button>
+
+                <p class="border-bottom-dashed mt10"></p>
+
+                <div>
+                    <p class="font-666 ml38">温馨提示：</p>
+
+                    <p class="font-666  ml48">1、新新币兑换比例为 100：1</p>
+
+                    <p class="font-666 ml48"> 2、只有特定等级的会员才能使用新新币兑换现金功能</p>
+
+                    <p class="font-666 ml48">3、新新币兑换成功的现金将返还到您可用余额中</p>
+
+                    <p class="font-666 ml48">4、新新币兑换及使用规则最终权归新新贷所属，违者必究！</p>
+
+                    <p class="font-666 ml48"> 5、杜绝一切不正当途径获取新新币行为，新新贷有权没收非正常途径所得。</p>
+
+                    <p class="font-666 ml48"> 例：当您连续6天签到间断后，第八天签到则只能获得连续1~5天签到对应的经验值和新新币</p></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer start-->
+<div class="index-footer">
+    <div class="container">
+        <div class="footer-cont">
+            <div class="footer-kf"></div>
+            <div class="footer-aboutus"><span class="left">关注我们</span>
+
+                <div class="footer-weibo"></div>
+                <div class="footer-weixin"></div>
+                <span class="left ml50">下载手机客户端</span>
+
+                <div class="footer-apple"></div>
+                <div class="footer-android"></div>
+                <div class="erweima-box weibo-box">
+                    <div class="erweima-weibo"></div>
+                </div>
+                <div class="erweima-box weixin-box">
+                    <div class="erweima-weixin"></div>
+                </div>
+                <div class="erweima-box apple-box">
+                    <div class="erweima-apple"></div>
+                </div>
+                <div class="erweima-box android-box">
+                    <div class="erweima-android"></div>
+                </div>
+            </div>
+            <ul class="left mt40 mr20 fixaaa">
+                <li class="yh13">关于新新贷</li>
+                <li><a href="/about/aboutcompany.html">新新贷介绍</a></li>
+                <li><a href="/index/newsNoticesThree.html?typeName=news_notices">公告和新闻</a></li>
+                <li><a href="/about/contactus.html">联系我们</a></li>
+                <!--  <li><a href="/about/blogroll.html">友情链接</a>
+                        </li>-->
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">安全保障</li>
+                <!--<li><a href="/security/guarantee_plan.html">本金保障</a>
+                        </li>-->
+                <li><a href="/security/guarantee_plan.html">阳光透明</a></li>
+                <li><a href="/security/pwd_suggestion.html">隐私保护</a></li>
+                <li><a href="/security/risk_group.html">风险控制</a></li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">帮助中心</li>
+                <li><a href="/help/aboutxxd.html">常见问题</a></li>
+                <li><a href="/help/operation.html">操作演示</a></li>
+                <li><a href="/help/fee.html">资费介绍</a></li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">兄弟品牌</li>
+                <li><a href="http://www.xinxinwealth.com" id="xxcf" target="_blank"> </a></li>
+            </ul>
+        </div>
+        <div class="index_blog_roll">
+            <div class="blogrolltitlea">友情链接：</div>
+            <ul id="index_blog_rollul" class="showone">
+                <li><a href="http://www.xinxindai.com/loan/category.html" target="view_window">小额贷款条件</a></li>
+                <li><a href="https://www.weicaifu.com/v/index" target="view_window">新浪微财富</a></li>
+                <li><a href="http://www.rongjinsuo.com" target="view_window">P2P理财</a></li>
+                <li><a href="http://www.xinxindai.com" target="view_window">网贷平台</a></li>
+                <li><a href="http://bbs.xinxindai.com/" target="view_window">P2P网贷论坛</a></li>
+                <li><a href="http://loans.cardbaobao.com/" target="view_window">小额贷款</a></li>
+                <li><a href="http://www.cjdao.com" target="view_window">财经道</a></li>
+                <li><a href="http://www.itf-mag.com" target="view_window">互联网金融杂志</a></li>
+                <li><a href="http://finance.ifeng.com/itfinance/" target="view_window">凤凰互联网金融</a></li>
+                <li><a href="http://www.zixinke.com" target="view_window">资信客</a></li>
+                <li><a href="http://bbs.wacai.com/" target="view_window">挖财社区</a></li>
+                <li><a href="http://www.itbt.com.cn/" target="view_window">P2P投资理财</a></li>
+                <li><a href="http://www.cr.cn" target="view_window">从容网</a></li>
+                <li><a href="http://iof.hexun.com" target="view_window">和讯互联网金融</a></li>
+                <li><a href="http://www.icaifu.com/" target="view_window">研报下载</a></li>
+                <li><a href="http://shenzhen.rong360.com/" target="view_window">深圳贷款</a></li>
+                <li><a href="http://shanghai.roadoor.com/" target="view_window">上海贷款</a></li>
+                <li><a href="http://www.rongdaitong.cn/" target="view_window">融贷通</a></li>
+                <li><a href="http://www.wangdaidp.com" target="view_window">网贷点评</a></li>
+                <li><a href="http://www.soudai360.com" target="view_window">P2P网贷</a></li>
+                <div class="clear"></div>
+            </ul>
+            <a class="showmoreblogroll show_more" id="show_more" style="display:block;"> </a> <a
+                class="showmoreblogroll show_reg" id="show_reg"> </a></div>
+    </div>
+    <!-- 版权与可信认证 start-->
+    <div class="xxd_pagefoot">
+        <div class="container">
+            <div class="newfoot_copyright"> Copyright @上海涌信金融信息服务有限公司 沪ICP备12026657号-1 版权所有，未经许可不得复制、转载或摘编，违者必究！
+                <!-- cnzz统计代码 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253077251'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253077251%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                <span id="cnzz_stat_icon_1253077251"><a href="http://www.cnzz.com/stat/website.php?web_id=1253077251"
+                                                        target="_blank" title="站长统计"><img border="0" hspace="0"
+                                                                                          vspace="0"
+                                                                                          src="http://icon.cnzz.com/img/pic.gif"></a></span>
+                <script src=" http://s19.cnzz.com/z_stat.php?id=1253077251&amp;show=pic"
+                        type="text/javascript"></script>
+                <script src="http://c.cnzz.com/core.php?web_id=1253077251&amp;show=pic&amp;t=z" charset="utf-8"
+                        type="text/javascript"></script>
+                <!-- 百度统计代码 -->
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78e9b60f68bcb0ca48e187efedec7fb9' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+                <script src=" http://hm.baidu.com/h.js?78e9b60f68bcb0ca48e187efedec7fb9"
+                        type="text/javascript"></script>
+            </div>
+            <div class="new_identification">
+                <!--  <a id="icon001" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank"><img src="/images/icon001.jpg"/></a>
+                        <a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20140224003875003530' target='_blank'><img src='https://search.szfw.org/cert.png?l=CX20140224003875003530'></a>
+                        <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                        <span id="kx_verify"></span><script type="text/javascript">(function (){var _kxs = document.createElement('script');_kxs.id = 'kx_script';_kxs.async = true;_kxs.setAttribute('cid', 'kx_verify');_kxs.src = ('https:' == document.location.protocol ? 'https://ss.knet.cn' : 'http://rr.knet.cn')+'/static/js/icon3.js?sn=e14050731010948597brpb000000&tp=icon3';_kxs.setAttribute('size', 0);var _kx = document.getElementById('kx_verify');_kx.parentNode.insertBefore(_kxs, _kx);})();</script>-->
+                <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank" class="id_xin"> </a> <a
+                    href="https://ss.knet.cn/verifyseal.dll?sn=e14050731010948597brpb000000&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.xinxindai.com"
+                    target="_blank" class="id_kexin"> </a> <a
+                    href="https://search.szfw.org/cert/l/CX20140224003875003530" target="_blank"
+                    class="id_chengxin"> </a></div>
+        </div>
+    </div>
+    <!-- 版权与可信认证 over-->
+</div>
+<!-- footer over-->
+<!-- index main content over-->
+<script src="../js/jquery1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/browser.js"></script>
+<script src="../js/laydate.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#moredata").click(function () {
+            $(".index-data").slideUp();
+            $(".small-data").delay(0).fadeIn();
+        });
+        $(".xxd-partener>li").mouseover(function () {
+            $(this).children("div").addClass("borderd");
+            $(this).children("a").addClass("hover");
+        });
+        $(".xxd-partener>li").mouseout(function () {
+            $(this).children("div").removeClass("borderd");
+            $(this).children("a").removeClass("hover");
+        });
+        $("#show_more").click(function () {
+            $("#index_blog_rollul").addClass("showall");
+            $("#show_reg").show();
+            $("#show_more").hide();
+        });
+        $("#show_reg").click(function () {
+            $("#index_blog_rollul").removeClass("showall");
+            $("#show_reg").hide();
+            $("#show_more").show();
+        });
+        $(".footer-weibo").mouseover(function () {
+            $(".weibo-box").fadeIn(100);
+        });
+        $(".footer-weibo").mouseout(function () {
+            $(".weibo-box").fadeOut(100);
+        });
+        $(".footer-weixin").mouseover(function () {
+            $(".weixin-box").fadeIn(100);
+        });
+        $(".footer-weixin").mouseout(function () {
+            $(".weixin-box").fadeOut(100);
+        });
+        $(".footer-apple").mouseover(function () {
+            $(".apple-box").fadeIn(100);
+        });
+        $(".footer-apple").mouseout(function () {
+            $(".apple-box").fadeOut(100);
+        });
+        $(".footer-android").mouseover(function () {
+            $(".android-box").fadeIn(100);
+        });
+        $(".footer-android").mouseout(function () {
+            $(".android-box").fadeOut(100);
+        });
+        $('ul.nav li').hover(function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+        }, function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+        });
+
+        <!--时间控件-->
+        $(".datetime_style").click(function () {
+            laydate()
+        });
+        <!---新新币兑换-->
+        $("#exchange_xxb").keyup(function () {
+            var thisvlu = $(this).val();
+            $("#xxbtormb").html(thisvlu);
+        });
+
+        <!--确认兑换-->
+        $("#changexxb_sure").click(function () {
+            $(".vip_cdialog").modal('hide');
+            $(".fadein_xxb").show();
+            setTimeout(function(){$(".fadein_xxb").fadeOut()},3000);
+        });
+
+        <!---成功兑换信息-->
+    });
+</script>
+</body>
+</html>
