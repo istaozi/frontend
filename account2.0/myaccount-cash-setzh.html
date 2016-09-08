@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>提现-未设置支行信息</title>
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap-blue.css" rel="stylesheet">
+<link href="../css/xxd.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!--[if lte IE 7]>
+<div id="errorie"><div>您所使用的IE浏览器版本过旧，为了您获得更好的浏览体验，请升级您的浏览器到 IE8以上版本</div></div>
+<![endif]-->
+</head>
+<body>
+<!--top start-->
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a href="xxd-mobile.html" class="left top-mob"><span class="glyphicon glyphicon-phone"></span>手机新新贷</a>
+            <!-- 登录状态topbar start-->
+            <nav class="nav-collapse user">
+                <div class="user-info pull-right">
+                     <div class="btn-group posre"> <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                        <div style="color:#3e699b;"> 欢迎<span>13916982180</span> </div>
+                        <span class="caret"></span> </a> <a href="#" class="top-link right">帮助</a> <a href="#" class="top-link right">社区</a> 
+                      </div>
+                </div>
+            </nav>
+            <!-- 登录状态topbar over-->
+            <!-- 未登录状态topbar start-->
+            <nav class="nav-collapse user" style="display:none;">
+            	<div class="user-info pull-right nologin">
+                	<a href="#" class="top-link">帮助</a>
+                    <a href="#" class="top-link">社区</a>
+                    <a href="xxd-register.html" class="red">注册</a>
+                    <a href="xxd-register.html" class="blue">登录</a>
+                </div>
+            </nav>
+            <!-- 未登录状态topbar over-->
+        </div>
+    </div>
+    <!-- 导航栏 start-->
+    <div class="top-menu">
+    	<div class="container">
+    		<div class="xxd-logo"><img src="../images/public/xxd-logo-default.png"/></div>
+            <nav class="nav-collapse main-menu">
+            	<ul class="nav">
+            		<li>
+                    	<a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown" id="MenuDropdown1">我要出借</a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown1">
+                            <li><a href="#"> 散标投资</a></li>
+                            <li><a href="#"> 优选理财</a></li>
+                            <li><a href="#"> 债券转让</a></li>
+                            <li><a href="#"> 新新宝</a></li>
+                        </ul>
+                    </li>
+                	<li>
+                    	<a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown" id="MenuDropdown2">我要贷款</a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown2">
+                            <li><a href="#"> 经营贷</a></li>
+                            <li><a href="#"> 消费贷</a></li>
+                            <li><a href="#"> 新生贷</a></li>
+                        </ul>
+                    </li>
+                	<li><a href="#" class="main-menu-tit">新新商城</a></li>
+                	<li><a href="#" class="main-menu-tit" style="padding-right:8px;">关于我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- 导航栏 over-->
+</header>
+<!-- top over-->
+<!-- 位置 start-->
+<div class="container">
+    <ol class="breadcrumb">
+      <li><a href="/index.html">首页</a></li>
+      <li><a href="/accountshow/myaccount.html">我的新新贷</a></li>
+       <li><a href="#">资金明细</a></li>
+      <li class="active"><a href="#">提现</a></li>
+    </ol>
+</div>
+<!-- 位置 over-->
+<!-- main content start-->
+<div class="myaccount">
+	<div class="container">
+    	<div class="account-box clearfix">
+        	<!-- 左侧菜单 start-->
+        	<div class="account-menubox">
+            	<div class="account-head"><img src="../images/public/pic-large.png"/></div>
+                <div class="account-name">Hi,<span>新新贷习大大<span class="badge"><a href="#" data-toggle="tooltip" data-placement="top" title="点击查看新新贷信用等级规则">hr</a></span></span></div>
+                <div class="account-recomend clearfix">
+                	<!-- 此处格式 实名认证-姓名 / 实名认证-未认证 / 手机-未绑定 / 手机-已绑定 /-->
+                	<a href="#" class="recomend-id-active" data-toggle="tooltip" data-placement="top" title="实名认证-习近平"> </a>
+                    <a href="#" class="recomend-phone-active" data-toggle="tooltip" data-placement="top" title="手机-已绑定"> </a>
+                    <a href="#" class="recomend-email" data-toggle="tooltip" data-placement="top" title="邮箱认证-未认证"> </a>
+                    <a href="#" class="recomend-vip" data-toggle="tooltip" data-placement="top" title="vip-未认证"> </a>
+                </div>
+                <div class="account-level">
+                	<h6>账户安全等级</h6>
+                    <div class="layout clearfix">
+                        <div class="progress account-progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <span class="sr-only">60% Complete</span>
+                            </div>
+                        </div>
+                        <a href="#" class="right" style="margin-top:4px;">提升</a>
+                    </div>
+                </div>
+                <ul class="account-menu">
+                	<li><a href="myaccount.html" style="padding-left:53px;">我的新新贷</a></li>
+                    <li class="flip"><a><span class="ic-mymoney"></span> 资金记录</a></li>
+                    <li class="flip-panel" style="display:block;">
+                    	<div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 交易明细</a></div>
+                        <div><a href="myaccount-topup.html" ><span class="glyphicon glyphicon-stop"> </span> 充值</a></div>
+                        <div><a href="myaccount-cash-setzh.html" class="current"><span class="glyphicon glyphicon-stop"> </span> 提现</a></div>
+                        <div><a href="myaccount-xinxincoin.html"><span class="glyphicon glyphicon-stop"> </span> 新新币</a></div>
+                    </li>
+                    <li class="flip"><a><span class="ic-loan"></span> 出借管理</a></li>
+                    <li class="flip-panel">
+                    	<div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 出借记录</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 债权转让</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 优选理财</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 新新宝</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 自动投标设置</a></div>
+                    </li>
+                    <li class="flip"><a><span class="ic-inverst"></span> 借款管理</a></li>
+                    <li class="flip-panel">
+                    	<div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 借款申请</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 还款明细</a></div>
+                    </li>
+                    <li class="flip"><a><span class="ic-id"></span> 个人资料</a></li>
+                    <li class="flip-panel">
+                    	<div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 我的资料</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 银行设置</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 安全设置</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 风险评测</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 签约管理</a></div>
+                    </li>
+                    <li class="flip"><a><span class="ic-activity"></span> 互动管理</a></li>
+                    <li class="flip-panel">
+                    	<div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 新新推广</a></div>
+                        <div><a href="#"><span class="glyphicon glyphicon-stop"> </span> 我的礼券</a></div>
+                    </li>
+                    <li><a href="#"><span class="ic-inbox" style="display:inline-block;"> </span> 站内信</a></li>
+                </ul>
+            </div>
+            <!-- 左侧菜单 over-->
+            <!-- 右侧内容 start-->
+            <div class="account-contentbox">
+            	
+			    <div class="layout1 border-bottom ptb10 mb20">
+                	<h5><font class="bold ">提现</font>  
+					</h5>
+                </div>
+                <div class="layout" >  
+					<div style="width:720px;" class="clearfix">
+						 <div class="font16  left txyhk" > 提现银行卡</div>
+						 <div style="margin-left:92px;width: 674px;" class="clearfix">
+							
+							 <div class="clearfix bordered left img-bank-active relative txyhkp">
+								<span class="ba-icon disblock"> </span>
+								<span class="bank-img-pos bank cmb" ></span>
+								<span class="right bank-number-pos">(5404)</span> 
+								<span class="disblock font12 bank-rule-pos font-C2C2C2" >T+1个工作日内到账</span>  
+							 </div> 
+ 
+							  <div class="clearfix bordered left  relative txyhkp"> 
+								<span class="bank-img-pos bank cmb" ></span>
+								<span class="right bank-number-pos">(5404)</span> 
+								<span class="disblock font12 bank-rule-pos font-C2C2C2" >T+1个工作日内到账</span>  
+							 </div>
+							 
+							 <!--添加银行卡-->
+							 <div class="clearfix left txjy" >
+								<div class="card-box-cl dashed-border addBankCardcl">
+									<a data-toggle="modal" class="add-card-cl" href="#"> <span class="glyphicon glyphicon-plus" style="font-size:24px;"> </span><br>添加银行卡</a>
+								</div>
+							 </div>
+							  
+							</div>
+						 <div>
+							
+						 </div>
+					</div> 
+					<div class="font16  left ketxjine"  > 
+						可提现金额<span class="black mony99" id="balancemoney" >99.99</span>元
+						<span class="ml10 q-small queblue "  style="display:inline-block;" data-toggle="tooltip" data-placement="top" title="" data-original-title="新新贷目前仅支持同卡进出，收益部分金额可提现到您名下的任意银行卡">?</span>
+					</div>
+				 
+						  
+				</div> 
+                 
+                  
+                 <div class="line mt10 ml10 left" > </div>   
+				 
+                
+                 <!-- 充值金额 选中start-->
+                 <div class="i-div clearfix relative layout3 ml10" >
+					<div class="i-div clearfix relative layout3 Money-box qetx mt2 mt24" style="margin-left: 10px;">
+						<div class="clearfix">
+							<span class="font16 "  style="margin-top: 20px;">提现金额 </span>
+							<span>
+								<input type="text" class="left input-login-mo2 left" id="inputMoney" style="  margin-left: -12px;" maxlength="" placeholder="请输入金额数量" value="" name="" onfocus=""> 
+								<font class="font16 ml10 lineh40 ">元</font>
+							</span>
+								<a class="bluefont font14" href="#" id="getallmoney">全额提现</a> 
+                                <!--无可用余额 状态下 -->
+								<a class="red font14 disnone" href="#" id="getallmoney">暂无可提现金额</a>
+						</div>
+						<div class="tip_error disnone disnone mt10 ml38"><div class="wrbg">这是错误提示这是错误提示</div></div>
+					</div> 
+            </div> 
+           
+             <div class="i-div clearfix relative layout3 ml10 " >
+				  <a href="myaccount-cash-makesure.html">
+					<button type="button" class="btn-xxd-large btn-xxd-large3 w240 ml104" onclick="" >下一步</button> 
+                     <!--无可用余额 状态下 -->  
+                     <button type="button" class="btn-xxd-large btn-xxd-large3 w240 ml104 disnone"   onclick="" disabled>下一步</button> 
+				  </a>
+             </div>        
+
+                 <!-- 充值金额 over-->
+            </div>
+            <!-- 右侧内容 over-->
+        </div>
+    </div>
+</div>
+<!-- main content over-->
+  <div aria-hidden="false" role="dialog"  style="top:-30%;"  tabindex="-1" id="addBankCardcl" class="modal v6-alert-modal v6-alert-modal_c v6_bank_cl1 txmodel_wh w560 h620 in">
+              <div class="modal-dialog  v6_modal-dialog alterbank_wh" >
+                <div class="modal-content v6_bank_cl2 txmodel_wh w560 h620 ">
+                  <div class="modal-header">
+                    <button data-dismiss="modal" class="close closeslow" type="button"><span  aria-hidden="true">×</span><span id="aclose_mini" class="sr-only">关闭</span></button>
+                    <h4 class="modal-title"> <span>添加新银行卡</span></h4>
+                  </div>
+                  <div class="modal-body  pl18 v6_bank_cl3 overflow-h txmodel_wh it8ml2 w560 h620">
+                    <div class=" SMstc-layout">
+                      <div class="i-div is-div  w102_div clearfix relative layout3 ">
+                        <div class="clearfix"> <span class="font14  right-text ">开户人姓名 </span>
+                          <input type="text"   class="left it8_input-login-user2 h36 w255" placeholder="">
+                          <p class="secondpdiv6 secondpdiv6-red it8mlf13 mlf1 font12" style="margin-top:-8px;">实名认证后，只能添加该开户人持有的银行卡。</p>
+                        </div>
+                        <!--错误提示-->
+                        <div class="  tip_right tip-righst   tip-righst_389"></div>
+                        <div class="tip_error  left408 disnone">
+                          <div class="wrbg">这是错误提示这是错误提示</div>
+                        </div>
+                      </div>
+                      <div class="i-div is-div w102_div  clearfix relative layout3 h32 " style="height:28px;">
+                        <div class="clearfix"> <span class="font14 right-text ">证件类型 </span>
+                          <select onblur=""   onfocus="" name="" class="input-select-40 left w198 h36 font13 zjtype_select">
+                            <option selected="selected" value="001">身份证</option>
+                            <option value="">澳门特别行政区护照</option>
+                            <option value="">台湾居民来往大陆通行证</option>
+                            <option value="">香港特别行政区护照</option>
+                          </select>
+						  <div class=" gat_tip disnone font-f0" style="display: block;margin-top: 7px;margin-left: 10px;float: left;">
+							港澳台用户须完成实名认证后，才能添加银行卡
+						 </div>
+                        </div>
+                      </div> 
+					  
+					  <div class="i-div is-div w102_div  clearfix relative layout3 h32 zjtype" style="display:none; height:28px;">
+                        <div class="clearfix"> 
+							<span class="font14 right-text ">正面照片 </span>
+                            <input type="file" class=" left mt5 " id="file1" name="file">
+							<div style="margin-left: 432px;">
+								上传您的身份证照片,上传图片格式为 jpg、gif、png、bmp、  jpeg, 不能大于<font class="font-f0">2M</font></div>
+							</div> 
+							<div class="tip_error mlf140 disnone_ques ml148 mtf2 "  style=" margin-left: -150px; ">
+							<div class="wrbg">请选择证件图片</div>
+							</div>
+                      </div>
+					  
+                      <div class="i-div is-div w102_div  clearfix relative layout3 h32 ">
+                        <div class="clearfix"> <span class="font14  right-text">证件号码 </span>
+                          <input type="text" onfocus="" name="" value="" placeholder="您的证件号码" maxlength="" class="left  input-selects-40  h36 w255">
+                        </div>
+                        <!--错误提示-->
+                        <div class="  tip_right tip-righst tip-righst_389"></div>
+                        <div class="tip_error  left408 disnone">
+                          <div class="wrbg">这是错误提示这是错误提示</div>
+                        </div>
+                      </div>
+                      <div class="i-div is-div w102_div  clearfix relative layout3 h32 " style="margin-bottom:16px;">
+                        <div class="clearfix"> <span class="font14  right-text">开户银行 </span>
+                          <div class="banckxialaid kaihubankspan ml0 zs12  img-bank-active setImage"> 
+                          	请选择银行 
+                          </div> 
+                          <div class="banckxiala banckxialaid"> <img src="../images/public/sd.png" class="banckxialaimg"> </div>
+                        </div>
+						 <div class="  pl18 khbanks bordered disnone khbanks_div gt220 khbanks_0907 absolute" style="height:auto;">
+                        <ul class="select-bank">
+                          <li class="abli bordered account-input select-bank-border  img-bank-active relative left active "> <span class="ba-icon disblock p_span"> </span> <img src="../images/account/account-topup_12.png"> </li>
+                          <li style="" class="abli  bordered relative left  "> <img src="../images/account/account-topup_14.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_16.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_22.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_32.png"> </li>
+                          <li class="abli  bordered select-bank-border  relative left     "> <img src="../images/account/account-topup_30.png"> </li>
+                          <li style="" class="abli  bordered relative left  "> <img src="../images/account/account-topup_31.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered select-bank-border  relative left     "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li style="" class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                          <li class="abli  bordered relative left  "> <img src="../images/account/account-topup_12.png"> </li>
+                        </ul>
+                      </div>
+                      </div>
+                     
+                       <div class="i-div is-div w102_div  clearfix relative layout3  h32">
+						<div class="clearfix">  
+                      		<span class="font14  right-text">开户支行 </span>
+                            
+                            <div class="select-sheng left">
+                             <select  class="input-select-sheng  h36 ">
+                             	 <option selected=""> 请选择 </option>
+                             	 <option value="1"> 新疆维吾尔自治区 </option>
+                             	 <option value="2"> 内蒙古自治区 </option>
+                             	 <option value="3"> 河北省区 </option>
+                                  <option value="4"> 新疆维吾尔自治区 </option>
+                             	 <option value="5"> 内蒙古自治区 </option>
+                             	 <option value="6"> 河北省区 </option>
+                                  <option value="7"> 新疆维吾尔自治区 </option>
+                             	 <option value="8"> 内蒙古自治区 </option>
+                             	 <option value="9"> 河北省区 </option>
+                                  <option value="10"> 新疆维吾尔自治区 </option>
+                             	   <option value="1"> 新疆维吾尔自治区 </option>
+                             	 <option value="2"> 内蒙古自治区 </option>
+                             	 <option value="3"> 河北省区 </option>
+                                  <option value="4"> 新疆维吾尔自治区 </option>
+                             	 <option value="5"> 内蒙古自治区 </option>
+                             	 <option value="6"> 河北省区 </option>
+                                  <option value="7"> 新疆维吾尔自治区 </option>
+                             	 <option value="8"> 内蒙古自治区 </option>
+                             	 <option value="9"> 河北省区 </option>
+                                  <option value="10"> 新疆维吾尔自治区 </option>
+                                   <option value="1"> 新疆维吾尔自治区 </option>
+                             	 <option value="2"> 内蒙古自治区 </option>
+                             	 <option value="3"> 河北省区 </option>
+                                  <option value="4"> 新疆维吾尔自治区 </option>
+                             	 <option value="5"> 内蒙古自治区 </option>
+                             	 <option value="6"> 河北省区 </option>
+                                  <option value="7"> 新疆维吾尔自治区 </option>
+                             	 <option value="8"> 内蒙古自治区 </option>
+                             	 <option value="9"> 河北省区 </option>
+                                  <option value="10"> 新疆维吾尔自治区 </option>
+                                   <option value="1"> 新疆维吾尔自治区 </option>
+                             	 <option value="2"> 内蒙古自治区 </option>
+                             	 <option value="3"> 河北省区 </option>
+                                  <option value="4"> 新疆维吾尔自治区 </option>
+                            </select> 
+                            省
+                            </div>
+                            <div class="select-shi left">
+                             <select class="input-select-shi h36">
+                            	 <option selected=""> 请选择 </option>
+                             	 <option value="1"> 哈尔滨市 </option>
+                             	 <option value="2"> 南昌 </option>
+                                 <option value="3"> 哈尔滨市 </option>
+                             	 <option value="4"> 南昌 </option>
+                                 <option value="5"> 哈尔滨市 </option>
+                             	 <option value="6"> 南昌 </option>
+                            </select> 市
+                            </div>
+                            <input type="text" placeholder="开户支行全名" class=" left input-selects-qu h36"> 
+                      </div> 
+                       <!--错误提示-->
+                       <div  class=" tip_right tip-righst mlt13 tip-righst_khzh"></div>
+                        <div class="tip_error mlf140 disnone_ques ml148 mtf2 disnone">
+							<div class="wrbg">请填写开户支行</div>
+                        </div> 
+						<div  data-toggle="tooltip" data-placement="top" title="" 
+					  data-original-title="如您遗忘了开户支行，可拨打开户银行服务热线咨询，错误的开户支行信息可能导致提现失败。" 
+					  class="quesaddress  q-small queblue left absolute quesaddress_new">?</div>
+						 </div> 
+                     
+                     
+                      
+                      <div class="i-div is-div w102_div  clearfix relative layout3 h32 ">
+                        <div class="clearfix"> <span class="font14  right-text">储蓄卡卡号 </span>
+                          <input type="text"  placeholder="输入储蓄卡卡号，不支持信用卡" onkeyup="this.value=this.value.replace(/\D/g,'').replace(/....(?!$)/g,'$&amp; ')" class=" left left  input-selects-40 w300 h36 w255 cckkh">
+                        </div>
+                        <!--错误提示-->
+                        <div class="  tip_right tip-righst  tip-righst_389"></div>
+                        <div class="tip_error  left408  disnone">
+                          <div class="wrbg">这是错误提示这是错误提示</div>
+                        </div>
+                      </div>
+                      <div class="i-div is-div w102_div  clearfix relative layout3 h32 ">
+                        <div class="clearfix"> <span class="font14  right-text">支付密码 </span>
+                          <input    type="text" onfocus="" name="" value="" placeholder="请输入支付密码" maxlength="" class="left input-login-pw2 w255 h36">
+                          <p class="mtf10 forgetpwd"><a href="#" class="bluefont mf12">忘记密码？</a></p>
+                        </div>
+                        <!--错误提示-->
+                        <div class="  tip_right tip-righst_more tip-righst_pwd460"></div>
+                        <div class="tip_error  left408  left408 disnone tip_error disnone_more">
+                          <div class="wrbg">这是错误提示这是错误提示</div>
+                        </div>
+                      </div>
+						
+                      <div class="i-div clearfix relative layout3">  
+							<button onclick="" class="btn-xxd-large btn-xxd-large3 gophonestep2 w300 ml114 mt10   w255" type="button">确认添加</button>  
+						</div>
+                      <!-- over--> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.modal-content --> 
+              </div>
+              <!-- /.modal-dialog --> 
+            </div>
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--当前提现银行卡未设置支行信息，请先设置支行信息-->
+<div class="modal v6-alert-modal v6-alert-modal_cz v6_cz_cl1" id="setzh_sureCzModal" tabindex="-1" role="dialog" aria-hidden="true" >
+    <div class="modal-dialog  v6_modal-dialog alterbank_wh" >
+        <div class="modal-content v6_cz_cl2 " style="height:auto;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only" id="aclose_mini">关闭</span></button>
+                <h4 class="modal-title"></span> <span>设置支行信息</span></h4>
+            </div>
+            <div class="modal-body  v6_cz_cl3 khbanks-b" style="height:auto;margin-bottom:20px;">  
+            	<p class="v6_cz_p">当前提现银行卡未设置支行信息，请先设置支行信息</p> 
+                <div class="v6_cz_btn mt30" style="margin-left:70px;width:250px;">
+                    <!-- <button href="#" class=" btn-xxd-g_border btn-small-hover v6_cz_btn_left">已完成付款</button> -->
+				  <a href="myaccount-bankset-updatebank.html" id="tagOpenWin" target="_blank" >
+                    <button href="#" class=" btn-xxd-large btn-xxd-large3  left_btn_s mr25" id="setzh_info" >立即设置</button>
+                  </a> 
+                    <button href="#"  class=" btn-xxd-g_border btn-small-hover  hasQuestion"  id="setzh_close">关闭</button>
+                      
+                </div> 
+			</div>
+            
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- footer start-->
+<div class="index-footer">
+	<div class="container">
+    	<div class="footer-cont">
+        	<div class="footer-kf"> </div>
+            <div class="footer-aboutus">
+            	<span class="left">关注我们</span>
+                <div class="footer-weibo"> </div>
+                <div class="footer-weixin"> </div>
+                <span class="left ml50">下载手机客户端</span>
+                <div class="footer-apple"> </div>
+                <div class="footer-android"> </div>
+                <div class="erweima-box weibo-box"><div class="erweima-weibo"></div></div>
+                <div class="erweima-box weixin-box"><div class="erweima-weixin"></div></div>
+                <div class="erweima-box apple-box"><div class="erweima-apple"></div></div>
+                <div class="erweima-box android-box"><div class="erweima-android"></div></div>
+            </div>
+			<ul class="left mt40 mr20 fixaaa">
+				<li class="yh13">关于新新贷</li>
+				<li><a href="/about/aboutcompany.html">新新贷介绍</a>
+				</li>
+				<li><a href="/index/newsNoticesThree.html?typeName=news_notices">公告和新闻</a>
+				</li>
+				<li><a href="/about/contactus.html">联系我们</a>
+				</li>
+				<!--  <li><a href="/about/blogroll.html">友情链接</a>
+				</li>-->
+			</ul>
+			<ul class="left mt40 mr20">
+				<li class="yh13">安全保障</li>
+				<!--<li><a href="/security/guarantee_plan.html">本金保障</a>
+				</li>-->
+				<li><a href="/security/guarantee_plan.html">阳光透明</a>
+				</li>
+				<li><a href="/security/pwd_suggestion.html">隐私保护</a>
+				</li>
+				<li><a href="/security/risk_group.html">风险控制</a>
+				</li>
+			</ul>
+			<ul class="left mt40 mr20">
+				<li class="yh13">帮助中心</li>
+				<li><a href="/help/aboutxxd.html">常见问题</a>
+				</li>
+				<li><a href="/help/operation.html">操作演示</a>
+				</li>
+				<li><a href="/help/fee.html">资费介绍</a>
+				</li>
+			</ul>
+			<ul class="left mt40 mr20">
+				<li class="yh13">兄弟品牌</li>
+				<li><a href="http://www.xinxinwealth.com" id="xxcf" target="_blank"> </a></li>
+			</ul>
+		</div>
+        <div class="index_blog_roll">
+			<div class="blogrolltitlea">友情链接：</div>
+			<ul id="index_blog_rollul" class="showone">
+			
+			<li><a href="http://www.xinxindai.com/loan/category.html" target="view_window">小额贷款条件</a></li>
+				
+			<li><a href="https://www.weicaifu.com/v/index" target="view_window">新浪微财富</a></li>
+				
+			<li><a href="http://www.rongjinsuo.com" target="view_window">P2P理财</a></li>
+				
+			<li><a href="http://www.xinxindai.com" target="view_window">网贷平台</a></li>
+				
+			<li><a href="http://bbs.xinxindai.com/" target="view_window">P2P网贷论坛</a></li>
+				
+			<li><a href="http://loans.cardbaobao.com/" target="view_window">小额贷款</a></li>
+				
+			<li><a href="http://www.cjdao.com" target="view_window">财经道</a></li>
+				
+			<li><a href="http://www.itf-mag.com" target="view_window">互联网金融杂志</a></li>
+				
+			<li><a href="http://finance.ifeng.com/itfinance/" target="view_window">凤凰互联网金融</a></li>
+				
+			<li><a href="http://www.zixinke.com" target="view_window">资信客</a></li>
+				
+			<li><a href="http://bbs.wacai.com/" target="view_window">挖财社区</a></li>
+				
+			<li><a href="http://www.itbt.com.cn/" target="view_window">P2P投资理财</a></li>
+				
+			<li><a href="http://www.cr.cn" target="view_window">从容网</a></li>
+				
+			<li><a href="http://iof.hexun.com" target="view_window">和讯互联网金融</a></li>
+				
+			<li><a href="http://www.icaifu.com/" target="view_window">研报下载</a></li>
+				
+			<li><a href="http://shenzhen.rong360.com/" target="view_window">深圳贷款</a></li>
+				
+			<li><a href="http://shanghai.roadoor.com/" target="view_window">上海贷款</a></li>
+				
+			<li><a href="http://www.rongdaitong.cn/" target="view_window">融贷通</a></li>
+				
+			<li><a href="http://www.wangdaidp.com" target="view_window">网贷点评</a></li>
+				
+			<li><a href="http://www.soudai360.com" target="view_window">P2P网贷</a></li>
+				
+			<div class="clear"> </div>
+							
+			</ul>			
+			<a class="showmoreblogroll show_more" id="show_more" style="display:block;"> </a>
+			<a class="showmoreblogroll show_reg" id="show_reg"> </a>
+		</div>
+    </div>
+    <!-- 版权与可信认证 start-->
+    <div class="xxd_pagefoot">
+    	<div class="container">
+            <div class="newfoot_copyright">
+                Copyright @上海涌信金融信息服务有限公司      沪ICP备12026657号-1     版权所有，未经许可不得复制、转载或摘编，违者必究！
+                <!-- cnzz统计代码 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253077251'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253077251%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1253077251"><a href="http://www.cnzz.com/stat/website.php?web_id=1253077251" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></span><script src=" http://s19.cnzz.com/z_stat.php?id=1253077251&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1253077251&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+                <!-- 百度统计代码 -->
+                <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78e9b60f68bcb0ca48e187efedec7fb9' type='text/javascript'%3E%3C/script%3E"));
+                </script><script src=" http://hm.baidu.com/h.js?78e9b60f68bcb0ca48e187efedec7fb9" type="text/javascript"></script>				
+            </div>
+            <div class="new_identification">
+                <!--  <a id="icon001" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank"><img src="/images/icon001.jpg"/></a>
+                <a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20140224003875003530' target='_blank'><img src='https://search.szfw.org/cert.png?l=CX20140224003875003530'></a>
+                <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                <span id="kx_verify"></span><script type="text/javascript">(function (){var _kxs = document.createElement('script');_kxs.id = 'kx_script';_kxs.async = true;_kxs.setAttribute('cid', 'kx_verify');_kxs.src = ('https:' == document.location.protocol ? 'https://ss.knet.cn' : 'http://rr.knet.cn')+'/static/js/icon3.js?sn=e14050731010948597brpb000000&tp=icon3';_kxs.setAttribute('size', 0);var _kx = document.getElementById('kx_verify');_kx.parentNode.insertBefore(_kxs, _kx);})();</script>-->
+                <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank" class="id_xin"> </a> 
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e14050731010948597brpb000000&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.xinxindai.com" target="_blank" class="id_kexin"> </a> 
+                <a href="https://search.szfw.org/cert/l/CX20140224003875003530" target="_blank" class="id_chengxin"> </a> 
+            </div>
+        </div>
+    </div>
+    <!-- 版权与可信认证 over-->
+</div>
+<!-- footer over-->
+<!-- index main content over-->
+<script src="../js/jquery1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script type="text/javascript"> 
+var xialas = false;
+$(document).ready(function(){
+	//获取支行信息如果为空则出现下面弹框
+	$("#setzh_sureCzModal").modal('show'); 
+	$('#setzh_close').click(function(){
+		 $("#setzh_sureCzModal").modal('hide');
+	});
+	
+   <!-- $('#setzh_info').click(function(){    -->
+		  <!-- var obj = document.getElementById("tagOpenWin");    -->
+		 <!-- obj.href = "myaccount-bankset-updatebank.html";   -->
+		 <!-- obj.click();  -->
+	 <!-- });    -->
+	
+	
+	//打开的时候设置animate由上到下出现，关闭的时候充值animate  注意弹出框提前设置top:150px;
+	$('.addBankCardcl').click(function(){
+		$("#addBankCardcl").modal('show'); 
+		$("#addBankCardcl").animate({top:'250px'},'slow');
+		 
+	});
+	
+	 //如果不是身份证显示上传正面照
+	  $(".zjtype_select").change(function(){
+		if($(this).val()!="001"){
+			$(".zjtype").show();
+			$(".gat_tip").show();
+		}else{
+			$(".zjtype").hide();
+			$(".gat_tip").hide();
+		}
+	  });
+	  
+	$('.closeslow').click(function(){ 
+		 $("#addBankCardcl").modal('hide'); 
+		  $("#addBankCardcl").animate({top:'0px'});
+	});
+	
+	
+	$('#getallmoney').click(function(){ 
+		$('#inputMoney').val($('#balancemoney').text());
+	});
+	
+	$("#moredata").click(function(){
+	  $(".index-data").slideUp();
+	  $(".small-data").delay(1000).fadeIn();
+	});
+	$(".xxd-partener>li").mouseover(function(){
+	  $(this).children("div").addClass("borderd");
+	  $(this).children("a").addClass("hover");
+	});
+	$(".xxd-partener>li").mouseout(function(){
+	  $(this).children("div").removeClass("borderd");
+	  $(this).children("a").removeClass("hover");
+	});
+	$("#show_more").click(function(){
+	  $("#index_blog_rollul").addClass("showall");
+	  $("#show_reg").show();
+	  $("#show_more").hide();
+	  });
+	  $("#show_reg").click(function(){
+	  $("#index_blog_rollul").removeClass("showall");
+	  $("#show_reg").hide();
+	  $("#show_more").show();
+	  });
+	 $(".footer-weibo").mouseover(function(){
+	  $(".weibo-box").fadeIn(100);
+	 });
+	 $(".footer-weibo").mouseout(function(){
+	  $(".weibo-box").fadeOut(100);
+	 });
+	 $(".footer-weixin").mouseover(function(){
+	  $(".weixin-box").fadeIn(100);
+	 });
+	 $(".footer-weixin").mouseout(function(){
+	  $(".weixin-box").fadeOut(100);
+	 });
+	 $(".footer-apple").mouseover(function(){
+	  $(".apple-box").fadeIn(100);
+	 });
+	 $(".footer-apple").mouseout(function(){
+	  $(".apple-box").fadeOut(100);
+	 }); 
+	 $(".footer-android").mouseover(function(){
+	  $(".android-box").fadeIn(100);
+	 });
+	 $(".footer-android").mouseout(function(){
+	  $(".android-box").fadeOut(100);
+	 });
+	 $('ul.nav li').hover(function() {
+	  $(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+	 }, function() {
+	  $(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+	 });
+	 //我的新新贷左侧菜单收啦js
+	 $(".flip").click(function(){
+		$(this).next(".flip-panel").slideToggle(100);
+	  });
+	
+	  //选择银行卡 
+	 $(".banckxialaid").click(function(){
+		
+		if(xialas){
+			$(".khbanks").hide(); 
+			//关闭银行卡弹出增，箭头向下
+			$(".banckxialaimg").attr("src","../images/public/sd.png")
+			xialas=false;
+		}else{
+			$(".khbanks").show();
+			//展开银行卡弹出增，箭头向上
+			$(".banckxialaimg").attr("src","../images/public/su.png")
+			xialas=true;
+		};
+	 })
+
+	var ulli= $("ul.select-bank li");
+	var gou='<span class="ba-icon disblock p_span"> </span>';   
+	ulli.click(function(){ 
+	    $(ulli).removeClass("img-bank-active"); 
+			$(ulli).children("span").remove(); 
+			$(this).addClass("img-bank-active");
+			$(this).append(gou); 
+			var currentSrc=$(this).children(1).attr("src");
+			
+			$(".setImage").html("");
+			$(".kaihubankimg, .kaihubankspan").addClass("padding_4");
+			$(".setImage").append("<img src='"+currentSrc+"' >"); 
+			var gou_po='<span class="ba-icon gou_po disblock"> </span>'; 
+			$(".setImage").append(gou_po);  
+			//选择完成关闭
+			$(".khbanks_div").hide();
+			//关闭银行卡弹出增，箭头向下
+			$(".banckxialaimg").attr("src","../images/public/sd.png")
+			xialas=false;
+	  }); 
+	  var txyhkp_cards=$(".txyhkp");
+	  txyhkp_cards.click(function(){
+		$(txyhkp_cards).removeClass("img-bank-active");
+		$(txyhkp_cards).children("span.ba-icon").remove();
+		$(this).addClass("img-bank-active");
+		$(this).append(gou); 
+	  });
+	  
+});
+window.onload=function(){
+	$("#selectTopupStyleA").click(function(){
+		$("#selectTopupStyleA").attr("checked", true);
+		$(".divselect-bank").show();
+		$(".offline-draw").hide();
+	});
+	$("#selectTopupStyleB").click(function(){
+		$("#selectTopupStyleB").attr("checked", true);
+		$(".divselect-bank").hide();
+		$(".offline-draw").show();
+	});
+}
+</script>
+</body>
