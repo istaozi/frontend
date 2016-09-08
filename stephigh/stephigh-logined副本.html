@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>步步高升-已登录</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-blue.css" rel="stylesheet">
+    <link href="../css/xxd.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <div id="errorie">
+        <div>您所使用的IE浏览器版本过旧，为了您获得更好的浏览体验，请升级您的浏览器到 IE8以上版本</div>
+    </div>
+    <![endif]-->
+    <style>
+    		*{
+				margin: 0;
+				padding: 0;
+			}
+			#box{
+				width: 775px;
+				height: 280px;
+				margin-left: -15px;
+				background: url("表格2.png");
+				position: relative;
+			}
+			#box #wrap div{
+				position:absolute;
+				width:40px;
+				bottom:42px;
+				margin-left: 54px;
+				background:#09f0f8
+			}
+			#box #wrap div ul em{
+				color: deeppink;
+				font-style: normal;
+			}
+			#wrap div span{
+				width:40px;
+				height:40px;
+				line-height:40px;
+				display:block;
+				z-index:100;
+				position:relative;
+				color:#000000;
+				text-align:center;
+			}
+			#wrap div strong{
+				bottom:0;
+				left:0;
+				position:absolute;
+				width:40px;
+				background-color:#06bdff;
+				display:block;
+			}
+			#wrap div ul{
+				display: none;
+				border: 1px solid deeppink;
+				font-size: 13px;
+				padding: 5px 3px;
+				position: absolute;
+				text-align: left;
+				width: 160px;
+				top: -65px;
+				left: -80px;
+			}
+			.botb{
+				margin-bottom: -10px;
+				margin-left: 25px;
+			}
+			#line1{height:99px; left:1px;}
+			#line1 strong{height:99px;}
+			#line2{height:106.5px; left:54px;}
+			#line2 strong{height:106.5px;}
+			#line3{height:114px; left:107px;}
+			#line3 strong{height:114px;}
+			#line4{height:124.5px; left:160px;}
+			#line4 strong{height:124.5px;}
+			#line5{height:132px; left:213px;}
+			#line5 strong{height:132px;}
+			#line6{height:142.5px; left:266px;}
+			#line6 strong{height:142.5px;}
+			#line7{height:150px; left:319px;}
+			#line7 strong{height:150px;}
+			#line8{height:156.5px; left:372px;}
+			#line8 strong{height:156.5px;}
+			#line9{height:165px; left:425px;}
+			#line9 strong{height:165px;}
+			#line10{height:175.5px; left:478px;}
+			#line10 strong{height:175.5px;}
+			#line11{height:184px; left:531px;}
+			#line11 strong{height:184px;}
+			#line12{height:184px; left:584px;}
+			#line12 strong{height:184px;}
+    </style>
+</head>
+<body>
+<!--top start-->
+<header class="navbar navbar-fixed-top" style="margin-bottom:0;">
+    <div class="navbar-inner">
+        <div class="container">
+            <p class="index_leftP relative">
+                <span class="font-666 mr10">客服热线：4000-168-521</span>
+                <span class="mobile_ver font-666 mr10">手机版</span>
+                <span class="mobile_erweima_ver" style="display:none;"></span>
+                <a href="http://weibo.com/xinxindai/profile?" target="_blank" class="weibo_ver mr10"><img class="mtf4"
+                                                                                                          src="../images/public/weibo.png"></a>
+                <span class="weixin_ver mr10"><img class="mtf4" src="../images/public/weixin.png"></span>
+                <span class="weixin_erweima_ver" style="display:none;"></span>
+            </p>
+
+            <!-- 登录状态topbar start-->
+            <nav class="nav-collapse user">
+                <div class="user-info pull-right">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <div>欢迎<span>新新贷用户户习大大</span></div>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href=""><span class="glyphicon glyphicon-user"></span> 我的新新贷</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> 充值</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> 站内信<span
+                                    class="badge">12</span></a></li>
+                            <li class="divider"></li>
+                            <li><a href=""><span class="icon-signout"></span> 退出登录</a></li>
+                        </ul>
+                        <a href="#" class="top-link right">关于我们</a>
+                        <a href="#" class="top-link right">帮助</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- 登录状态topbar over-->
+            <!-- 未登录状态topbar start-->
+            <nav class="nav-collapse user" style="display:none;">
+                <div class="user-info pull-right nologin">
+                    <a href="#" class="top-link">关于我们</a>
+                    <a href="#" class="top-link"></a>
+                    <a href="xxd-register.html" class="red">注册</a>
+                    <a href="xxd-register.html" class="blue">登录</a>
+                </div>
+            </nav>
+            <!-- 未登录状态topbar over-->
+        </div>
+    </div>
+</header>
+<!-- top over-->
+
+<!-- 导航栏 start-->
+<div class="navbar" style="margin-bottom:0;">
+    <div class="top-menu" style="margin-bottom:0;">
+        <div class="container">
+            <div class="xxd-logo">
+                <a href="/"><img src="../images/public/xxd-logo-default2.png"></a>
+            </div>
+            <nav class="nav-collapse main-menu">
+                <ul class="nav">
+                    <li>
+                        <a href="/" class="dropdown-toggle main-menu-tit">首页</a>
+                    </li>
+                    <li class="haslink">
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown" id="MenuDropdown1">
+                            我要投资
+                            <span class="ic-arrow-right"> </span>
+                        </a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown1">
+                            <li><a href="#"><font class="hot">七天大胜</font></a></li>
+                            <li><a href="#">月进斗金</a></li>
+                            <li><a href="#">步步高升</a></li>
+                            <li><a href="#"><font class="dq">日日盈</font></a></li>
+                            <li><a href="#">散标直投</a></li>
+                            <li><a href="#">债权转让</a></li>
+                            <li><a href="#">新元宝</a></li>
+                            <li><a href="#">票小宝</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- 登录状态-->
+
+                        <a href="/myloan/loan/9.html" class="dropdown-toggle main-menu-tit">我要借款</a>
+
+                        <!-- 未登录状态-->
+
+                    </li>
+                    <li><a href="/introduce/guide.html" class="main-menu-tit">新手指引</a></li>
+
+
+                    <!-- 登录状态-->
+
+                    <li><a href="/bbs/goToBbs.html" target="_blank" class="main-menu-tit"
+                           style="padding-right:8px;">社区</a></li>
+
+                    <!-- 未登录状态-->
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- 导航栏 over-->
+
+<!-- 位置 start-->
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="/index.html">首页</a></li>
+        <li><a href="/borrow/search/list.html">我要投资</a></li>
+        <li>步步高升</li>
+    </ol>
+</div>
+<!-- 位置 over-->
+
+<!-- main content start-->
+<div class="container  relative">
+    <div class="mothgold-box " id="xxd-bid">
+        <!-- 左侧 start-->
+        <div class="left mgleft-div" style="padding-right: 20px;">
+            <!--第一层-->
+            <div class="stephightit-bg">
+                <p class="white font20 mothgold-tit">步步高升</p>
+            </div>
+
+            <!--第二层-->
+            <div class="clearfix mgleft-div2 ">
+                <div class="mothgold-info mr120">
+                    <p class="font16 font-666">预期年化收益</p>
+
+                    <p class="font36 font-3f9bff pt20 w200">6%-11%</p>
+                </div>
+
+                <div class="mothgold-info ">
+                    <p class="font16 font-666 mlf40">投资期限</p>
+
+                    <p class="font28 pt20 font-666 mlf40">1个月<span class="font14 font-666">起</span></p>
+                </div>
+
+                <div class="mothgold-info ml30">
+                    <p class="font16 font-666 mlf40">起投金额</p>
+
+                    <p class="font28 pt20 font-666 mlf40">100<span class="font14 font-666">元</span></p>
+                </div>
+
+            </div>
+
+            <!--第三层-->
+            <div class="clearfix mb40  font-666 w-551">
+                <p class="font16">投资上限：100万元</p>
+
+                <p class="font16">起息时间：投资成功后次日（含周末及节假日）开始计息 </p>
+
+                <p class="font16">适用活动：新手红包</p>
+
+                <p class="font16">本产品适用于<a href="#" class="bluefont">《新新贷风险准备金计划》</a></p>
+            </div>
+        </div>
+        <!-- 左侧 end-->
+
+        <!-- 右侧 start-->
+        <div class="right clearfix mgright">
+            <p class="font-666 font14 mt20">账户余额：<span>9,999,999.00</span>元<a href="#" class="font-3f9bff pl10">充值</a></p>
+
+            <p class="font-666 font14 mt20">投资金额：<span class="font-999 font12">（100倍数递增）</span></p>
+
+            <p class="font-666 font14 steph_p">
+                <button class="invest-money invest-money-ffh" value="10000">10,000元</button>
+                <button class="invest-money invest-money-ffh" value="50000">50,000元</button>
+                <button class="invest-money invest-money-ffh" value="100000">100,000元</button>
+            </p>
+            <p class="font-666 font14 steph_p">
+                <button class="invest-money invest-money-ffh" value="500000">500,000元</button>
+                <button class="invest-money invest-money-ffh" value="1000000">1,000,000元</button>
+            </p>
+            <p class="clearfix">
+                <span class="left invest-jian" id="invest-jian">-</span>
+                <input class="left invest-input steph-input" value="100.00"/>
+                <span class="left invest-jia ml6" id="invest-jia">+</span>
+                <span class="right cal_pans"></span>
+            </p>
+
+
+            <p class="font12 font999 mt40 mb0 zj_pro">账户资金由光大银行和中国人保共同保障</p>
+
+            <div class="yjdj_error" style="display: none;">错误提示</div>
+            <p class="text-center mt20 clearfix">
+                <button class="btn  btn-xxd-large layout  yellow-btn" data-toggle="modal" data-target="#sh_dialog_bid">立即抢购
+                </button>
+            </p>
+        </div>
+        <!-- 右侧 end-->
+
+        <!--计算器 start -->
+        <div class="cal_div  disnone" id="cal_div">
+            <p class="cal_tips_arr"></p>
+
+            <div class="cal_tips">
+                <button type="button" class="close close_cla_div" data-dismiss="modal"  id="close_cal_div" ><span aria-hidden="true" class="span_cz">×</span><span class="sr-only">关闭</span></button>
+                <span class="font14 font-666">投资期限</span>
+                <table border="1" class="cal_table mt10">
+                    <tr>
+                        <td class="cal_m ml0 clicked_caltd" abbr="6" about="1">1个月</td>
+                        <td class="cal_m" abbr="6.5" about="2">2个月</td>
+                        <td class="cal_m" abbr="7" about="3">3个月</td>
+                        <td class="cal_m" abbr="7.5" about="4">4个月</td>
+                        <td class="cal_m" abbr="8" about="5">5个月</td>
+                        <td class="cal_m" abbr="8.5" about="6">6个月</td>
+                    </tr>
+                    <tr>
+                        <td class="cal_m ml0" abbr="9" about="7">7个月</td>
+                        <td class="cal_m" abbr="9.5" about="8">8个月</td>
+                        <td class="cal_m" abbr="10" about="9">9个月</td>
+                        <td class="cal_m" abbr="10.5" about="10">10个月</td>
+                        <td class="cal_m" abbr="11" about="11">11个月</td>
+                        <td class="cal_m" abbr="11" about="12">12个月</td>
+                    </tr>
+                    <tr class="kztr disnone">
+                        <td colspan="6" class="kz_td"><input type="text"  maxlength="4" onkeyup="this.value=this.value.replace(/\D/g,'')"  placeholder="请输入投资期限" class="kz_input" id="kz_input"/>个月</td>
+                    </tr>
+                </table>
+                <span class="du_arrow dowm_arrow"></span>
+
+                <div class="clearfix pt30">
+                    <p class="font14 font-666 left mg0">预期年化：<span class="font-f0" id="yqnh">6</span><span class="font-f0">%</span></p>
+
+                    <p class="font-14 font-f0 right mg0">预期收益：<span id="yqsy">0.02</span><span>元</span></p>
+                </div>
+            </div>
+        </div>
+        <!--计算器 end -->
+
+    </div>
+    <div class="mothgold-box" style="margin-top: -10px;">
+        <!-- tab start-->
+        <ul class="nav nav-tabs mothgold-nav-tabs" role="tablist">
+            <li class=" active "><a href="#credita" role="tab" data-toggle="tab"> 产品介绍</a></li>
+            <li><a href="#creditc" role="tab" data-toggle="tab"> 投资记录</a></li>
+            <li><a href="#creditd" role="tab" data-toggle="tab"> 常见问题</a></li>
+        </ul>
+        <!-- tab over-->
+        <div class="tab-content">
+            <!-- 产品介绍 start-->
+            <div class="tab-pane fade in active" id="credita">
+                <div class="mtf10">
+                    <div class="clearfix pd50 border-bottom-dashed" style="overflow:hidden;">
+                        <div class="left pl20 ">
+                            <p class="font26">
+                                <span class=" font-004" style="width: 209px;">步步高升是什么？</span>
+                            </p>
+
+                            <p class="mg-profont pt20">
+                                步步高升是新新贷推出的逐月增息、自动复投、活期与定期组</p>
+
+                            <p class="mg-profont ">合的灵活理财计划。</p>
+
+                            <p class="mg-profont mt26">1、 投资成功后按6%起计算年化收益， 以后逐月增加0.5%，</p>
+
+                            <p class="mg-profont">到11%封顶。</p>
+
+                            <p class="mg-profont">2、 该产品100元起投，100元为一个购买单位，单个用户加入</p>
+
+                            <p class="mg-profont">上限为100万元。</p>
+
+                            <p class="mg-profont">3、 该产品债权将对接平台的优质借款标的。</p>
+
+
+                        </div>
+                        <div class="right pr20">
+                            <span class="sh_bid_01"></span>
+                        </div>
+                    </div>
+
+                    <div class="clearfix pd50 border-bottom-dashed" style="padding-bottom: 15px;">
+                        <p class="font-155490 font18">收益计算：本产品投资成功后次日开始计息，按月递增年化收益率，具体收益计算参见下方图示：</p>
+
+                        <p class="font-666 font14 mg0"><span class="star_span"></span>6%起，逐月递增0.5%，到11%上限，每月复投，每个自然月仅可有一次机会退出</p>
+
+                        <p class="font-ff7365 font14">注： 收益将在您退出时一次性返还，将计算您从加入到退出时投资的时长对应相应的利息进行计算（详见鼠标移动到柱状图上）</p>
+
+                        <div class="left mlf40 relative">
+                            <!--<p class="font12 yqnh_t font-000" style="display: none;">预期年化</p>-->
+
+                            <!--<p class="font12 tzqx_t  font-000" style="display: none;">投资期限</p>-->
+							<!--柱状图-->
+                            <!--<div class="chart_001" id="bar_001" style="display: none;"></div>-->
+                        	<!--更改之后柱状图-->
+                            <div class="zhuzi">
+								<div id="box">
+									<div id="wrap">
+										<div id="line1">
+											<strong></strong>
+											<span></span>
+										</div>
+										<div id="line2">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line3">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line4">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line5">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line6">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line7">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line8">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line9">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line10">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line11">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+										<div id="line12">
+											<strong></strong>
+											<span></span>
+											<ul>
+												<em>持有2个月后，前面所有年份年利率也会补到</em>
+												<em class="lilv"></em>
+											</ul>
+										</div>
+									</div>
+								</div>                           	
+                            </div>
+                            <!--更改之后柱状图-->
+                        </div>
+                        <div class="right pt40 pr20 sh_right" >
+                            <p class="font16 font-666">投资金额</p>
+
+                            <p class="clearfix">
+                                <span class="left  invest-jian" id="projs-jian">-</span>
+                                <input class="left projs projs-input" value="100.00" id="jssy_je">
+                                <span class="left  ml6 invest-jia" id="projs-jia">+</span>
+                            </p>
+
+                            <p class="font16 font-666 mt20">投资期限</p>
+
+                            <p><select class="projs projss" id="jssy_qx">
+                                <option value="1"  >1个月</option>
+                                <option value="2" selected>2个月</option>
+                                <option value="3">3个月</option>
+                                <option value="4">4个月</option>
+                                <option value="5">5个月</option>
+                                <option value="6">6个月</option>
+                                <option value="7">7个月</option>
+                                <option value="8">8个月</option>
+                                <option value="9">9个月</option>
+                                <option value="10">10个月</option>
+                                <option value="11">11个月</option>
+                                <option value="12">12个月</option>
+                                <option value="13">13个月</option>
+                                <option value="14">14个月</option>
+                                <option value="15">15个月</option>
+                                <option value="16">16个月</option>
+                                <option value="17">17个月</option>
+                                <option value="18">18个月</option>
+                                <option value="19">19个月</option>
+                                <option value="20">20个月</option>
+                                <option value="21">21个月</option>
+                                <option value="22">22个月</option>
+                                <option value="23">23个月</option>
+                                <option value="24">24个月</option>
+                                <option value="25">25个月</option>
+                                <option value="26">26个月</option>
+                                <option value="27">27个月</option>
+                                <option value="28">28个月</option>
+                                <option value="29">29个月</option>
+                                <option value="30">30个月</option>
+                                <option value="31">31个月</option>
+                                <option value="32">32个月</option>
+                                <option value="33">33个月</option>
+                                <option value="34">34个月</option>
+                                <option value="35">35个月</option>
+                                <option value="36">36个月</option>
+                            </select></p>
+                            <button class="btn  btn-xxd-large layout f9bff-btn jssy_btn" id="jssy_btn">计算收益</button>
+                            <div id="jssy_div" class="disnone">
+                                <p class="mg0" style="margin-top: 10px;">
+                                    预期收益：<span class="red" id="jsxy_sy">6.00</span>元
+                                </p>
+                                <p class="mg0">
+                                    投资金额*（<span class="" id="jsxy_nh">8.5</span>%） * 计息天数/360
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="clearfix pd50 border-bottom-dashed">
+                        <div class="left pl20">
+                            <span class="sh_bid_03"></span>
+                        </div>
+                        <div class="right pt40 ">
+                            <p class="font26  font-004"> 退出方式
+                            </p>
+
+                            <p class="mg-profont pt20">
+                                1、每个自然月都有一次手动退出的机会，否则默认继续持有。
+                            </p>
+
+                            <p class="mg-profont ">
+                                2、手动退出时，支持部分或全部资金退出。
+                            </p>
+
+                            <p class="mg-profont">3、退出的资金当天（含当天）起不计息。</p>
+                        </div>
+                    </div>
+
+
+                    <div class="clearfix pd50 ">
+                        <div class="left pl20 ">
+                            <h1>
+                                <span class=" font-004" style="width: 150px;margin-left: -20px;">回款方式</span>
+                            </h1>
+
+                            <p class="mg-profont pt20">
+                                1、一次性全部退出：根据您的加入金额和持有期限，
+                            </p>
+
+                            <p class="mg-profont">系统自动计算出您的收益。</p>
+
+                            <p class="mg-profont">2、部分退出：根据您退出的部分资金和持有期限，系</p>
+
+                            <p class="mg-profont">统自动计算出这部分资金对应的本金和收益，并得出剩</p>
+
+                            <p class="mg-profont">余本金。剩余本金按加入时间继续计息。</p>
+
+                            <p class="mg-profont">3、退出的本金和收益将在次日（周末及节假日包含其</p>
+
+                            <p class="mg-profont">中）自动返还到您的新新贷账户。</p>
+                        </div>
+                        <div class="right pr20 pt40">
+                            <span class="sh_bid_04"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 产品介绍 over-->
+            <!-- 投资记录 start-->
+            <div class="tab-pane fade in" id="creditc">
+                <div class="xxd-layout m0">
+                    <table class="table table-striped table-hover account-index-table xxd-table">
+                        <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>投资人</th>
+                            <th>加入金额</th>
+                            <th>加入时间</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>xinxindaicustomer</td>
+                            <td>￥10,000</td>
+                            <td>2016-05-24 16:09:59</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>xinxindaicustomer</td>
+                            <td>￥10,000</td>
+                            <td>2016-05-24 16:09:59</td>
+                        </tr>
+                        <tr>
+                            <td>003</td>
+                            <td>xinxindaicustomer</td>
+                            <td>￥10,000</td>
+                            <td>2016-05-24 16:09:59</td>
+                        </tr>
+                        <tr>
+                            <td>004</td>
+                            <td>xinxindaicustomer</td>
+                            <td>￥10,000</td>
+                            <td>2016-05-24 16:09:59</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- 投资记录 over-->
+            <!-- 常见问题 start-->
+            <div class="tab-pane fade in" id="creditd">
+                <div class="xxd-layout m0">
+                    <div class="mt10">
+                        <p class="p-bold">1.步步高升的优势有哪些？</p>
+
+                        <p class="text-indent">步步高升同时兼具高收益、提取灵活、低门槛、低风险的特点。</p>
+
+                        <p class="text-indent">高收益：年化收益率6%起，逐月增息，最高可达11.00%。</p>
+
+                        <p class="text-indent">提取灵活：每个自然月都有一次退出机会，还支持退出部分资金，剩余本金继续享受收益。</p>
+
+                        <p class="text-indent">低门槛：100.00元起投，投资到退出过程0费用。</p>
+
+                        <p class="text-indent">低风险：100%适用于平台风险准备金制度，安全可靠。</p>
+
+                    </div>
+                    <div class="mt10">
+                        <p class="p-bold">2.我投资了步步高升5个多月了，如果现在退出，收益如何计算？</p>
+
+                        <p class="text-indent">
+                            步步高升是按日计息，逐月增息，按照加入的期限给予对应的年化利率。根据从起息日期满30天判断作为1个月，
+                            之后每个月都依此类推（比如起息日期为2016-5-1，则2016-5-30满1个月，6月29日满2个月）；
+                            用户退出时根据退出日期与起息日期之间的天数判断用户持有处于哪个月(M)，您现在退出，M=5，预期总收益 = 投资金额 * 8%*计息天数/360。</p>
+                    </div>
+                    <div class="mt10">
+                        <p class="p-bold">3.投资未满30天时退出，我还使用了新手红包，退出的金额怎么返还？什么时候到账？</p>
+
+                        <p class="text-indent">满30天时退出是没有收益的，您使用的红包金额会在退出时从本金中扣除，次日将您投资的现金部分返还到您的新新贷账户。</p>
+                    </div>
+                    <div class="mt10">
+                        <p class="p-bold">4.如果我要退出部分资金，资金什么时候到账？剩余本金是怎么计算的，如何计息？</p>
+
+                        <p class="text-indent">步步高升支持部门资金或者全部资金退出。例如您投资了50000元，想要退出10000元，您申请退出的10000元次日系统会自动返还 到您的新新贷账户，并且反推出对应的本金和收益，得出剩余本金，剩余本金按加入时间继续计息。</p>
+
+                        <p class="text-indent"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- 常见问题 over-->
+        </div>
+    </div>
+</div>
+<!-- main content over-->
+
+<!-- 确认投标 start-->
+<div class="modal fade modal-credittransfer sh_dialog_bid buyddy_fisrt" id="sh_dialog_bid" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true" style="top:40%;">
+    <div class="sh_dialog_bid">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <button data-dismiss="modal" class="close closeslow" type="button"><span
+                        aria-hidden="true">×</span><span id="aclose_mini" class="sr-only">关闭</span></button>
+                <h4 class="modal-title"><span>确认投资</span></h4>
+            </div>
+            <div class="modal-body  clearfix" style="min-height: 540px;">
+                <p class=" font16 sh_p1 pl64">
+                    <span class="font-666">产品名称：</span><span class="font-000">步步高升</span>
+                    <span class="font-666 ml153">预期年化收益：</span><span class="font-000">24%</span>
+                    <span class="q-small queblue ml6" data-toggle="tooltip" data-placement="right" data-original-title="第一个月为6%，每月递增到11%">?</span>
+                </p>
+
+                <div class="clearfix pl64">
+                    <p class=" font16 "><span class="font-666">投资金额：</span><span class="red">5000.00</span>元</p>
+
+                    <p class=" font16 mt14"><span class="font-666">预期收益：</span>
+                        <select class="yqsy0">
+
+                            <option value="1"  selected>1个月</option>
+                            <option value="2" >2个月</option>
+                            <option value="3">3个月</option>
+                            <option value="4">4个月</option>
+                            <option value="5">5个月</option>
+                            <option value="6">6个月</option>
+                            <option value="7">7个月</option>
+                            <option value="8">8个月</option>
+                            <option value="9">9个月</option>
+                            <option value="10">10个月</option>
+                            <option value="11">11个月</option>
+                            <option value="12">12个月</option>
+                            <option value="13">13个月</option>
+                            <option value="14">14个月</option>
+                            <option value="15">15个月</option>
+                            <option value="16">16个月</option>
+                            <option value="17">17个月</option>
+                            <option value="18">18个月</option>
+                            <option value="19">19个月</option>
+                            <option value="20">20个月</option>
+                            <option value="21">21个月</option>
+                            <option value="22">22个月</option>
+                            <option value="23">23个月</option>
+                            <option value="24">24个月</option>
+                            <option value="25">25个月</option>
+                            <option value="26">26个月</option>
+                            <option value="27">27个月</option>
+                            <option value="28">28个月</option>
+                            <option value="29">29个月</option>
+                            <option value="30">30个月</option>
+                            <option value="31">31个月</option>
+                            <option value="32">32个月</option>
+                            <option value="33">33个月</option>
+                            <option value="34">34个月</option>
+                            <option value="35">35个月</option>
+                            <option value="36">36个月</option>
+                        </select>
+                        <span class="font16 font-666">后退出本息合计：</span> <span class="red">9540.00</span>元
+                    </p>
+
+                    <p class=" font16"><span class="font-666">优惠抵扣：</span>
+                        <span>
+                             <select class="yqsy0">
+                                 <option>新手红包</option>
+                                 <option>不使用</option>
+                             </select>
+                        </span>
+                    </p>
+                    <p class=" font16 "><span class="font-666">实际支付：</span><span class="red">5000.00</span>元</p>
+
+                    <p class="clearfix font16 mt14">
+                        <span class="left font-666 h42l42 w85 text-left">支付密码：</span>
+                        <input type="text" onfocus="" name="" value="" placeholder="请输入支付密码" class="input-login-pw2 left w300 pl50 ">
+                        <span><a href="#" class="left  ml10  mt10 bluefont font14">忘记支付密码</a></span>
+                    </p>
+
+                    <div class="clearfix font16 mt10">
+                        <span class="left font-666 h42l42 w85 text-center pl10">验证码：</span>
+                        <input type="text" class="input-l-mini2 left " placeholder="请输入图片验证码" name="verifyCode" id="login6vcode">
+
+                        <div class="reg_tpyzm left">
+                            <img src="../images/public/ranimg.png" class="left ranpos">
+
+                            <div class="V6change-yzm white glyphicon glyphicon glyphicon-repeat"></div>
+                        </div>
+                    </div>
+                    <div class="mt10 ml18">
+
+
+                        <div class="font12 font999  clearfix ml66 ">
+                            <p class="zj_pro">账户资金由光大银行和中国人保共同保障</p>
+                        </div>
+                        <div class="font14 clearfix ml66  ">
+                            <input type="checkbox" class="reg_phone_checkbox" checked>
+                            &nbsp;&nbsp;我已阅读并同意 <a href="stephigh-protocol.html" target="_blank" class="bluefont">《步步高升理财计划服务协议》</a>
+                        </div>
+                        <!-- 错误提示 start -->
+                        <div class="login6_tips_cl  login6_tips_info mg-dialog-error ml66" style="display: none;">
+                            错误提示
+                        </div>
+                        <!-- 错误提示 end -->
+                        <div class="mt10 ">
+                            <a href="#" class="btn btn-xxd btn-xxd-large w300 ml66" id="buy-sg-btn"
+                               onclick="window.location.href='buy-success-sh.html'">确认投资</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--确认投标 over-->
+
+
+<!-- footer  start-->
+<div class="index-footer">
+    <div class="container">
+        <div class="footer-cont">
+            <div class="footer-kf"></div>
+            <div class="footer-aboutus">
+                <span class="left">关注我们</span>
+
+                <div class="footer-weibo"></div>
+                <div class="footer-weixin"></div>
+                <span class="left ml50">下载手机客户端</span>
+
+                <div class="footer-apple"></div>
+                <div class="footer-android"></div>
+                <div class="erweima-box weibo-box">
+                    <div class="erweima-weibo"></div>
+                </div>
+                <div class="erweima-box weixin-box">
+                    <div class="erweima-weixin"></div>
+                </div>
+                <div class="erweima-box apple-box">
+                    <div class="erweima-apple"></div>
+                </div>
+                <div class="erweima-box android-box">
+                    <div class="erweima-android"></div>
+                </div>
+            </div>
+            <ul class="left mt40 mr20 fixaaa">
+                <li class="yh13">关于新新贷</li>
+                <li><a href="/about/aboutcompany.html">新新贷介绍</a>
+                </li>
+                <li><a href="/index/newsNoticesThree.html?typeName=news_notices">公告和新闻</a>
+                </li>
+                <li><a href="/about/contactus.html">联系我们</a>
+                </li>
+                <!--  <li><a href="/about/blogroll.html">友情链接</a>
+                </li>-->
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">安全保障</li>
+                <!--<li><a href="/security/guarantee_plan.html">本金保障</a>
+                </li>-->
+                <li><a href="/security/guarantee_plan.html">阳光透明</a>
+                </li>
+                <li><a href="/security/pwd_suggestion.html">隐私保护</a>
+                </li>
+                <li><a href="/security/risk_group.html">风险控制</a>
+                </li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">帮助中心</li>
+                <li><a href="/help/aboutxxd.html">常见问题</a>
+                </li>
+                <li><a href="/help/operation.html">操作演示</a>
+                </li>
+                <li><a href="/help/fee.html">资费介绍</a>
+                </li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">兄弟品牌</li>
+                <li><a href="http://www.xinxinwealth.com" id="xxcf" target="_blank"> </a></li>
+            </ul>
+        </div>
+        <div class="index_blog_roll">
+            <div class="blogrolltitlea">友情链接：</div>
+            <ul id="index_blog_rollul" class="showone">
+
+                <li><a href="http://www.xinxindai.com/loan/category.html" target="view_window">小额贷款条件</a></li>
+
+                <li><a href="https://www.weicaifu.com/v/index" target="view_window">新浪微财富</a></li>
+
+                <li><a href="http://www.rongjinsuo.com" target="view_window">P2P理财</a></li>
+
+                <li><a href="http://www.xinxindai.com" target="view_window">网贷平台</a></li>
+
+                <li><a href="http://bbs.xinxindai.com/" target="view_window">P2P网贷论坛</a></li>
+
+                <li><a href="http://loans.cardbaobao.com/" target="view_window">小额贷款</a></li>
+
+                <li><a href="http://www.cjdao.com" target="view_window">财经道</a></li>
+
+                <li><a href="http://www.itf-mag.com" target="view_window">互联网金融杂志</a></li>
+
+                <li><a href="http://finance.ifeng.com/itfinance/" target="view_window">凤凰互联网金融</a></li>
+
+                <li><a href="http://www.zixinke.com" target="view_window">资信客</a></li>
+
+                <li><a href="http://bbs.wacai.com/" target="view_window">挖财社区</a></li>
+
+                <li><a href="http://www.itbt.com.cn/" target="view_window">P2P投资理财</a></li>
+
+                <li><a href="http://www.cr.cn" target="view_window">从容网</a></li>
+
+                <li><a href="http://iof.hexun.com" target="view_window">和讯互联网金融</a></li>
+
+                <li><a href="http://www.icaifu.com/" target="view_window">研报下载</a></li>
+
+                <li><a href="http://shenzhen.rong360.com/" target="view_window">深圳贷款</a></li>
+
+                <li><a href="http://shanghai.roadoor.com/" target="view_window">上海贷款</a></li>
+
+                <li><a href="http://www.rongdaitong.cn/" target="view_window">融贷通</a></li>
+
+                <li><a href="http://www.wangdaidp.com" target="view_window">网贷点评</a></li>
+
+                <li><a href="http://www.soudai360.com" target="view_window">P2P网贷</a></li>
+
+                <div class="clear"></div>
+
+            </ul>
+            <a class="showmoreblogroll show_more" id="show_more" style="display:block;"> </a>
+            <a class="showmoreblogroll show_reg" id="show_reg"> </a>
+        </div>
+    </div>
+    <!-- 版权与可信认证 start-->
+    <div class="xxd_pagefoot">
+        <div class="container">
+            <div class="newfoot_copyright">
+                Copyright @上海涌信金融信息服务有限公司 沪ICP备12026657号-1 版权所有，未经许可不得复制、转载或摘编，违者必究！
+                <!-- cnzz统计代码 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253077251'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253077251%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                <span id="cnzz_stat_icon_1253077251"><a href="http://www.cnzz.com/stat/website.php?web_id=1253077251"
+                                                        target="_blank" title="站长统计"><img border="0" hspace="0"
+                                                                                          vspace="0"
+                                                                                          src="http://icon.cnzz.com/img/pic.gif"></a></span>
+                <script src=" http://s19.cnzz.com/z_stat.php?id=1253077251&amp;show=pic"
+                        type="text/javascript"></script>
+                <script src="http://c.cnzz.com/core.php?web_id=1253077251&amp;show=pic&amp;t=z" charset="utf-8"
+                        type="text/javascript"></script>
+                <!-- 百度统计代码 -->
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78e9b60f68bcb0ca48e187efedec7fb9' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+                <script src=" http://hm.baidu.com/h.js?78e9b60f68bcb0ca48e187efedec7fb9"
+                        type="text/javascript"></script>
+            </div>
+            <div class="new_identification">
+                <!--  <a id="icon001" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank"><img src="/images/icon001.jpg"/></a>
+                <a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20140224003875003530' target='_blank'><img src='https://search.szfw.org/cert.png?l=CX20140224003875003530'></a>
+                <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                <span id="kx_verify"></span><script type="text/javascript">(function (){var _kxs = document.createElement('script');_kxs.id = 'kx_script';_kxs.async = true;_kxs.setAttribute('cid', 'kx_verify');_kxs.src = ('https:' == document.location.protocol ? 'https://ss.knet.cn' : 'http://rr.knet.cn')+'/static/js/icon3.js?sn=e14050731010948597brpb000000&tp=icon3';_kxs.setAttribute('size', 0);var _kx = document.getElementById('kx_verify');_kx.parentNode.insertBefore(_kxs, _kx);})();</script>-->
+                <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank" class="id_xin"> </a>
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e14050731010948597brpb000000&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.xinxindai.com"
+                   target="_blank" class="id_kexin"> </a>
+                <a href="https://search.szfw.org/cert/l/CX20140224003875003530" target="_blank"
+                   class="id_chengxin"> </a>
+            </div>
+        </div>
+    </div>
+    <!-- 版权与可信认证 over-->
+</div>
+<!-- footer over-->
+<script src="../js/jquery1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/xxd.js"></script>
+<script src="../js/echarts-all.js"></script>
+<script>
+	//柱状图
+	var _height=new Array();
+	var _pre=new Array();
+	var _data = new Array();
+	_data = [0.5,10.5,0.5,0.5,0.5,0.5,0.5,0.5,3.5,5.5,4.5,6.5];
+	
+	for (var i = 0; i < $("#wrap div span").length; i++) {
+		$("#wrap div").eq(i).find('span').html(_data[i]+"%");
+		$(".lilv").eq(i).html(_data[i+1]+"%");
+	}
+	for (var i=0; i < $('#wrap div').length; i++) {
+		_height[i]=$('#wrap div').eq(i).height();
+		_pre[i]=$('#wrap div').eq(i).find('span').html();
+	}
+	
+	$('#wrap div').hover(function(){
+			var _this=$(this);
+			var index=$(this).index();
+			for (var i=0; i < index; i++) {
+				$('#wrap div').eq(i).find('span').html(_this.find('span').html());
+				$('#wrap div').eq(i).stop().animate( {
+					'height': $(this).find('strong').height()
+				}, 300);
+			}
+		},
+		function(){
+			for (var i=0; i < $('div').length; i++) {
+				$('#wrap div').eq(i).find('span').html(_pre[i]);
+				$('#wrap div').eq(i).stop().animate( {
+					'height': _height[i] + 'px'
+				}, 300);
+			}
+		}
+	);	
+	$("#line2").on("mouseenter",function(){
+		$("#line2").find("ul").fadeIn(100);
+	})
+	$("#line2").on("mouseout",function(){
+		$("#line2").find("ul").fadeOut(100);
+	})
+	$("#line3").on("mouseenter",function(){
+		$("#line3").find("ul").fadeIn(100);
+	})
+	$("#line3").on("mouseout",function(){
+		$("#line3").find("ul").fadeOut(100);
+	})
+	$("#line4").on("mouseenter",function(){
+		$("#line4").find("ul").fadeIn(100);
+	})
+	$("#line4").on("mouseout",function(){
+		$("#line4").find("ul").fadeOut(100);
+	})
+	$("#line5").on("mouseenter",function(){
+		$("#line5").find("ul").fadeIn(100);
+	})
+	$("#line5").on("mouseout",function(){
+		$("#line5").find("ul").fadeOut(100);
+	})
+	$("#line6").on("mouseenter",function(){
+		$("#line6").find("ul").fadeIn(100);
+	})
+	$("#line6").on("mouseout",function(){
+		$("#line6").find("ul").fadeOut(100);
+	})
+	$("#line7").on("mouseenter",function(){
+		$("#line7").find("ul").fadeIn(100);
+	})
+	$("#line7").on("mouseout",function(){
+		$("#line7").find("ul").fadeOut(100);
+	})
+	$("#line8").on("mouseenter",function(){
+		$("#line8").find("ul").fadeIn(100);
+	})
+	$("#line8").on("mouseout",function(){
+		$("#line8").find("ul").fadeOut(100);
+	})
+	$("#line9").on("mouseenter",function(){
+		$("#line9").find("ul").fadeIn(100);
+	})
+	$("#line9").on("mouseout",function(){
+		$("#line9").find("ul").fadeOut(100);
+	})
+	$("#line10").on("mouseenter",function(){
+		$("#line10").find("ul").fadeIn(100);
+	})
+	$("#line10").on("mouseout",function(){
+		$("#line10").find("ul").fadeOut(100);
+	})
+	$("#line11").on("mouseenter",function(){
+		$("#line11").find("ul").fadeIn(100);
+	})
+	$("#line11").on("mouseout",function(){
+		$("#line11").find("ul").fadeOut(100);
+	})
+	$("#line12").on("mouseenter",function(){
+		$("#line12").find("ul").fadeIn(100);
+	})
+	$("#line12").on("mouseout",function(){
+		$("#line12").find("ul").fadeOut(100);
+	})
+</script>
+<script type="text/javascript">
+    $(function () {
+        //点击投资金额按钮将对应金额赋给input,且增加选中样式
+        var imoneys = $(".invest-money-ffh");
+        imoneys.each(function () {
+            $(this).click(function () {
+                $(".invest-input").val($(this).val());
+                //移除所有的选中样式
+                imoneys.removeClass("invest-money-selected-ff");
+                //为当前点击的按钮设置选中样式
+                $(this).addClass("invest-money-selected-ff");
+                //解除不可用状态
+                $(".invest-jia").removeClass("invest-unjiajian");
+                $("#invest-jian").removeClass("invest-unjiajian");
+            });
+        });
+
+        //点击加号 100倍递增
+        $("#invest-jia").click(function () {
+            //获取当前input中的值
+            var currentMoney = Number($(".invest-input").val());
+            //最大值为5000且每次累加100，当累加值不满100时禁用累加按钮
+            if (currentMoney > 999900) {
+                $("#invest-jia").addClass("invest-unjiajian");
+                return;
+            }
+            $("#invest-jian").removeClass("invest-unjiajian");
+            $(".invest-input").val((currentMoney + 100).toFixed(2));
+        });
+
+        //点击减号号 100倍递减
+        $("#invest-jian").click(function () {
+            //获取当前input中的值
+            var currentMoney = Number($(".invest-input").val());
+            //最小值为100且每次累减100，当累减值不满100时禁用按钮
+            if ((currentMoney) < 200) {
+                $("#invest-jian").addClass("invest-unjiajian");
+                return;
+            }
+            $("#invest-jia").removeClass("invest-unjiajian");
+            $(".invest-input").val((currentMoney - 100).toFixed(2));
+        });
+
+        //计算器
+        $(".cal_pans").click(function () {
+            $("#cal_div").toggleClass("disnone").toggleClass("dis_block");
+        });
+
+        $("#close_cal_div").click(function(){
+            $("#cal_div").removeClass("dis_block").addClass("disnone");
+        });
+        // 预期收益公式：投资金额  投资期限 年化利率
+        function getSy(je,qx,lv ){
+            //预期收益
+            var sy=(je * (lv/ 100) / 360 * qx).toFixed(2)
+            return  sy
+        }
+
+        //根据期限 返回利率
+        function getLv(qx){
+            var tz_qx_nh = {1: 6, 2: 6.5, 3: 7, 4: 7.5, 5: 8, 6: 8.5, 7: 9, 8: 9.5, 9: 10, 10: 10.5};
+            var lv;
+            //如果投资期限 等于大于11个月，预期年化率固定为：11；
+            if (qx >= 11) {
+                //预期利率
+                lv=11;
+            } else {
+                $.each(tz_qx_nh, function (k, v) {
+                    if (k == qx) {
+                        //预期利率
+                        lv=v;
+                    }
+                })
+            }
+            return lv;
+        }
+
+
+        //投资期限
+        var tzdate = $(".cal_m");
+        tzdate.each(function () {
+            $(this).click(function () {
+                $(this).addClass("clicked_caltd").siblings().removeClass("clicked_caltd").parent().siblings().children().removeClass("clicked_caltd");
+
+                //清空扩展按钮-投资期限输入框
+                $("#kz_input").val("");
+
+                //预期年化 动态计算
+                var yqnh_v = $(this).attr("abbr");
+                $("#yqnh").text(yqnh_v);
+
+                //投资金额
+                var tzje = $(".steph-input").val();
+                //投资期限
+                var tzqx_date = $(this).attr("about");
+
+                //预期收益 动态计算
+                $("#yqsy").text(getSy(tzje,tzqx_date,yqnh_v));
+            });
+        });
+
+        //扩展按钮
+        $(".du_arrow").click(function () {
+            if ($(this).hasClass("dowm_arrow")) {
+                // 取消 已选中的投资期限
+                tzdate.removeClass("clicked_caltd");
+
+                //清空 预期年化,预期收益
+                $("#yqnh").text("");
+                $("#yqsy").text("")
+
+                //将扩展按钮的向下表示 变为 箭头向上标示
+                $(".kztr").addClass("dis_inline_block").removeClass("disnone");
+                $(".dowm_arrow").attr("style", "top:152px").removeClass("dowm_arrow").addClass("up_arrow");
+            } else {
+                //隐藏 投资期限之输入框
+                $(".kztr").addClass("disnone").removeClass("dis_inline_block");
+                //将扩展按钮的向上表示 变为 箭头向下标示
+                $(this).attr("style", "top:107px").removeClass("up_arrow").addClass("dowm_arrow");
+            }
+        });
+
+        //扩展按钮--投资期限 输入框
+        $("#kz_input").keyup(function () {
+
+            $(".cal_m").removeClass("clicked_caltd");
+            //投资金额
+            var tzje = $(".steph-input").val();
+            //投资期限
+            var tzqx_date = $("#kz_input").val();
+
+            //投资利率
+            var tzlv =getLv(tzqx_date);
+            $("#yqnh").text(tzlv);
+            //预期收益 动态计算
+            $("#yqsy").text(getSy(tzje, tzqx_date,tzlv));
+
+        });
+
+
+        //产品介绍---点击加号 100倍递增
+        $("#projs-jia").click(function () {
+            //获取当前input中的值
+            var currentMoney = Number($(".projs-input").val());
+            //最大值为5000且每次累加100，当累加值不满100时禁用累加按钮
+            if (currentMoney > 999900) {
+                $("#projs-jia").addClass("projs-unjiajian");
+                return;
+            }
+            $("#projs-jian").removeClass("projs-unjiajian");
+            $(".projs-input").val((currentMoney + 100).toFixed(2));
+        });
+
+        //产品介绍---点击减号号 100倍递减
+        $("#projs-jian").click(function () {
+            //获取当前input中的值
+            var currentMoney = Number($(".projs-input").val());
+            //最小值为100且每次累减100，当累减值不满100时禁用按钮
+            if ((currentMoney) < 200) {
+                $("#projs-jian").addClass("projs-unjiajian");
+                return;
+            }
+            $("#projs-jia").removeClass("projs-unjiajian");
+            $(".projs-input").val((currentMoney - 100).toFixed(2));
+        });
+
+        //计算收益按钮
+        $("#jssy_btn").click(function(){
+            //动态变更利率
+            $(".jsxy_nh").text("");
+            //动态变更收益
+            $(".jsxy_sy").text("");
+            $("#jssy_div").removeClass("disnone").addClass("disblock");
+            //投资金额
+            var je=$("#jssy_je").val();
+            //投资期限
+            var qx=$("#jssy_qx").attr("selected",true).val();
+            //年化利率
+            var lv=getLv(qx);
+            //预期收益
+            var sy=getSy(je,qx,lv);
+            //动态变更利率
+            $("#jsxy_nh").text(lv);
+            //动态变更收益
+            $("#jsxy_sy").text(sy);
+            if(qx==1){
+
+            }
+        });
+        //点击投资按钮 关闭弹框
+        $("#buy-mg-btn").click(function () {
+            $("#sh_dialog_bid").modal("hide");
+        });
+    });
+</script>
+<script>
+
+</script>
+</body>
+</html>
