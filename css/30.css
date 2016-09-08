@@ -1,0 +1,342 @@
+/*首页 3.0 start */
+.border-bottom-eee{ 
+    border-bottom:1px solid #eeeeee
+}
+
+.container-w1100{
+    width: 1100px;
+    width: 1100px !important;
+	margin:auto; 
+}
+
+.line-a {
+    border-bottom: 1px solid #eeeeee;
+    height: 2px;
+    width: 100%;
+}
+.w-left-780{ 
+    width:780px;
+	float:left; 
+	height:auto;
+	}
+
+.w-right-300{ 
+    width:300px; 
+	float:right; 
+	height:auto;
+	
+}
+
+.pt15{ 
+     padding-top:15px
+	 }
+	 
+.mt15{
+	margin-top:15px;
+	}	 
+	
+.w-60{
+	width:60px;
+	}	
+
+.w-70{
+	width:70px;
+	}	
+		
+.w-100{
+	width:100px;
+	}	
+	
+.w-180{
+	width:180px;
+	}	
+	
+.w-150{
+	width:150px;
+	}
+
+.w-170{
+	width:170px;
+	}
+	
+.w-220{
+	width:220px;
+	}					 
+	 
+.line-h30 {
+    line-height: 30px;
+}
+
+.font-fff{
+	color:#fff;
+	}
+	
+a.font-fff:hover {
+    color: #fff;
+    text-decoration: underline;
+}	
+
+.btm-red{
+	background:#ff7365;
+	}
+
+a.btm-red:hover{
+	background:#fe5544;
+	}
+
+
+.btm-yellow{
+	background:#f9ac3a;
+	}
+
+a.btm-yellow:hover{
+	background:#f88701;
+	}
+	
+		
+.border-red{
+	background:#fff5f4;
+	border:1px solid #ff9186
+	} 
+
+.border-yellow	{
+	background:#fff9f0;
+	border:1px solid #f9ac3a
+	} 	
+
+.line-h20{
+	line-height:20px;
+	}
+
+.h30l40{
+	height:30px;
+	line-height:40px;
+	}
+	
+.font-4ca2ff{
+	color:#4ca2ff
+	}
+	
+a.font-4ca2ff:hover{
+	color:#1d8aff
+	}
+
+.font-ff7365{
+	color:#ff7365
+	}
+	
+.font-f9ac3a{
+	color:#f9ac3a;
+}
+		
+.font22{
+	font-size:22px;
+	}	
+	
+.border-lrb{
+	border:1px solid #eeeeee; 
+	background:#ffffff; 
+	border-top:none
+	}
+.border-eee{
+	border:1px solid #eeeeee; 
+	background:#ffffff; 
+	}
+	
+.pl50{
+	padding-left:50px;
+	}
+	
+.w-box-f100{
+	 width:100%
+	 }
+
+.size-btn-130x40{
+	width:130px; 
+	height:40px; 
+	padding:0px; 
+	display:inline-block; 
+	line-height:40px;
+	text-align:center;
+	}
+
+.size-btn-118x36{
+	width:118px; 
+	height:36px; 
+	padding:0px; 
+	display:inline-block; 
+	line-height:34px;
+	text-align:center;
+	}
+.ind-title{
+	width:780px; 
+	height:50px;
+	color:#FFF;
+	} 
+
+.ind-title-a{
+	width:780px; 
+	height:40px;
+	line-height:45px;
+	}	
+
+.tit-bj1{
+    background:url(../images/public/index-title1.png) no-repeat;
+	}
+
+.tit-bj2{
+    background:url(../images/public/index-title2.png) no-repeat;
+	}
+	
+.tit-bj3{
+    background:url(../images/public/index-title3.png) no-repeat;
+	}
+		
+.ind-title-t1{
+	width:500px;
+	margin-left:180px;  
+	font-size:14px;
+	}
+
+.ind-title-t2{
+	width:80px; 
+	font-size:14px;
+	}
+	
+.ind-title-t3{
+	width:680px; 
+	font-size:16px;
+	padding-left:30px;
+	
+	}	
+	
+.w-box-200{
+	width:200px;
+	height:170px;
+	}	
+
+.ind-bj1{
+	background:url(../images/public/bj-novice.png) 
+	30px 0px no-repeat; 
+	padding:120px 0px 0px 30px;}
+
+.ind-bj2{
+	background:url(../images/public/bj-seckill.png) 
+	30px 0px no-repeat; 
+	padding:95px 0px 0px 30px;}
+	
+.w-box-560{
+	width:560px;
+	}
+.rry_sq_af{
+	line-height:28px;
+	}
+	
+.rry_sq{
+	color:#333333;
+	padding-right:10px;
+}
+
+.Speed {
+	width:80px; 
+	height:80px; 
+	position:absolute; 
+	left:440px;
+	top:-25px; 
+	}	
+
+.Speed img{ width:70px;}
+
+.ind-current{
+	width:26px; 
+	height:60px; 
+	position:absolute; 
+	right:15px;
+	top:0px;}
+
+	
+.list-product-index{ padding:0px; margin:0px}
+.list-product-index li{
+	list-style-type :none; 
+	padding:5px 0px;
+	margin:0px;
+	line-height:48px;}
+	
+.pl30{ padding-left:30px;}	
+
+.ind-icon{
+	position:absolute;
+	top:10px;
+	left:-5px;
+	}
+
+.ind-xtit {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+	margin-left:90px;
+	}	
+	
+.ind-success{
+	background:url(../images/public/success-borrow2.png) no-repeat;  
+	width:105px; 
+	height:70px;
+	position:absolute;
+	left:520px;
+	top:2px; }	
+	
+.index-news{
+	border-top:1px solid #eeeeee
+	}	
+
+.index-news{
+	height:168px;
+	}
+
+.index-news ul li{
+	width:280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	padding:8px 10px;
+	height:30px;}	
+
+.bj-f4faff{
+	background:#f4faff
+	}
+	
+.ind-amount{
+	background:url(../images/public/Amount.png) no-repeat;
+	width:87px;
+	height:23px;
+	position:absolute;
+	left:-2px; 
+	top:5px;}
+	
+.index-logo-1{
+	width:260px;
+	}			
+	
+.h-box-206{ height:206px;}
+
+.line2{  border-bottom:1px dashed #d8ebf9; width:290px; height:4px;}
+
+.border-left-e7{ border:none}	
+
+ul.xxd-size li {
+    width: 130px;
+    margin: 20px 6px 0 6px;
+}
+
+ul.xxd-size li div {
+    width: 130px;
+    height: 75px;
+    border: 1px solid #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    overflow: hidden;
+}
+/*首页 3.0  over */

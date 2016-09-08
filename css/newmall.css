@@ -1,0 +1,1071 @@
+﻿/* 新新商城 2.0 */
+
+.W1020-box {
+    width: 1020px;
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+    min-height: 300px;
+}
+
+.W1020-box h1 {
+    font-size: 20px;
+    line-height: 3
+}
+
+.m10 {
+    margin-left: 10px;
+}
+
+/*分期直通车*/
+.Staging {
+    width: 1020px;
+    height: 430px;
+    background: url(../../images/marketad/bj01.jpg) no-repeat;
+    padding: 60px 40px 0px 40px;
+}
+
+.tab-staging {
+    width: 700px;
+    font-size: 18px;
+    border: 0px;
+    float: left
+}
+
+.tab-staging .td-A {
+    width: 110px;
+}
+
+.tab-staging .td-B {
+    width: 240px;
+}
+
+.tab-staging .td-C {
+    width: 90px;
+}
+
+.tab-staging .td-D {
+    width: 240px;
+}
+
+.tab-staging td {
+    padding: 8px 0px;
+}
+
+.ipt-big {
+    border: 0 none;
+    width: 540px;
+}
+
+.ipt-small {
+    border: 0 none;
+    width: 190px
+}
+
+.ipt-b {
+    border: 0 none;
+    width: 600px;
+    height: 100px;
+    line-height: 1.5;
+    font-size: 13px;
+    margin-bottom: 9px;
+    padding: 5px 3px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.font-red {
+    font-size: 14px;
+    color: #c9151e
+}
+
+.m390 {
+    margin-left: 390px;
+}
+
+.alert, .alert-error {
+    font-size: 12px;
+    width: 540px;
+    margin: 0px 0px 0px 110px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.banner-A {
+    float: right;
+    width: 235px;
+}
+
+.banner-A img {
+    width: 235px;
+}
+
+/*4大特点*/
+.W-max {
+    width: 100%;
+    background: #fff;
+    height: 250px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.W-max ul {
+    width: 1020px;
+    margin: auto;
+}
+
+.W-max li {
+    list-style-type: none;
+    float: left;
+    margin: 0px 27px;
+}
+
+.W-max li h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #999;
+    line-height: 2
+}
+
+.W-max li p {
+    width: 100%;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+}
+
+/*新生贷*/
+.xstd {
+    width: 480px;
+    height: 300px;
+    float: left;
+    padding: 0px 10px;
+}
+
+.xstd img {
+    width: 480px;
+    height: 230px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2)
+}
+
+/*精选商家*/
+.B2C {
+    width: 480px;
+    height: 300px;
+    float: right;
+    padding: 0px 10px;
+}
+
+.B2C ul {
+    width: 480px;
+    height: 230px;
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.B2C li {
+    list-style-type: none;
+    float: left;
+    width: 110px;
+    margin: 5px 0px 0px 8px;
+}
+
+.B2C img {
+    width: 110px;
+    height: 50px;
+}
+
+.w-btn100 {
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/*精品汇*/
+.tab-pro {
+    width: 1000px;
+    margin-left: 10px;
+    background: #fff;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.tab-pro td {
+    border: 1px solid #DEDEDE;
+    padding: 10px 0px;
+    text-align: center
+}
+
+/*商家直通车*/
+.h1_b {
+    width: 890px;
+    margin: 20px auto;
+}
+
+.B2C_max {
+    width: 900px;
+    margin: auto;
+}
+
+.B2C_max li {
+    list-style-type: none;
+    float: left;
+}
+
+.B2C_max a:link, .B2C_max a:visited {
+    display: block;
+    width: 176px;
+    margin: 24px;
+    padding: 10px 15px;
+    border: 1px solid #ddd
+}
+
+.B2C_max a:hover, .B2C_max a:active {
+    display: block;
+    width: 176px;
+    margin: 24px;
+    padding: 10px 15px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2)
+}
+
+.img_box {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: url(../../images/marketad/img.jpg) center no-repeat #fff;
+    text-align: center;
+    width: 260px;
+    height: 140px;
+}
+
+.img_box span {
+    margin-top: 100px;
+    display: block
+}
+
+/*我的分期购*/
+.dd-box {
+    background: url(../../images/marketad/dd.jpg) no-repeat;
+    width: 760px;
+    height: 100px;
+    margin: auto;
+}
+
+.dd-a1 {
+    background: url(../../images/marketad/dd-a.jpg) no-repeat;
+    width: 140px;
+    height: 100px;
+}
+
+.dd-a2 {
+    background: url(../../images/marketad/dd-a.jpg) no-repeat;
+    width: 270px;
+    height: 100px;
+}
+
+.dd-a3 {
+    background: url(../../images/marketad/dd-a.jpg) no-repeat;
+    width: 400px;
+    height: 100px;
+}
+
+.dd-a4 {
+    background: url(../../images/marketad/dd-a.jpg) no-repeat;
+    width: 530px;
+    height: 100px;
+}
+
+.dd-a5 {
+    background: url(../../images/marketad/dd-a.jpg) no-repeat;
+    width: 760px;
+    height: 100px;
+}
+
+.tit-h2 {
+    background: #dedede;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    position: absolute;
+    margin-left: -10px;
+    height: 60px;
+    top: 140px;
+    padding-left: 30px;
+}
+
+.tit-h2_c {
+    background: #dedede;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    position: absolute;
+    margin-left: -10px;
+    height: 60px;
+    top: 140px;
+    padding-left: 30px;
+}
+
+.tit-h3 {
+    border-top: 1px solid #dedede;
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.tab-600 {
+    width: 600px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.tab-600 td {
+    padding: 8px 0px;
+}
+
+.tab-1000 {
+    width: 1000px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.tab-1000 td {
+    padding: 8px 0px;
+}
+
+.w-200 {
+    width: 200px;
+    margin: 0px;
+    margin-top: -8px;
+}
+
+.w-300-red {
+    width: 300px;
+    height: 80px;
+    float: left;
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.w-460-box {
+    width: 400px;
+    height: 80px;
+    float: right;
+    text-align: right;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.f-14-a {
+    color: #010101
+}
+
+.f-14-red {
+    color: #ff0000;
+}
+
+.f-18-a {
+    font-size: 18px;
+    color: #000;
+}
+
+.f-18-red {
+    font-size: 18px;
+    color: #ff0000;
+}
+
+.mr-30 {
+    margin-right: 30px;
+    display: inline-block
+}
+
+.f-line-height-2 {
+    padding: 15px 0px;
+    line-height: 2.5
+}
+
+.w1000-box {
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.banner-800 {
+    width: 796px;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.account-border-box {
+    border: none;
+    width: 100%
+}
+
+.ic-mymoney {
+    background: url(../../images/marketad/icon-5.png);
+    width: 24px;
+    height: 24px;
+}
+
+.ic-loan {
+    background: url(../../images/marketad/icon-5.png) -34px;
+    width: 24px;
+    height: 24px;
+}
+
+.ic-inverst {
+    background: url(../../images/marketad/icon-5.png) -68px;
+    width: 24px;
+    height: 24px;
+}
+
+/*订单*/
+.order_tips {
+    border: 1px solid #EED97C;
+    padding: 14px;
+    background: #FFFCEB;
+    color: #FF3F00;
+    margin: 10px 0px;
+}
+
+.w-180 {
+    width: 160px;
+}
+
+.ipt-line {
+    border: 1px solid #ccc
+}
+
+.ui_layout {
+    padding: 10px 0px
+}
+
+.creditcardul li {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.cont-numberlist {
+    text-align: right;
+    width: 780px;
+}
+
+/*商品兑换*/
+.W-cp {
+    background: #fff;
+    height: 530px;
+}
+
+.comidty {
+    width: 200px;
+    float: left;
+    font-size: 14px;
+    margin: 20px 0px 20px 45px;
+}
+
+.comidty li {
+    line-height: 22px;
+}
+
+/*漂浮*/
+.newmall_help {
+    position: fixed;
+    top: 450px;
+    right: 50px;
+    width: 79px;
+    height: 210px;
+}
+
+/*常见问题 */
+.QA_xxd {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.QA_xxd h1 {
+    width: 1000px;
+    margin: auto;
+    height: 60px;
+    font-size: 24px;
+    line-height: 2.2;
+}
+
+.QA_list {
+    width: 1000px;
+    border-radius: 5px;
+    border: 2px solid #deecf6;
+    padding: 15px;
+    padding-bottom: 5px;
+    background: #fff;
+}
+
+.QA_list dt {
+    width: 970px;
+    position: relative;
+    color: #004682;
+}
+
+.QA_list dt p {
+    width: 935px;
+    display: inline-block;
+    font: 14px/2 "微软雅黑";
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.QA_list dd {
+    width: 970px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.QA_list .ico {
+    width: 25px;
+    font: 14px/2 "微软雅黑";
+    font-weight: bold;
+    position: absolute;
+}
+
+.QA_list dd p {
+    width: 935px;
+    display: inline-block;
+    font: 14px/2 "微软雅黑";
+    margin-left: 25px;
+    color: #666
+}
+
+.f-lan {
+    color: #004682
+}
+
+.indetity-photo-example {
+    text-align: center
+}
+
+/* 兼容原有商城页面 */
+.account-menubox {
+    border: none;
+}
+
+.content-right {
+    width: 820px;
+}
+
+/* 更多商家 */
+#fenqile {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.section {
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.section .bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.section1 .bg {
+    background: #3dd79e;
+    z-index: 1008;
+}
+
+.section2 .bg {
+    background: #fdeee9;
+    z-index: 1100
+}
+
+.section3 .bg {
+    background: #7ddbcf;
+    z-index: 1101
+}
+
+.section4 .bg {
+    background: #fdde70;
+    z-index: 1102
+}
+
+.section5 .bg {
+    background: #7ccae1;
+    z-index: 1103
+}
+
+.section5 .bg2 {
+    background: url(../../images/marketad/bg5-2.png) repeat-x;
+    position: absolute;
+    z-index: 1103;
+    left: 0%;
+    width: 100%;
+    top: 70%
+}
+
+.section6 .bg {
+    background: #f06d45;
+    z-index: 1104
+}
+
+.bg8 {
+    background: url(../../images/marketad/nn_bh3.jpg) center no-repeat;
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: -15%;
+    z-index: 1101
+}
+
+.bg12 {
+    background: url(../../images/marketad/nn_bh4.jpg) center no-repeat;
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 0px;
+    top: 5%;
+    z-index: 1102;
+}
+
+.bg14 {
+    background: url(../../images/marketad/nn_bh5.jpg) center no-repeat;
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 0px;
+    top: -5%;
+    z-index: 1102;
+}
+
+.bg18 {
+    background: url(../../images/marketad/nn_bh6.jpg) no-repeat;
+    height: 1000px;
+    position: absolute;
+    width: 990px;
+    left: 24%;
+    bottom: 0px;
+    top: 5%;
+    z-index: 1102;
+}
+
+.bg_btn {
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+    left: 70%;
+    top: 20%;
+    z-index: 1104
+}
+
+.active {
+    display: block
+}
+
+/*商品矩形选择CSS*/
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c00;
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*tab*/
+.tab {
+    line-height: 56px;
+    font-size: 14px;
+}
+
+.tab a {
+    color: #07c;
+}
+
+.tab a:hover {
+    color: #c00;
+}
+
+.tab a.cur {
+    font-weight: bold;
+}
+
+/*商品详细页*/
+/*iteminfo*/
+.iteminfo {
+}
+
+.iteminfo_tit {
+    color: #333;
+    font-size: 22px;
+    font-family: "寰蒋闆呴粦", Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #e3e3e3;
+    font-weight: normal;
+    padding-bottom: 12px;
+    line-height: 32px;
+}
+
+.iteminfo_parameter {
+    padding: 8px 0;
+}
+
+.iteminfo_parameter_default {
+    color: #888;
+}
+
+.iteminfo_parameter dt {
+    margin-left: -70px;
+    float: left;
+    display: inline;
+    width: 60px;
+    white-space: nowrap;
+    text-align: right;
+    color: #888;
+}
+
+.iteminfo_mktprice {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+}
+
+.lh32 {
+    line-height: 32px;
+}
+
+.iteminfo_price {
+    color: #c00;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+
+.sys_item_price {
+    color: #c00;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.iteminfo_buying {
+    background: #f7f7f7;
+    padding: 12px 0;
+}
+
+/*规格*/
+.sys_item_spec dl.iteminfo_parameter {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sys_item_spec dl.iteminfo_parameter dt {
+    line-height: 32px;
+}
+
+.sys_spec_text {
+}
+
+.sys_spec_text li {
+    float: left;
+    height: 28px;
+    position: relative;
+    margin: 2px 6px 2px 0;
+    outline: none;
+}
+
+.sys_spec_text li a {
+    height: 28px;
+    padding: 1px 1px;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.sys_spec_text li a:hover {
+    border: 2px solid #e4393c;
+    padding: 0 1px;
+    text-decoration: none;
+}
+
+.sys_spec_text li i {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    line-height: 0;
+    right: 2px;
+    bottom: 2px;
+    background: url(../../images/marketad/sys_item_selected.gif) no-repeat right bottom;
+    z-index: 99;
+    display: none;
+}
+
+.sys_spec_text li.selected a {
+    border: 2px solid #e4393c;
+    padding: 0 5px;
+}
+
+.sys_spec_text li.selected i {
+    display: block;
+}
+
+/*商品兑换*/
+.W-cp {
+    background: #fff;
+    height: 530px;
+}
+
+.comidty {
+    width: 200px;
+    float: left;
+    font-size: 14px;
+    margin: 20px 0px 20px 45px;
+}
+
+.comidty li {
+    line-height: 22px;
+}
+
+/*下单拉单 我的商城图标  */
+
+.glyphicon-nn {
+    background: url(../../images/marketad/iocn_nn.png) no-repeat 20px;
+    width: 18px;
+    height: 18px;
+    margin-left: -2px;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 2;
+    color: #333;
+    white-space: nowrap;
+    height: 25px;
+    width: 100%;
+}
+
+.dropdown-menu > li > a.glyphicon-nn:hover {
+    background: url(../../images/marketad/iocn_nn_b.png) #00498a no-repeat 20px;
+    color: #fff;
+}
+
+.glyph-nn {
+    width: 25px;
+    display: inline-block
+}
+
+.sys_spec_text {
+    margin: 0px
+}
+
+.tab-staging input {
+    margin-bottom: 0px;
+}
+
+.btn-xs {
+    border-bottom: 0 none;
+    font-size: 12px;
+    padding: 3px 10px;
+}
+
+/*IE浏览器placeholder字体颜色*/
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #999;
+}
+
+
+
+
+/*分期购上线抽奖活动专题页 start*/
+.c-Activities {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background: #d41730
+}
+
+.c-Activities-img01 {
+    width: 100%;
+    height: 530px;
+    background: url(../images/newmall/Activities01.jpg) no-repeat
+}
+
+.c-Activities-img02 {
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    background: url(../images/newmall/Activities02.jpg) no-repeat
+}
+
+.c-Activities-img03 {
+    width: 1200px;
+    height: 1050px;
+    margin: auto;
+    background: url(../images/newmall/Activities03.gif) #d41730 no-repeat center
+}
+
+
+
+.c-Activities-img04 {
+    width: 100%;
+    height: 260px;
+    margin: auto;
+    background: url(../images/newmall/Activities06.gif) #00498a no-repeat center;
+    border-top: 12px solid #29abe2
+}
+
+
+/* 文本滚动 start */
+#scrollDiv {
+    overflow: auto;
+    padding-top: 110px;
+    padding-left: 60px;
+}
+.scrollText {
+    width: 490px;
+    height: 160px;
+    min-height: 25px;
+    line-height: 25px;
+    float: left;
+    overflow: hidden
+}
+.scrollText li {
+    width: 490px;
+    height: 25px;
+    padding-left: 10px;
+    margin: 0;
+    padding: 0
+}
+
+.scrollText ul {
+    margin: 0;
+    padding: 0
+}
+
+.scrollText span {
+    width: 160px;
+    float: left;
+    display: block;
+    line-height: 2.5;
+    border-bottom: 1px #ccc dashed;
+    text-align: center;
+    color: #5c5b5b
+}
+.up {
+    margin-left: 500px;
+    width: 50px;
+    height: 50px;
+    background: #F90
+}
+.down {
+    margin: 0 0 0 500px;
+    zoom: 1;
+    width: 50px;
+    height: 50px;
+    background: #960
+}
+/* 文本滚动 over */
+
+/* 抽奖转盘 start */
+#ly-plate {
+    width: 522px;
+    height: 522px;
+    background: url(../images/newmall/disk.jpg) no-repeat
+}
+
+#start {
+    width: 163px;
+    height: 320px;
+    position: absolute;
+    top: 183px;
+    left: 180px;
+}
+
+#start img {
+    cursor: pointer
+}
+
+.ly-plate {
+    position: relative;
+    width: 522px;
+    height: 522px;
+    margin: -280px 20px auto auto;
+    float: right
+}
+
+.rotate-bg {
+    width: 522px;
+    height: 522px;
+    background: url(../images/newmall/disk.jpg);
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.ly-plate div.lottery-star {
+    width: 214px;
+    height: 214px;
+    position: absolute;
+    top: 153px;
+    left: 158px;
+    outline: none
+}
+
+.ly-plate div.lottery-star #lotteryBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    *left: -107px
+}
+/* 抽奖转盘 start */
+
+/*分期购上线抽奖活动专题页 over */

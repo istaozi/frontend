@@ -1,0 +1,58 @@
+li { list-style-type: none; }
+.f1 { width:1000px; margin:0 auto; }
+.title1 { font-size:32px; line-height:120px; color:#2584c5; text-align:center; }
+.overflow { overflow:hidden; zoom:1; }
+.f_l { float:left; }
+.f_r { float:right; }
+.left1 { width:520px; text-align:center; }
+.right1 { width:470px; }
+.text1 { padding-right:80px; }
+.text1 p { font-size:14px; line-height:36px; color:#737373; }
+.text1 .font1 { font-size:29px; line-height:36px; color:#737373; }
+.list1 { position:relative; background:#2584c5; height:144px; padding:28px 0; margin-top:30px; _margin-top:15px; }
+.list1 li { width:250px; float:left; text-align:center; border-right:5px #fff solid; }
+.list1 .none { border:0; }
+.list1 p { font-size:24px; line-height:36px; color:#fff; }
+.rongzi { position:absolute; background:url(../images/bg1.gif) center center no-repeat!important; width:186px; height:183px; z-index:999999; right:64px; top:-73px; }
+.list1 .font2 { font-size:32px; line-height:32px; color:#fff; }
+.list1 .font3 { font-size:25px; line-height:25px; color:#fff; position:absolute; bottom:20px; }
+.list1 .font4 { padding-top:50px; position:relative; font-size:45px; line-height:45px; color:#fff; }
+.list1 .font5 { font-size:20px; line-height:30px; color:#fff; }
+.rongzi p { text-align:center; }
+.text2 { font-size:16px; line-height:32px; color:#2584c5; text-align:center; padding-bottom:24px; }
+.bg2 { margin-top:30px; _margin-top:15px; padding-top:15px; height:591px; background:url(../images/bg2.gif) center center no-repeat!important; }
+.list2 { height:489px; background:url(../images/bg3.gif) center center no-repeat!important; width:990px; margin:0 auto; }
+.list3 { height:152px; background:url(../images/bg4.gif) center center no-repeat!important; width:990px; margin:20px auto 32px; _margin:10px auto 16px; }
+.list2 ul, .list3 ul { margin:0; width:1020px; overflow:inherit; }
+.list2 li { height:489px; width:240px; margin-right:10px; _margin-right:5px; float:left; position:relative; }
+.more { position:absolute; right:20px; bottom:10px; }
+.more a { font-size:12px; line-height:12px; color:#fff; }
+.list3 li { width:237px; margin-right:14px; _margin-right:6.5px; float:left; }
+.fonta1 { font-size:18px; line-height:27px; color:#1983C5; padding-top:50px; text-align:center; border-bottom:2px #327898 solid; padding-bottom:8px; margin:0; }
+.fonta2 { font-size:16px; line-height:32px; color:#338cc8; text-align:center; }
+.text3 { padding:0 14px; }
+.text3 p { font-size:14px; line-height:30px; color:#fff; margin:0; padding:0; }
+.list3 li { text-align:center; padding-top:95px; }
+.list3 li p { font-size:15px; line-height:24px; color:#fff; text-align:center; margin:0; padding:0; }
+.pic1 { width:1000px; height:615px; position:relative; margin:0 auto 36px; _margin:0 auto 18px; background:#2584c5; }
+.bg5 { position:absolute; bottom:0; left:50%; margin-left:-8.5px; _margin-left:-4.25px; width:17px; height:9px; z-index:9999; display:none; }
+.texta { width:300px; height:auto; margin-top:5px; padding:3px 8px; position:absolute; left:50%; margin-left:-150px; _margin-left:-75px; background:#fff; border:1px #ddd solid; border-radius: 8px; z-index:999; display:none; }
+.show .bg5, .show .texta { display:block; }
+.p1 { position:absolute; left:97px; top:79px; width:121px; height:121px; cursor:pointer; }
+.p2 { position:absolute; left:537px; top:19px; height:85px; cursor:pointer; }
+.p3 { position:absolute; left:293px; top:72px; cursor:pointer; }
+.p4 { position:absolute; left:112px; top:329px; height:61px; cursor:pointer; }
+.p5 { position:absolute; left:255px; top:309px; height:90px; cursor:pointer; }
+.p6 { position:absolute; left:577px; top:195px; height:84px; cursor:pointer; }
+.p7 { position:absolute; left:724px; top:110px; height:105px; cursor:pointer; }
+.p8 { position:absolute; left:141px; top:441px; height:96px; cursor:pointer; }
+.p9 { position:absolute; left:386px; top:360px; height:85px; cursor:pointer; }
+.p101 { position:absolute; left:293px; top:462px; height:79px; cursor:pointer; }
+.p11 { position:absolute; left:434px; top:485px; height:76px; cursor:pointer; }
+.p12 { position:absolute; left:577px; top:307px; height:83px; cursor:pointer; }
+.p13 { position:absolute; left:544px; top:418px; height:124px; cursor:pointer; }
+.p14 { position:absolute; left:755px; top:296px; height:103px; cursor:pointer; }
+.p15 { position:absolute; left:705px; top:467px; height:83px; cursor:pointer; }
+.f1 .tv { padding-top:40px; padding-left:60px; }
+.banner { width:100%; max-width:1922px; margin:0 auto; }
+.banner img { width:100%; text-align:center; }
