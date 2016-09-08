@@ -1,0 +1,250 @@
+a{
+	color: black;
+}
+*{
+	font-family: "微软雅黑";
+}
+.box{
+	width: 100%;
+	background: #f9f9f9;
+	padding-bottom: 40px;
+	position: relative;
+}
+.cont{
+	width: 1100px;
+	margin: 50px auto;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+.zhiyin{
+	position: absolute;
+	top: -33px;
+	left: 93px;
+	font-size: 14px;
+	color: #8a8a8a;
+}
+.zhiyin ul li:nth-child(1){
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+}
+.zhiyin ul li:nth-child(2){
+	margin-right: 5px;
+	float: left;
+	cursor: pointer;
+}
+
+/*内容左侧*/
+.conl{
+	width: 762px;
+	float: left;
+	font-size: 14px;
+	border: 1px solid #E6E6E6;
+	background: white;
+}
+.conl_nav{
+	width: 100%;
+	height: 67px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.th{
+	width: 206px;
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+	font-size: 22px;
+	border-bottom: 4px solid #4ca2ff;
+	position: relative;
+	cursor: pointer;
+}
+.tiwen{
+	float: left;
+	margin-left: 96px;
+}
+.huida{
+	float: right;
+	margin-right: 96px;
+	border-bottom: none;
+}
+.xhot{
+	position: absolute;
+	top: 7px;
+	right: 29px;
+}
+.bhot{
+	display: none;
+	position: absolute;
+	top: 7px;
+	right: 29px;
+}
+/*我的回答*/
+.conl_conw{
+	display: none;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px 32px 0px 32px;
+}
+.ti_cong{
+	width: 100%;
+	border-bottom: 1px dashed #e6e6e6;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.biaoti{
+	color: #494949;
+	font-weight: normal;
+	font-size: 22px;
+}
+.wenti{
+	width: 100%;
+	line-height: 23px;
+	margin: 8px 0px;
+	/*opacity: 0.6;*/
+}
+.thuman{
+	/*color: #dddddd;*/
+	float: left;
+	margin-right: 105px;
+}
+.zan{
+	/*color: #dddddd;*/
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+}
+.zan img{
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.zan span{
+	float: left;
+}
+.shi{
+	/*color: #dddddd;*/
+	float: right;
+	margin-left: 30px;
+}
+.nian{
+	/*color: #dddddd;*/
+	float: right;
+}
+.other{
+	display: block;
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	margin-top: 8px;
+}
+/*我的问题*/
+.conl_cond{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px 32px 0px 32px;
+}
+.jieshig{
+	/*color: #959595;*/
+	display: none;
+}
+.timeg{
+	display: none;
+	margin: 8px;
+	text-align: right;
+}
+.wtime1,.wtime2,.wtime3,.dtime1,.dtime2,.dtime3{
+	display: block;
+}
+.wjieshi1,.wjieshi2,.wjieshi3,.djieshi1,.djieshi2,.djieshi3{
+	display: none;
+}
+.pass{
+	color: #20bc5b;
+	border: 1px solid #20BC5B;
+}
+.process{
+	color: #ff0000;
+	border: 1px solid #ff0000;
+}
+.fail{
+	color: #b2b2b2;
+	border: 1px solid #b2b2b2;
+}
+.sgeneral{
+	display: block;
+	width: 67px;
+	height: 17px;
+	text-align: center;
+	line-height: 17px;
+	float: right;
+	box-sizing: content-box;
+}
+
+
+
+/*内容右侧*/
+.conr{
+	width: 326px;
+	float: right;
+}
+.conr_top{
+	width: 324px;
+	box-sizing: border-box;
+	padding: 15px;
+	border: 1px solid #e6e6e6;
+	overflow: hidden;
+	background: white;
+}
+.headl{
+	display: block;
+	width: 99px;
+	height: 99px;
+	float: left;
+}
+.headr{
+	width: 160px;
+	float: right;
+	font-size: 16px;
+}
+.yuan{
+	display: inline-block;
+}
+.headr p:nth-child(2){
+	margin: 7px 0px;
+}
+.headr span{
+	margin-right: 7px;
+}
+.headr a{
+	display: block;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	border-radius: 17px;
+	background: #4ca2ff;
+}
+
+/*内容右侧下*/
+.conr_bot{
+	width: 324px;
+	box-sizing: border-box;
+	padding: 10px 7px 0px 7px;
+	/*padding-bottom: 0px;*/
+	border: 1px solid #e6e6e6;
+	overflow: hidden;
+	background: white;
+	margin-top: 10px;
+}
+.task{
+	display: block;
+	border: 1px solid #e6e6e6;
+	margin-bottom: 10px;
+}
+
+
+
+
+
