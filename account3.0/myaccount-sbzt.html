@@ -1,0 +1,1324 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的新新贷-散标直投</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-blue.css" rel="stylesheet">
+    <link href="../css/xxd.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <div id="errorie">
+        <div>您所使用的IE浏览器版本过旧，为了您获得更好的浏览体验，请升级您的浏览器到 IE8以上版本</div>
+    </div>
+    <![endif]-->
+</head>
+<body>
+<!--top start-->
+
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+
+            <p class="index_leftP relative">
+                <span class="font-666 mr10">客服热线：4000-168-521</span>
+                <span class="mobile_ver font-666 mr10">手机版</span>
+                <span class="mobile_erweima_ver" style="display:none;"></span>
+                <a href="http://weibo.com/xinxindai/profile?" target="_blank" class="weibo_ver mr10"><img class="mtf3"
+                                                                                                          src="../images/public/weibo.png"></a>
+                <span class="weixin_ver mr10"><img class="mtf3" src="../images/public/weixin.png"></span>
+                <span class="weixin_erweima_ver" style="display:none;"></span>
+            </p>
+
+            <!-- 登录状态topbar start-->
+            <nav class="nav-collapse user">
+                <div class="user-info pull-right">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <div>欢迎<span>新新贷用户户习大大</span></div>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href=""><span class="glyphicon glyphicon-user"></span> 我的新新贷</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> 充值</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> 站内信<span
+                                    class="badge">12</span></a></li>
+                            <li class="divider"></li>
+                            <li><a href=""><span class="icon-signout"></span> 退出登录</a></li>
+                        </ul>
+                        <a href="#" class="top-link right">关于我们</a>
+                        <a href="#" class="top-link right">帮助</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- 登录状态topbar over-->
+            <!-- 未登录状态topbar start-->
+            <nav class="nav-collapse user" style="display:none;">
+                <div class="user-info pull-right nologin">
+                    <a href="#" class="top-link">关于我们</a>
+                    <a href="#" class="top-link"></a>
+                    <a href="xxd-register.html" class="red">注册</a>
+                    <a href="xxd-register.html" class="blue">登录</a>
+                </div>
+            </nav>
+            <!-- 未登录状态topbar over-->
+        </div>
+    </div>
+</header>
+<!-- top over-->
+
+<!-- 导航栏 start-->
+<div class="navbar" style="margin-bottom:0;margin-top:-1px;">
+    <div class="top-menu min-w1000" style="margin-bottom:0;">
+        <div class="container">
+            <div class="xxd-logo">
+                <a href="/"><img src="../images/public/xxd-logo-default2.png"/></a>
+            </div>
+            <nav class="main-menu">
+                <ul class="nav">
+                    <li>
+                        <a href="/" class="dropdown-toggle main-menu-tit">首页</a>
+                    </li>
+                    <li class="haslink">
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown" id="MenuDropdown1">
+                            我要投资
+                            <span class="ic-arrow-right"> </span>
+                        </a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown1">
+
+                            <li><a href="/commpd/itemId/sevengold.html"><font class="hot">七天大胜</font></a></li>
+
+
+                            <li><a href="/commpd/itemId/monthgold.html">月进斗金</a></li>
+
+
+                            <li><a href="/fund/buyFund.html"> 日日盈</a></li>
+
+                            <li><a href="/xplan/search/list.html"> 新元宝</a></li>
+                            <li><a href="/borrow/search/list.html"> 散标直投</a></li>
+                            <li><a href="/traderequest/tradeRequestMoreSearch.html"> 债权转让</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- 登录状态-->
+
+                        <a href="/myloan/loan/9.html" class="dropdown-toggle main-menu-tit">我要借款</a>
+
+                        <!-- 未登录状态-->
+
+                    </li>
+                    <li><a href="/introduce/guide.html" class="main-menu-tit">新手指引</a></li>
+
+
+                    <!-- 登录状态-->
+
+                    <li><a href="/bbs/goToBbs.html" target="_blank" class="main-menu-tit" style="padding-right:8px;">社区</a></li>
+
+                    <!-- 未登录状态-->
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- 导航栏 over-->
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="/index.html">首页</a></li>
+        <li><a href="/accountshow/myaccount.html">我的新新贷</a></li>
+        <li><a href="#">投资管理</a></li>
+        <li>散标直投</li>
+    </ol>
+</div>
+<!-- main content start-->
+<div class="myaccount ">
+    <div class="container">
+        <div class="account-box clearfix leftmenu_bg">
+            <!-- 左侧菜单 start-->
+
+
+            <!-- 左侧菜单 start-->
+            <div class="account-menubox account-menubox-new  darkblue">
+                <ul class="account-menu account-menu-new ">
+                    <li>
+                        <a href="/accountshow/myaccount.html" class="myxxd-title font18 minexxd">我的新新贷</a>
+                    </li>
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-mymoney-new"></span>资金记录</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/account/moneyRecord.html" name="jymx">交易明细</a></div>
+                        <div><a href="/accountrecharge/topup.html" name="cz">充值</a></div>
+                        <div><a href="/account/initDrawmoney.html" name="tx">提现</a></div>
+                        <div><a href="/account/coinLog/0.html" name="xxb">新新币</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-loan-new"></span>投资管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone" style="display: block;">
+                        <div><a href="/commpd/mytender/sevengold.html" name="sevengold">七天大胜</a></div>
+                        <div><a href="/commpd/mytender/monthgold.html" name="monthgold">月进斗金</a></div>
+                        <div><a href="#" name="fund">日日盈</a></div>
+                        <div><a href="#" name="xplan">新元宝</a></div>
+                        <div><a href="#" name="stephigh">步步高升</a></div>
+                        <div><a href="/account/investment.html" name="cjjj" class="current_new">散标直投</a></div>
+                        <div><a href="/traderequest/transfer.html" name="zqzr">债权转让</a></div>
+                        <div style="display: none;"><a href="/xxb/mytender.html" name="xxbao">新新宝</a></div>
+                        <div style="display: none;"><a href="/xsb/mytender.html" name="xsb">新手标</a></div>
+                        <div><a href="/account/autobid.html" name="auto">自动投标设置</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-inverst-new"></span>借款管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/account/loanmanage.html" name="jksq">借款申请</a></div>
+                        <div><a href="/account/repaydetail.html" name="hkmx">还款明细</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-id-new"></span>个人资料</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/personal/basic.html" name="wdzl">我的资料</a></div>
+                        <div><a href="/personal/banksetup.html" name="bank">银行设置</a></div>
+                        <div><a href="/personal/changepassword.html" name="aq">安全设置</a></div>
+                        <div><a href="/question/loadQuestionList.html" name="qu">问卷调查</a></div>
+                        <div><a href="/contractsigning/loadcontract.html" name="sign">签约管理</a></div>
+                    </li>
+
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-activity-new"></span>互动管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone">
+                        <div><a href="/popularize/gomypopularizeactivity.html" name="xxtg">新新推广</a></div>
+                        <div><a href="/coupon/gomycoupon.html" name="wdlj">我的礼券</a></div>
+                    </li>
+
+                    <li class="flip flip-new">
+                        <a class="activeflip"><span class="ic-inbox-new"></span>消息管理</a>
+                    </li>
+                    <li class="flip-panel flip-panel-btnone mb10  flip-bottom">
+                        <div><a href="/account/message.html" name="znx">站内信</a></div>
+                        <div><a href="/userNotice/userNoticeConfig.html" name="userNotice">用户消息设置</a></div>
+                    </li>
+                    <li class="flip flip-new" style="border:none;">
+                    </li>
+                </ul>
+            </div>
+            <!-- 左侧菜单 over-->
+
+            <script type="text/javascript" src="/static/js/myxxd_left_menu.js"></script>
+
+
+            <input type="hidden" name="menuname" id="menuname" value="overview">
+            <!-- 左侧菜单 over-->
+
+            <!-- 右侧内容 start-->
+            <div class="account-contentbox">
+                <ul class="nav nav-tabs index-nav-tabs table-nav-tabs mt3" role="tablist" style="padding-left:0;margin-bottom: 0">
+                    <li class="sbzt_tabs active"><a href="#account-index-taba" role="tab" data-toggle="tab"> 回款中（1）</a></li>
+                    <li class="sbzt_tabs"><a href="#account-index-tabb" role="tab" data-toggle="tab"> 待满标（2）</a></li>
+                    <li class="sbzt_tabs"><a href="#account-index-tabc" role="tab" data-toggle="tab"> 已完成（10）</a></li>
+                    <a href="stephigh-logined.html" class="btn btn-xxd-small tz_bbgbtn  right"> 投资散标</a>
+                </ul>
+
+                <div class="tab-content" style="min-height:200px;">
+                    <!-- 回款中 start-->
+                    <div class="tab-pane fade in active " id="account-index-taba">
+                        <div class="layout clearfix mt15 pl15">
+                            <p class="font15 left pr10">待收本金总额：<span class="red">19,500.00</span>元</p>
+
+                            <p class="spe_line border-left-dark mt4"></p>
+
+                            <p class="font15 left  pl10">待收利息总额：<span class="red">2,339.91</span>元</p>
+                        </div>
+                        <div class="layout">
+                            <table class="mg-sg-table mt10">
+                                <thead>
+                                <tr class="sh-tablef" style="height: 40px;border-bottom: none; color:#878d96;">
+                                    <th class="pl20 w120">
+                                        <span class="state_st displya-block cursor-pi">基本信息&nbsp;<font class="esc">↓</font><font class="desc disnone">↑</font> </span>
+                                        <span class="displya-block"></span>
+                                    </th>
+                                    <th class="w160 text-left pl10">预期年化</th>
+                                    <th class="w120 text-left pl10">投资金额</th>
+                                    <th class="w130 text-left pl20">期数</th>
+                                    <th class="w130 text-left">待收本息</th>
+                                    <th class="w120 text-left pl10">已收本息</th>
+                                    <th class="w200 text-left pl10 cursor-pi next_st">下一回款日&nbsp;<font class="nesc">↓</font><font class="ndesc disnone">↑</font></th>
+                                    <th class="w200 text-left pl10">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w120" title="短期周转，多多多多益善多多益善益善">短期周转，多多多多益善多多益善益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_car sblist_pos" title="新车贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26">  7,456,123.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26">  7,456,123.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">  7,456,123.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26"> 2016-04-30</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"><a class="bluefont disblock hkjh_a" href="stephigh-protocol.html" target="_blank">回款计划</a></span>
+                                        <span class="disblock h26l26"><a class="disinline ic-blue" href="stephigh-protocol.html" target="_blank" data-toggle="modal" data-target="#sbtz_zr">债权转让</a></span>
+
+                                        <div class="sbzt_tabs_div quit_hover_ap disnone" style="z-index: 888;">
+                                            <div class="quit_hover_cs quit_hover_append">
+                                                <div class="pd10 pl30 clearfix">
+                                                    满标时间：<span class="pr12">2016-09-01</span>
+                                                    业务单号：<span class="pr10">BW1203348</span>
+                                                    <a class="ic-blue right mr10" href="#">查看合同</a>
+                                                </div>
+                                                <table>
+
+                                                    <thead>
+                                                    <td>期数</td>
+                                                    <td>预计回款日</td>
+                                                    <td>实际回款日</td>
+                                                    <td>应收本息</td>
+                                                    <td>实际本息</td>
+                                                    <td>收益管理费</td>
+                                                    <td>状态</td>
+                                                    </thead>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>500.25元</td>
+                                                        <td>+500.25元</td>
+                                                        <td>-1.25元</td>
+                                                        <td>已到账</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>500.25元</td>
+                                                        <td>+500.25元</td>
+                                                        <td>-1.25元</td>
+                                                        <td>已到账</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>逾期</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>待回款</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>待回款</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>待回款</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="7">
+                                                            <p class="fenye_sh"><span>首页</span><span>&lt;</span><span class="font-666">1</span><span>2</span><span>3</span><span>4</span><span> &gt; </span><span>尾页</span></p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w120" title="短期周转，多多多多益善多多益善益善">短期周转，多多多多益善多多益善益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_car sblist_pos" title="新车贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26">  7,456,123.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26">  7,456,123.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">  7,456,123.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26"> 2016-04-30</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"><a class="bluefont disblock hkjh_a2" href="stephigh-protocol.html" target="_blank">回款计划</a></span>
+                                        <span class="disblock h26l26"><a class="bluefont disblock cursor-pi zrz_a  " target="_blank">转让中</a></span>
+                                        <div class="sbzt_tabs_div quit_hover_ap2 disnone" style="z-index: 888;">
+                                            <div class="quit_hover_cs quit_hover_append quit_hover_append2">
+                                                <div class="pd10 pl30 clearfix">
+                                                    满标时间：<span class="pr12">2016-09-01</span>
+                                                    业务单号：<span class="pr10">BW1203348</span>
+                                                    <a class="ic-blue right mr10" href="#">查看合同</a>
+                                                </div>
+                                                <table>
+
+                                                    <thead>
+                                                    <td>期数</td>
+                                                    <td>预计回款日</td>
+                                                    <td>实际回款日</td>
+                                                    <td>应收本息</td>
+                                                    <td>实际本息</td>
+                                                    <td>收益管理费</td>
+                                                    <td>状态</td>
+                                                    </thead>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>500.25元</td>
+                                                        <td>+500.25元</td>
+                                                        <td>-1.25元</td>
+                                                        <td>已到账</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>2016-06-02</td>
+                                                        <td>500.25元</td>
+                                                        <td>+500.25元</td>
+                                                        <td>-1.25元</td>
+                                                        <td>已到账</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>3</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>逾期</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>4</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>待回款</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>5</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>待回款</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>6</td>
+                                                        <td>2016-09-02</td>
+                                                        <td></td>
+                                                        <td>500.25元</td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>待回款</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="7">
+                                                            <p class="fenye_sh"><span>首页</span><span>&lt;</span><span class="font-666">1</span><span>2</span><span>3</span><span>4</span><span> &gt; </span><span>尾页</span></p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="sbzt_tabs_div zrz_ap disnone" style="z-index: 888;">
+                                            <div class="quit_hover_cs zrz_agg">
+                                                <p class="sbzq_title  clearfix"><span class="left">债权转让详情</span><span class="right pr20">转让中</span></p>
+
+                                                <div class="pl20 pr20 pb10 zrif    ">
+                                                    <p><span class="ffirst">转让发起时间：</span><span class="ssecond">2015-06-12 10:10:10</span></p>
+
+                                                    <p><span class="ffirst">债权价值：</span><span class="ssecond">2000.00元</span></p>
+
+                                                    <p><span class="ffirst">转让方式：</span><span class="ssecond mrf20">让价转让(20.00元)</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+
+                    <!-- 待满标-->
+                    <div class="tab-pane fade in " id="account-index-tabb">
+                        <div class="layout">
+                            <table class="table-nstyle mt20">
+                                <thead class="table-nstyle-thead">
+                                <tr class="sh-tablef t">
+                                    <th class="w160 clearfix pl20" style="padding-left: 20px;">
+                                        <span class="state_st displya-block cursor-pi">基本信息&nbsp;<font class="esc">↓</font><font class="desc disnone">↑</font> </span>
+                                        <span class="displya-block"></span></th>
+                                    <th class="w160 text-left pl20">预期年化</th>
+                                    <th class="w120 text-left">投资金额</th>
+                                    <th class="w120 text-left pl20">期限</th>
+                                    <th class="w120 text-left"> 预期收益</th>
+                                    <th class="w160 text-left pl10"> 进度</th>
+                                </tr>
+                                </thead>
+                                <tbody class="mg-sg-table">
+
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_car sblist_pos" title="新车贷"></i></span>
+                                    </td>
+
+                                    <td class="text-left pl20">
+                                        <span class="disblock h26l26 "> 10%</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left">
+                                        <span class="disblock h26l26 "> 7,456,123.00元</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left pl20">
+                                        <span class="disblock h26l26 ">6个月</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left">
+                                        <span class="disblock h26l26 ">2,200.00元</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26 ">待满标</span>
+                                        <span class="disblock h26l26 ">
+
+                                            <div class="progress" data-toggle="tooltip" data-placement="top" title="" data-original-title="10%" style="width: 140px;margin-top: 9px;">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+                                                    <span class="sr-only">60% Complete</span>
+                                                </div>
+                                            </div></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_busi sblist_pos" title="新商贷"></i></span>
+                                    </td>
+
+                                    <td class="text-left pl20">
+                                        <span class="disblock h26l26 "> 10%</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left">
+                                        <span class="disblock h26l26 "> 7,456,123.00元</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left pl20">
+                                        <span class="disblock h26l26 ">6个月</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left">
+                                        <span class="disblock h26l26 ">2,200.00元</span>
+                                        <span class="disblock h26l26 "></span>
+                                    </td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26 ">待满标</span>
+                                        <span class="disblock h26l26 ">
+
+                                            <div class="progress" data-toggle="tooltip" data-placement="top" title="" data-original-title="90%" style="width: 140px;margin-top: 9px;">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                                    <span class="sr-only">90% Complete</span>
+                                                </div>
+                                            </div></span>
+
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <!-- 已完成-->
+                    <div class="tab-pane fade in " id="account-index-tabc">
+                        <div class="layout clearfix mt15 pl15">
+                            <p class="font15 left pr10">累计投资总额：<span class="red">19,500.00</span>元</p>
+
+                            <p class="spe_line border-left-dark mt4"></p>
+
+                            <p class="font15 left  pl10">累计利息总额：<span class="red">2,339.91</span>元</p>
+                        </div>
+                        <div class="layout">
+                            <table class="mg-sg-table mt10">
+                                <thead>
+                                <tr class="sh-tablef" style="height: 40px;border-bottom: none; color:#878d96;">
+                                    <th class="pl20 w160">
+                                        <span class="state_st displya-block cursor-pi">基本信息&nbsp;<font class="esc">↓</font><font class="desc disnone">↑</font> </span>
+                                        <span class="displya-block"></span>
+                                    </th>
+                                    <th class="w160 text-left pl20">预期年化</th>
+                                    <th class="w110 text-left pl10">投资金额</th>
+                                    <th class="w100 text-left pl20">期数</th>
+                                    <th class="w130 text-left pl10">待收本息</th>
+                                    <th class="w120 text-left pl10">已收本息</th>
+                                    <th class="w170 text-left pl10 relative choice_state cursor-pi"><font class="sep_state_font">状态</font>&nbsp;<span class="dis_line_block cursor-pi ">∨</span>
+
+                                        <div class="state_list disnone">
+                                            <p class="sep_state"><font class="sep_state_font">状态</font>&nbsp;<span class="dis_line_block cursor-pi ">∨</span></p>
+
+                                            <p class="ss">全部</p>
+
+                                            <p class="ss">流标</p>
+
+                                            <p class="ss">已转让</p>
+
+                                            <p class="ss">已完成</p>
+                                        </div>
+                                    </th>
+                                    <th class="w160 text-left pl10">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="票小宝短期周转，多多益善短期周转，多多益善短期周转，多多益善">票小宝短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_car sblist_pos" title="新车贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26">5000.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">29天</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">已完成</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"><a class="bluefont disblock" href="stephigh-protocol.html" target="_blank">回款计划</a></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_house sblist_pos" title="房主贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"> 200.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">流标</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26 relative">
+                                            <a class="bluefont disblock ainfo_tips" target="_blank">详情</a>
+                                            <div class="lostinfo_tips disnone">已返还投资金额200
+
+                                            .00
+                                            元整</div>
+                                        </span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_ticket sblist_pos" title="票据贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26">5000.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">已转让</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"><a class="bluefont disblock" href="stephigh-protocol.html" target="_blank">回款计划</a></span>
+                                        <span class="disblock h26l26"><a class="bluefont disblock zrinfo" target="_blank" href="stephigh-protocol.html">转让详情</a></span>
+
+                                        <div class="zrinfo_ap disnone" style="z-index: 888;">
+                                            <div class="quit_hover_cs quit_hover_ag">
+                                                <p class="sbzq_title  clearfix"><span class="left">债权转让详情</span><span class="right pr20">已转让</span></p>
+
+                                                <div class="pl20 pr20 pb10 zrif clearfix relative">
+                                                    <div class="sbline_spe"></div>
+                                                    <div class="left">
+                                                        <p><span class="ffirst">转让发起时间：</span><span class="ssecond">2015-06-12 10:10:10</span></p>
+
+                                                        <p><span class="ffirst">债权价值：</span><span class="ssecond">2000.00元</span></p>
+
+                                                        <p><span class="ffirst">转让方式：</span><span class="ssecond mrf20">让价转让(20.00元)</span>
+                                                    </div>
+                                                    <div class="right">
+                                                        <p><span class="ffirst">转让购买时间：</span><span class="ssecond">2015-06-13 10:10:10</span></p>
+
+                                                        <p><span class="ffirst">购买价格：</span><span class="ssecond">1980.00元</span></p>
+
+                                                        <p><span class="ffirst">转让手续费：</span><span class="ssecond">2.00元</span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="zrifb">
+                                                    <span class="ffirst">债转回款金额：</span><span class="ssecond">2000.00元</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_busi sblist_pos" title="新商贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"> 200.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">流标</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_learn sblist_pos" title="新生贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26">5000.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">已完成</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"><a class="bluefont disblock" href="stephigh-protocol.html" target="_blank">回款计划</a></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_learn sblist_pos" title="新生贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"> 200.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">流标</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_learn sblist_pos" title="新生贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26">5000.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">已完成</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"><a class="bluefont disblock" href="stephigh-protocol.html" target="_blank">回款计划</a></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_learn sblist_pos" title="新生贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"> 200.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">流标</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_learn sblist_pos" title="新生贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26">5000.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">5000.00元</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">已完成</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"><a class="bluefont disblock" href="stephigh-protocol.html" target="_blank">回款计划</a></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+                                <tr style="border-bottom: none">
+                                    <td class="pl20">
+                                        <a href="#" class="disblock h26l26 eclipse blue w160" title="短期周转，多多益善短期周转，多多益善短期周转，多多益善">短期周转，多多益善短期周转，多多益善短期周转，多多益善</a>
+                                        <span class="disblock h26l26 font-999 relative" style="white-space: nowrap;">2016-04-12<i class="sblist_learn sblist_pos" title="新生贷"></i></span>
+                                    </td>
+                                    <td class="text-left pl20"><span class="disblock h26l26">6%</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"> 200.00元</span>
+                                        <span class="disblock h26l26"></span>
+                                    </td>
+
+                                    <td class="text-left pl20"><span class="disblock h26l26">2/12</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26"> 200.00元 </span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10"><span class="disblock h26l26">流标</span> <span class="disblock h26l26"></span></td>
+                                    <td class="text-left pl10">
+                                        <span class="disblock h26l26"></span>
+                                        <span class="disblock h26l26"></span>
+
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- main content over-->
+
+<!--退出弹出框 start-->
+
+<div class="modal fade modal-credittransfer sh_dialog_bid h524 " id="sbtz_zr" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true" style="top:50%;">
+    <div class="sh_dialog_bid h524">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <button data-dismiss="modal" class="close closeslow" type="button"><span aria-hidden="true">×</span><span id="aclose_mini" class="sr-only">关闭</span></button>
+                <h4 class="modal-title"><span>债权转让</span></h4>
+            </div>
+            <div class="modal-body  clearfix" style="min-height: 480px;">
+                <div class="clearfix border-bottom-dashed pb15">
+                    <ul class="sbzt_ul">
+                        <li>标的名称：步步高升</li>
+                        <li>已收/剩余期数：<span>2/1</span></li>
+                        <li>预期年化：<span class=" red">12%</span></li>
+                    </ul>
+                    <ul class="sbzt_ul">
+                        <li>债权编号：BT2016030123856</li>
+                        <li>债权价值：<span class="">471.31元</span></li>
+                        <li>预期待收本息：<span class=" red">476.04元</span></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix pl20 pt15">
+                    <div class="clearfix mgf14">
+                        <p class=" font16 left ">
+                            <span class=" ">转让方式：</span>
+                            <select class="yqsy0 zrfs">
+                                <option value="0" selected>无优惠转让</option>
+                                <option value="1">让利转让</option>
+                                <option value="2">加价转让</option>
+                            </select>
+                        </p>
+                        <p class="bg-f2f2 font16 left zrfs_info disnone">
+                            <span class="font16   zrfs_a">让利金额：</span><input type="text" class="w40 lh28"/>
+                            <span class="zrfs_b">让利比率：</span><input type="text" class="w40 lh28"/>%
+                            <span class="q-small queblue ml6" data-toggle="tooltip" data-placement="right" data-original-title="xxx">?</span>
+                        </p>
+                    </div>
+                    <p class=" font16 mt14 clearfix">
+                        <span class="  left">转让总价：</span>
+                        <span class=" red left dis_line_block w176">476.04元</span>
+                        <span class="  left">手续费：</span>
+                        <span class=" red left">476.04元</span><span class="q-small queblue ml6" data-toggle="tooltip" data-placement="right" data-original-title="xxxx">?</span>
+                    </p>
+
+                    <p class="clearfix font16 mt14">
+                        <span class="left   h34l34 w85 text-left">支付密码：</span>
+                        <input type="text" placeholder="请输入支付密码" class=" input34 left w150 pl50 ">
+                        <span><a href="#" class="left  mt6 ml10 mt10 bluefont font14">忘记支付密码</a></span>
+                    </p>
+
+                    <p class="clearfix font16 mt10">
+                        <span class="left   h34l34 w85 text-left dis_line_block" style="text-indent: 16px;">验证码：</span>
+                        <input class="w-150 left" type="text"/>
+
+                        <span><a href="#" class="left  ml10 h34l34 btn-xxd font14 h34l34 pd04 sh_yzm" id="get_shdxyzm">获取短信验证码</a></span>
+                        <span><a href="#" class="left  ml10 h34l34 bluefont font14 sh_yzm">获取语音验证码</a></span>
+
+                        <span class="show_sh_dxyzm left text-center  disnone ">已发送至手机,60 秒后重新获取</span>
+
+                    </p>
+
+                    <div class="ml82">
+                        如长时间未收到短信，可使用电话获取验证码
+                    </div>
+
+                    <div class="mt10 ml18">
+                        <!-- <div class="font12 font999  clearfix ml66 ">
+                             <p class="zj_pro">账户资金由光大银行和中国人保共同保障</p>
+                         </div>-->
+                        <div class="font14 clearfix ml66  ">
+                            <input type="checkbox" class="reg_phone_checkbox" checked="">
+                            &nbsp;&nbsp;我已阅读并同意 <a href="stephigh-protocol.html" target="_blank" class="bluefont">《债权转让协议》</a>
+                        </div>
+                        <!-- 错误提示 start -->
+                        <div class="login6_tips_cl  login6_tips_info mg-dialog-error ml66" style="display: none;">
+                            错误提示
+                        </div>
+                        <!-- 错误提示 end -->
+                        <div class="mt10 ">
+                            <a href="#" class="btn btn-xxd btn-xxd-large w273 ml66" id="quit_sure">确认转让</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--退出弹出框 end-->
+<!-- footer start-->
+<div class="index-footer">
+    <div class="container">
+        <div class="footer-cont">
+            <div class="footer-kf"></div>
+            <div class="footer-aboutus"><span class="left">关注我们</span>
+
+                <div class="footer-weibo"></div>
+                <div class="footer-weixin"></div>
+                <span class="left ml50">下载手机客户端</span>
+
+                <div class="footer-apple"></div>
+                <div class="footer-android"></div>
+                <div class="erweima-box weibo-box">
+                    <div class="erweima-weibo"></div>
+                </div>
+                <div class="erweima-box weixin-box">
+                    <div class="erweima-weixin"></div>
+                </div>
+                <div class="erweima-box apple-box">
+                    <div class="erweima-apple"></div>
+                </div>
+                <div class="erweima-box android-box">
+                    <div class="erweima-android"></div>
+                </div>
+            </div>
+            <ul class="left mt40 mr20 fixaaa">
+                <li class="yh13">关于新新贷</li>
+                <li><a href="/about/aboutcompany.html">新新贷介绍</a></li>
+                <li><a href="/index/newsNoticesThree.html?typeName=news_notices">公告和新闻</a></li>
+                <li><a href="/about/contactus.html">联系我们</a></li>
+                <!--  <li><a href="/about/blogroll.html">友情链接</a>
+                        </li>-->
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">安全保障</li>
+                <!--<li><a href="/security/guarantee_plan.html">本金保障</a>
+                        </li>-->
+                <li><a href="/security/guarantee_plan.html">阳光透明</a></li>
+                <li><a href="/security/pwd_suggestion.html">隐私保护</a></li>
+                <li><a href="/security/risk_group.html">风险控制</a></li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">帮助中心</li>
+                <li><a href="/help/aboutxxd.html">常见问题</a></li>
+                <li><a href="/help/operation.html">操作演示</a></li>
+                <li><a href="/help/fee.html">资费介绍</a></li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">兄弟品牌</li>
+                <li><a href="http://www.xinxinwealth.com" id="xxcf" target="_blank"> </a></li>
+            </ul>
+        </div>
+        <div class="index_blog_roll">
+            <div class="blogrolltitlea">友情链接：</div>
+            <ul id="index_blog_rollul" class="showone">
+                <li><a href="http://www.xinxindai.com/loan/category.html" target="view_window">小额贷款条件</a></li>
+                <li><a href="https://www.weicaifu.com/v/index" target="view_window">新浪微财富</a></li>
+                <li><a href="http://www.rongjinsuo.com" target="view_window">P2P理财</a></li>
+                <li><a href="http://www.xinxindai.com" target="view_window">网贷平台</a></li>
+                <li><a href="http://bbs.xinxindai.com/" target="view_window">P2P网贷论坛</a></li>
+                <li><a href="http://loans.cardbaobao.com/" target="view_window">小额贷款</a></li>
+                <li><a href="http://www.cjdao.com" target="view_window">财经道</a></li>
+                <li><a href="http://www.itf-mag.com" target="view_window">互联网金融杂志</a></li>
+                <li><a href="http://finance.ifeng.com/itfinance/" target="view_window">凤凰互联网金融</a></li>
+                <li><a href="http://www.zixinke.com" target="view_window">资信客</a></li>
+                <li><a href="http://bbs.wacai.com/" target="view_window">挖财社区</a></li>
+                <li><a href="http://www.itbt.com.cn/" target="view_window">P2P投资理财</a></li>
+                <li><a href="http://www.cr.cn" target="view_window">从容网</a></li>
+                <li><a href="http://iof.hexun.com" target="view_window">和讯互联网金融</a></li>
+                <li><a href="http://www.icaifu.com/" target="view_window">研报下载</a></li>
+                <li><a href="http://shenzhen.rong360.com/" target="view_window">深圳贷款</a></li>
+                <li><a href="http://shanghai.roadoor.com/" target="view_window">上海贷款</a></li>
+                <li><a href="http://www.rongdaitong.cn/" target="view_window">融贷通</a></li>
+                <li><a href="http://www.wangdaidp.com" target="view_window">网贷点评</a></li>
+                <li><a href="http://www.soudai360.com" target="view_window">P2P网贷</a></li>
+                <div class="clear"></div>
+            </ul>
+            <a class="showmoreblogroll show_more" id="show_more" style="display:block;"> </a> <a
+                class="showmoreblogroll show_reg" id="show_reg"> </a></div>
+    </div>
+    <!-- 版权与可信认证 start-->
+    <div class="xxd_pagefoot">
+        <div class="container">
+            <div class="newfoot_copyright"> Copyright @上海涌信金融信息服务有限公司 沪ICP备12026657号-1 版权所有，未经许可不得复制、转载或摘编，违者必究！
+                <!-- cnzz统计代码 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253077251'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253077251%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                <span id="cnzz_stat_icon_1253077251"><a href="http://www.cnzz.com/stat/website.php?web_id=1253077251"
+                                                        target="_blank" title="站长统计"><img border="0" hspace="0"
+                                                                                          vspace="0"
+                                                                                          src="http://icon.cnzz.com/img/pic.gif"></a></span>
+                <script src=" http://s19.cnzz.com/z_stat.php?id=1253077251&amp;show=pic"
+                        type="text/javascript"></script>
+                <script src="http://c.cnzz.com/core.php?web_id=1253077251&amp;show=pic&amp;t=z" charset="utf-8"
+                        type="text/javascript"></script>
+                <!-- 百度统计代码 -->
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78e9b60f68bcb0ca48e187efedec7fb9' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+                <script src=" http://hm.baidu.com/h.js?78e9b60f68bcb0ca48e187efedec7fb9"
+                        type="text/javascript"></script>
+            </div>
+            <div class="new_identification">
+                <!--  <a id="icon001" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank"><img src="/images/icon001.jpg"/></a>
+                        <a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20140224003875003530' target='_blank'><img src='https://search.szfw.org/cert.png?l=CX20140224003875003530'></a>
+                        <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                        <span id="kx_verify"></span><script type="text/javascript">(function (){var _kxs = document.createElement('script');_kxs.id = 'kx_script';_kxs.async = true;_kxs.setAttribute('cid', 'kx_verify');_kxs.src = ('https:' == document.location.protocol ? 'https://ss.knet.cn' : 'http://rr.knet.cn')+'/static/js/icon3.js?sn=e14050731010948597brpb000000&tp=icon3';_kxs.setAttribute('size', 0);var _kx = document.getElementById('kx_verify');_kx.parentNode.insertBefore(_kxs, _kx);})();</script>-->
+                <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank" class="id_xin"> </a> <a
+                    href="https://ss.knet.cn/verifyseal.dll?sn=e14050731010948597brpb000000&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.xinxindai.com"
+                    target="_blank" class="id_kexin"> </a> <a
+                    href="https://search.szfw.org/cert/l/CX20140224003875003530" target="_blank"
+                    class="id_chengxin"> </a></div>
+        </div>
+    </div>
+    <!-- 版权与可信认证 over-->
+</div>
+<!-- footer over-->
+<!-- index main content over-->
+<script src="../js/jquery1.11.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/browser.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#moredata").click(function () {
+            $(".index-data").slideUp();
+            $(".small-data").delay(0).fadeIn();
+        });
+        $(".xxd-partener>li").mouseover(function () {
+            $(this).children("div").addClass("borderd");
+            $(this).children("a").addClass("hover");
+        });
+        $(".xxd-partener>li").mouseout(function () {
+            $(this).children("div").removeClass("borderd");
+            $(this).children("a").removeClass("hover");
+        });
+        $("#show_more").click(function () {
+            $("#index_blog_rollul").addClass("showall");
+            $("#show_reg").show();
+            $("#show_more").hide();
+        });
+        $("#show_reg").click(function () {
+            $("#index_blog_rollul").removeClass("showall");
+            $("#show_reg").hide();
+            $("#show_more").show();
+        });
+        $(".footer-weibo").mouseover(function () {
+            $(".weibo-box").fadeIn(100);
+        });
+        $(".footer-weibo").mouseout(function () {
+            $(".weibo-box").fadeOut(100);
+        });
+        $(".footer-weixin").mouseover(function () {
+            $(".weixin-box").fadeIn(100);
+        });
+        $(".footer-weixin").mouseout(function () {
+            $(".weixin-box").fadeOut(100);
+        });
+        $(".footer-apple").mouseover(function () {
+            $(".apple-box").fadeIn(100);
+        });
+        $(".footer-apple").mouseout(function () {
+            $(".apple-box").fadeOut(100);
+        });
+        $(".footer-android").mouseover(function () {
+            $(".android-box").fadeIn(100);
+        });
+        $(".footer-android").mouseout(function () {
+            $(".android-box").fadeOut(100);
+        });
+        $('ul.nav li').hover(function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+        }, function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+        });
+        //我的新新贷左侧菜单收啦js
+        $(".flip").click(function () {
+            $(this).next(".flip-panel").slideToggle(100);
+            //白色箭头变化
+            $(this).find("a").toggleClass("activeflip");
+        });
+        var filppanela = $(".flip-panel a");
+        filppanela.each(function () {
+            $(this).hover(
+                    function () {
+                        //获取当前类 判断当前元素是否已被 click选中
+                        var cls = $(this).attr("class");
+                        if ($(this).hasClass("current_new")) {
+                            return false;
+                        }
+                        filppanela.removeClass("current_new_hover");
+                        $(this).addClass("current_new_hover");
+                    }, function () {
+                        $(this).removeClass("current_new_hover");
+                    }
+            );
+        });
+
+        filppanela.each(function () {
+            $(this).click(function () {
+                filppanela.removeClass("current_new_hover");
+                filppanela.removeClass("current_new");
+                $(this).addClass("current_new");
+                //点击其他页面的时候 ， 将“我的新新贷”字体恢复白色
+                $(".myxxd-title").removeClass("bluefont");
+            });
+        });
+
+        //点击“投资产品”页签 显示“投资记录”
+        /**$(".myxxd_tabs li a").click(function(){
+		 var tabid=$(this).attr("href");
+		 if(tabid=="#makingmoney"){
+			$(".tzjl_a").show();
+		 }else{
+			$(".tzjl_a").hide();
+		 }
+	 });**/
+            //悬浮到头像 右下角显示可编辑图片。
+        $(".person_pic").hover(function () {
+            var edite_pic = '<span class="edite-icon disblock"> </span>';
+            $(this).append(edite_pic);
+        }, function () {
+            $(this).children("span").remove();
+        });
+        //~~~~~~~~注意点击整个头像图片 去编辑~~~~~~~~
+        $(".person_pic").click(function () {
+            alert("注意点击整个头像图片 去编辑，编辑部分用原来的");
+        });
+
+
+    });
+</script>
+<script>
+    $(document).ready(function () {
+
+        /*数据W为循环遍历得出，名字后面追加index即可。*/
+
+        $(".hkjh_a").hover(function () {
+            $(".quit_hover_ap").removeClass("disnone").addClass("disblock");
+        });
+
+        $(".quit_hover_append").mouseleave(function () {
+            $(".quit_hover_ap").removeClass("disblock").addClass("disnone");
+        });
+
+
+        $(".hkjh_a2").hover(function () {
+            $(".quit_hover_ap2").removeClass("disnone").addClass("disblock");
+        });
+
+        $(".quit_hover_append2").mouseleave(function () {
+            $(".quit_hover_ap2").removeClass("disblock").addClass("disnone");
+        });
+
+        /*获取验证码 按钮*/
+        $("#get_shdxyzm").click(function () {
+            $(".sh_yzm").hide();
+            $(".show_sh_dxyzm").show();
+        });
+
+        $(".zrfs").change(function () {
+            if ($(this).val() == 1) {
+                $(".zrfs_info").show();
+                $(".zrfs_a").html("让利金额：");
+                $(".zrfs_b").html("让利比例：");
+
+            } else if ($(this).val() == 2) {
+                $(".zrfs_info").show();
+                $(".zrfs_a").html("加价金额：");
+                $(".zrfs_b").html("加价比例：");
+
+            }
+            else {
+                $(".zrfs_info").hide();
+            }
+        });
+
+
+        /*确认退出 按钮*/
+        $("#quit_sure").click(function () {
+            $("#sbtz_zr").modal('hide');
+        });
+
+        /*排序*/
+        $(".state_st").click(function () {
+            if ($(".esc").hasClass("disnone")) {
+                $(".esc").removeClass("disnone");
+                $(".desc").addClass("disnone");
+            } else {
+                $(".desc").removeClass("disnone");
+                $(".esc").addClass("disnone");
+            }
+
+        });
+        /*排序*/
+        $(".next_st").click(function () {
+            if ($(".nesc").hasClass("disnone")) {
+                $(".nesc").removeClass("disnone");
+                $(".ndesc").addClass("disnone");
+            } else {
+                $(".ndesc").removeClass("disnone");
+                $(".nesc").addClass("disnone");
+            }
+
+        });
+
+        /*状态选择 */
+        $(".choice_state").hover(function () {
+            $(".state_list").addClass("disblock").removeClass("disnone");
+        });
+
+        $(".state_list,.choice_state").mouseleave(function () {
+            $(".state_list").removeClass("disblock").addClass("disnone");
+        });
+
+        $(".state_list p.ss").each(function () {
+            $(this).click(function () {
+                var va = $(this).html();
+                $(".sep_state_font").html(va);
+            });
+            $(".state_list").addClass("disnone").removeClass("disblock");
+        });
+
+        /*已完成tab “详情”状态字段悬浮提示*/
+        $(".ainfo_tips").hover(function () {
+            $(".lostinfo_tips").show();
+        }, function () {
+            $(".lostinfo_tips").hide();
+        });
+
+
+        /*债权转让详情 悬浮框*/
+        $(".zrinfo").hover(function () {
+            $(".zrinfo_ap").removeClass("disnone").addClass("disblock");
+        });
+
+        $(".zrinfo_ap").mouseleave(function () {
+            $(".zrinfo_ap").removeClass("disblock").addClass("disnone");
+        });
+
+
+        /*转让中 悬浮框*/
+        $(".zrz_a").hover(function () {
+            $(".zrz_ap").removeClass("disnone").addClass("disblock");
+        },function(){
+            $(".zrz_ap").removeClass("disblock").addClass("disnone");
+        });
+
+        /*tab页签 切换的时候，关闭所有弹框 sbzt_tabs_div  */
+        $(".sbzt_tabs").each(
+                $(this).click(function(){
+                    $(".sbzt_tabs_div").removeClass("disblock").addClass("disnone");
+                })
+        );
+    });
+</script>
+</body>
+</html>
