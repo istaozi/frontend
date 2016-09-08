@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新新贷</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-blue.css" rel="stylesheet">
+    <link href="css/xxd.css" rel="stylesheet">
+    <link href="css/xxd.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <div id="errorie">
+        <div>您所使用的IE浏览器版本过旧，为了您获得更好的浏览体验，请升级您的浏览器到 IE8以上版本</div>
+    </div>
+    <![endif]-->
+</head>
+<body class="bg-fff">
+<!--top start-->
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner min-w1100">
+        <div class="container container-w1100">
+
+            <p class="index_leftP relative">
+                <span class="font-666 mr10">客服热线：4000-168-521</span>
+                <span class="mobile_ver font-666 mr10">手机版</span>
+                <span class="mobile_erweima_ver " style="display: none"> </span>
+                <span class="mobile_erweima_erver" style="display: none"></span>
+                <a href="http://weibo.com/xinxindai/profile?" target="_blank" class="weibo_ver mr10"><img class="mtf4"
+                                                                                                          src="images/public/weibo.png"></a>
+                <span class="weixin_ver mr10"><img class="mtf4" src="images/public/weixin.png"></span>
+                <span class="weixin_erweima_ver" style="display:none;"></span>
+            </p>
+
+            <!-- 登录状态topbar start-->
+            <nav class="nav-collapse user">
+                <div class="user-info pull-right">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <div>欢迎<span>新新贷用户户习大大</span></div>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href=""><span class="glyphicon glyphicon-user"></span> 我的新新贷</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> 充值</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> 站内信<span
+                                    class="badge">12</span></a></li>
+                            <li class="divider"></li>
+                            <li><a href=""><span class="icon-signout"></span> 退出登录</a></li>
+                        </ul>
+                        <a href="#" class="top-link right">关于我们</a>
+                        <a href="#" class="top-link right">帮助</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- 登录状态topbar over-->
+            <!-- 未登录状态topbar start-->
+            <nav class="nav-collapse user" style="display:none;">
+                <div class="user-info pull-right nologin">
+                    <a href="#" class="top-link">关于我们</a>
+                    <a href="#" class="top-link"></a>
+                    <a href="xxd-register.html" class="red">注册</a>
+                    <a href="xxd-register.html" class="blue">登录</a>
+                </div>
+            </nav>
+            <!-- 未登录状态topbar over-->
+        </div>
+    </div>
+</header>
+<!-- top over-->
+<!-- 导航栏 start-->
+<div class="navbar" style="margin-bottom:0;">
+    <div class="top-menu min-w1100">
+        <div class="container  container-w1100">
+            <div class="xxd-logo"><img src="images/public/xxd-logo-default2.png"/></div>
+            <nav class=" main-menu">
+                <ul class="nav">
+                    <li class="haslink">
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown"
+                           id="MenuDropdown0">首页</a>
+
+                    <li class="haslink">
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown"
+                           id="MenuDropdown1">我要投资</a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown1">
+                            <li><a href="#"><font class="hot">七天大胜</font></a></li>
+                            <li><a href="#">月进斗金</a></li>
+                            <li><a href="#">步步高升</a></li>
+                            <li><a href="#"><font class="dq">日日盈</font></a></li>
+                            <li><a href="#">散标直投</a></li>
+                            <li><a href="#">债权转让</a></li>
+                            <li><a href="#">新元宝</a></li>
+                            <li><a href="#">票小宝</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown"
+                           id="MenuDropdown2">我要借款</a>
+                    </li>
+                    <li><a href="/wamp/www/frontend/Special-web/newbie-guide/newbie_guide.html" class="main-menu-tit">新手引导</a>
+                    </li>
+                    <li><a href="#" class="main-menu-tit" style="padding-right:8px;">社区</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+</div>
+<!-- 导航栏 over-->
+
+<link rel="stylesheet" href="/static/css/index/index.css" />
+<!-- banner start-->
+<div class="mb0 n_menuimg">
+
+    <div class="banner-img">
+        <div class="0 disblock1" style="background:url(images/index-banner/banner001.png) no-repeat top center;"></div>
+        <div class="1 disnone" style="background:url(images/index-banner/banner002.png) no-repeat top center;"></div>
+        <div class="2 disnone" style="background: url(images/index-banner/banner003.png) no-repeat top center;"></div>
+        <div class="3 disnone" style="background:url(images/index-banner/banner004.png) no-repeat top center;"></div>
+        <div class="4 disnone" style="background:url(images/index-banner/banner005.png) no-repeat top center;"></div>
+    </div>
+
+    <div class="container clearfix relative">
+        <div class="n_leftjt_con left">
+            <p class="n_leftjt "></p>
+        </div>
+        <div class="n_rigjt_con right">
+            <p class="n_rigjt"></p>
+        </div>
+    </div>
+
+    <div class="n_numbtn" style="z-index:10;">
+        <ul>
+            <li class="libacblo  libackwhite n_num0"></li>
+            <li class="libacblo  n_num1"></li>
+            <li class="libacblo  n_num2"></li>
+            <li class="libacblo  n_num3"></li>
+            <li class="libacblo  n_num4"></li>
+        </ul>
+    </div>
+
+
+    <!-- 悬浮窗 start-->
+    <div class="container relative">
+        <div class="layout index-window">
+            <div class="banner_login_bg"></div>
+            <!-- 未登录 start-->
+            <div class="banner_login">
+                <h5>新新贷预期年化收益率</h5>
+
+                <h1 class="strong font-ff7f00">15<span class="font24">.00%</span></h1>
+
+                <h3>
+                    <span class="blue">42倍</span>
+                    <span>于银行活期存款</span>
+                    <span class="blue">投资安全</span>
+                </h3>
+
+                <div class="text-center">
+                    <a href="#" class="btn-xxd-large bg-ff7f00 bgff_btn" style="display:block;">注册领取红包</a>
+                </div>
+                <div class="logina clearfix font14">
+                    <span class="right">已有账号？<a href="#" class="blue">马上登录</a></span>
+                </div>
+            </div>
+            <!-- 未登录 over-->
+            <!-- 已登录 start-->
+            <div class="banner_login" style="display:none;">
+                <h5>新新贷预期年化收益率</h5>
+
+                <h1 class="strong">15<span class="font24">.00%</span></h1>
+
+                <h3>
+                    <span class="blue">42倍</span>
+                    <span>于银行活期存款</span>
+                    <span class="blue">投资安全</span>
+                </h3>
+
+                <div class="text-center" style="margin-top:40px;">
+                    <a href="#" class="btn-xxd-small">我的新新贷</a>
+                </div>
+            </div>
+            <!-- 已登录 over-->
+        </div>
+    </div>
+    <!-- 悬浮窗 over-->
+</div>
+<!-- banner over-->
+
+<!-- 高收益 快速变现 start -->
+<div class="ptb10 border-bottom-eee">
+    <div class="container">
+        <div class="left gak_div">
+            <div class="gsy"></div>
+            <div class="gak_font_div">
+                <p class="font18 font-666">高收益</p>
+
+                <p class="font14 font-999">预期年化收益最高可达15%</p>
+            </div>
+        </div>
+        <div class="left gak_div borderd-lr-e7">
+            <div class="aqb"></div>
+            <div class="gak_font_div  ">
+                <p class="font18 font-666 mg0">安全保障</p>
+
+                <p class="font14 font-999 mg0">资金由光大银行和中国人保<br/>共同保障</p>
+            </div>
+        </div>
+        <div class="left gak_div">
+            <div class="ksbx"></div>
+            <div class="gak_font_div" style="padding-right:3px;">
+                <p class="font18 font-666">快速变现</p>
+
+                <p class="font14 font-999">最快当天完成债权转让</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 高收益 快速变现 end -->
+
+
+<div class="bg-f9f9f9 " style="min-width:1100px;">
+    <div class="container-w1100  clearfix pt20">
+
+        <!-- 左侧内容 start-->
+        <div class="w-left-780">
+            <!-- 小试牛刀 start-->
+            <h1 class="ind-title  tit-bj1">
+             <span class="ind-title-t1 dis_line_block pt15">
+             仅限未成功投资过的新用户</span>
+
+            </h1>
+
+            <div class="w-box-f100 border-lrb  clearfix">
+                <div class="w-box-200 ind-bj1 left">
+                    <span class="font16 font-4ca2ff"><img src="images/public/icon-index-1.png" alt=""/>每人限购1次 </span>
+                </div>
+
+                <div class="font-666 h40 pt20 w-box-560 left">
+                    <span class="rry_sq left font20">七天大胜</span>
+                    <span class="rry_sq_af mr10 left">新手专享</span>
+                    <span class="rry_sq_af mr10 left">超高收益</span>
+                    <span class="rry_sq_af mr10 left w-60">短期</span>
+                </div>
+
+                <div class="w-box-560 left">
+                    <div class="mt43 left pr20 ">
+                        <p class="font-4ca2ff font24 line-h20">
+                            <span class="font48">18</span>%</p>
+                        <span class="font16 font-999 text-left">预期年化收益</span>
+                    </div>
+                    <div class="pl50 mt40 left ">
+                        <p class="font16 h30l40 font-666">
+                            <span class="font22">7</span> 天</p>
+
+                        <p class="font16 font-999 text-left">期限</p>
+                    </div>
+                    <div class="pl50 mt40 left ">
+                        <p class="font16 h30l40 font-666">
+                            <span class="font22">100</span> 元</p>
+
+                        <p class="font16 font-999 text-left">起投金额</p>
+                    </div>
+
+                    <div class=" mt35 pt20 pr20 right ">
+                        <a class="btn-xxd-large size-btn-118x36 bj-3f9bff;" onclick="buyFund();" target="_blank"
+                           href="/fund/buyFund.html">立即抢购</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 小试牛刀 over-->
+
+            <!-- 大显身手 start-->
+            <h1 class="ind-title  tit-bj2 mt20">
+             <span class="ind-title-t1 dis_line_block pt15">
+             每天10：00-14：00</span>
+
+            </h1>
+
+            <div class="w-box-f100 border-lrb  clearfix">
+                <div class="w-box-200 ind-bj2 left">
+                    <span class="font16"><font class="font-ff7365">距离抢购结束：</font><br><font
+                            class=" font22 line-h38 font-666  lineh40">02:03:23</font></span>
+                </div>
+
+                <div class="font-666 h40 pt20 w-box-560 left">
+                    <span class="rry_sq left  font20">月进斗金</span>
+                    <span class="rry_sq_af mr10 left border-red" style="">超高收益</span>
+                    <span class="rry_sq_af mr10 left border-red">每日限量</span>
+                    <span class="rry_sq_af mr10 left border-red">先到先得</span>
+                </div>
+
+                <div class="w-box-560 left relative">
+                    <div class="mt43 left font-999 pr20 ">
+                        <p class="font-ff7365 font24 line-h20">
+                            <span class="font48">24</span>%</p>
+                        <span class="font16 text-left">预期年化收益</span>
+                    </div>
+                    <div class="pl50 mt40 left ">
+                        <p class="font16 h30l40 font-666">
+                            <span class="font22">1</span> 个月</p>
+
+                        <p class="font16 font-999 text-left">期限</p>
+                    </div>
+                    <div class="pl50 mt40 left ">
+                        <p class="font16 h30l40 font-666">
+                            <span class="font22">100,000</span> 元</p>
+
+                        <p class="font16 font-999 text-left">计划金额</p>
+                    </div>
+                    <div class="Speed">
+                        <div id="dxsh-circle" class="probar-circle">
+
+                        </div>
+                    </div>
+                    <div class="mt35 pt20 pr20 right ">
+                        <a class="btn-xxd-large size-btn-130x40 btm-red" onclick="buyFund();" target="_blank"
+                           href="/fund/buyFund.html">立即抢购</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 大显身手 over-->
+
+            <!-- 生财有道 start-->
+            <h1 class="ind-title  tit-bj3 mt20">
+             <span class="ind-title-t1 dis_line_block pt15">
+            活期定期自由组合  3/6/12个月期限灵活</span>
+            <span class="ind-title-t2  dis_line_block pt15">
+             <a class="font-fff" href="#">了解详情</a> </span>
+            </h1>
+
+            <div class="w-box-f100 border-lrb  clearfix">
+                <!-- 日日盈 start-->
+                <div class="font-666 h40  pt20 w-fbox-100  relative  clear ">
+                    <div class="ind-current"><img src="images/public/current.png" alt="活期"/></div>
+                    <span class="rry_sq left pl30  font20">日日盈</span>
+                    <span class="rry_sq_af mr10 left border-yellow  w-100 font-ff7365">移动端加息1%</span>
+                    <span class=" mr10 left line-h30 font-999 font14 ">活期理财 随存随取 每日复息</span>
+
+                    <ul class="list-product-index w-box-f100 pl30 font14 left">
+                        <li class="w-180 left ">预期年化：<font class="font-f9ac3a font26 line-h20">8</font><font
+                                class="font-f9ac3a font16">%</font></li>
+                        <li class="w-180 left">万元收益：2.22元/日</li>
+                        <li class="w-150 left">起投金额：1元</li>
+
+                        <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 btm-yellow"
+                                                        onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                        </div>
+                    </ul>
+
+
+                </div>
+                <!-- 日日盈  over-->
+                <div class="line-a left"></div>
+                <!-- 步步高升 start-->
+                <div class="font-666 h40  pt20 w-fbox-100  relative  clear ">
+                    <div class="fire_icon"></div>
+                    <div class="ind-current"><img src="images/public/curreg.png" alt="活期+定期"/></div>
+                    <span class="rry_sq left pl30  font20">步步高升</span>
+                    <span class=" mr10 left line-h30 font-999 font14 ">逐月递增 自动复投 存取灵活</span>
+
+                    <ul class="list-product-index w-box-f100 pl30 font14 left">
+                        <li class="w-180 left ">预期年化：
+                            <font class="font-f9ac3a font26 line-h20">6</font><font class="font-f9ac3a font16">%-</font>
+                            <font class="font-f9ac3a font26 line-h20">11</font><font class="font-f9ac3a font16">%</font>
+                        </li>
+
+                        <li class="w-180 left">起投期限：1个月</li>
+                        <li class="w-150 left">起投金额：100元</li>
+
+                        <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 btm-yellow"
+                                                        onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                        </div>
+                    </ul>
+
+
+                </div>
+                <!-- 步步高升  over-->
+                <div class="line-a left"></div>
+
+                <!-- 新元宝 start-->
+
+                <div class="font-666 h40 pt20 w-fbox-100  relative  clear">
+                    <div class="ind-current"><img src="images/public/regular.png" alt="定期"/></div>
+                    <span class="rry_sq left  font20 pl30  pr20">新元宝</span>
+
+                    <span class=" mr10 left line-h30 font-999 font14 ">“懒人”理财 自动复投 省事省心   每天10：00发布</span>
+
+                    <ul class="list-product-index w-box-f100 pl30 font14 left">
+                        <li class="w-180 left relative">
+                            预期年化：<font class="font-f9ac3a font26 line-h20">7</font><font class="font-f9ac3a font16">%</font>
+                            <span class="fire_icon_index"></span>
+                        </li>
+                        <li class="w-180 left">锁定期：3个月</li>
+                        <li class="w-150 left">起投金额：1000元</li>
+                        <li class="w-70 left">
+                          <!--  <div id="xyb0-circle" class="probar-circle"></div>-->
+                        </li>
+                        <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 btm-yellow"
+                                                        onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                        </div>
+                    </ul>
+
+
+                    <ul class="list-product-index w-box-f100 pl30 font14 left">
+                        <li class="w-180 left ">预期年化：<font class="font-f9ac3a font26 line-h20">8.5</font><font
+                                class="font-f9ac3a font16">%</font></li>
+                        <li class="w-180 left">锁定期：6个月</li>
+                        <li class="w-150 left">起投金额：1000元</li>
+                        <li class="w-70 left">
+                           <!-- <div id="xyb1-circle" class="probar-circle"></div>-->
+                        </li>
+                        <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 btm-yellow"
+                                                        onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                        </div>
+                    </ul>
+
+                    <ul class="list-product-index w-box-f100 pl30 font14 left">
+                        <li class="w-180 left ">预期年化：<font class="font-f9ac3a font26 line-h20">11</font><font
+                                class="font-f9ac3a font16">%</font></li>
+                        <li class="w-180 left">锁定期：12个月</li>
+                        <li class="w-150 left">起投金额：1000元</li>
+                        <li class="w-70 left">
+                            <!--<div id="xyb2-circle" class="probar-circle"></div>-->
+                        </li>
+                        <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 btm-yellow"
+                                                        onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                        </div>
+                    </ul>
+                </div>
+                <!-- 新元宝  over-->
+
+				<div class="line-a left"></div>
+				<!-- 月月派 start-->
+                <div class="font-666 h40  pt20 w-fbox-100  relative  clear ">
+                    <div class="fire_icon"></div>
+                    
+                    <span class="rry_sq left pl30  font20">月月派</span>
+                    <span class=" mr10 left line-h30 font-999 font14 ">每月派息 次月起息 多种期限可选</span>
+
+                    <ul class="list-product-index w-box-f100 pl30 font14 left">
+                        <li class="w-180 left ">预期年化：
+                            <font class="font-f9ac3a font26 line-h20">6</font><font class="font-f9ac3a font16">%-</font>
+                            <font class="font-f9ac3a font26 line-h20">11</font><font class="font-f9ac3a font16">%</font>
+                        </li>
+
+                        <li class="w-180 left">起投期限：3/6/12个月</li>
+                        <li class="w-150 left">起投金额：100元</li>
+
+                        <div class="right mr46">
+							<a href="" class="yyp-click"><span>移动专享</span>累计加入：1.2万人</a>
+						</div>
+                    </ul>
+				
+                </div>
+                <!-- 月月派  over-->
+
+            </div>
+            <!-- 生财有道 over-->
+
+            <!--散标直投  债权转让 start-->
+
+            <div class="w-box-f100 border-eee clearfix mt30">
+                <ul class="nav nav-tabs sbzq clearfix">
+                    <li role="presentation" class=""><a class="sbzaa" href="#sbzt" aria-controls="sbzt" role="tab" data-toggle="tab" style="background-color:transparent">散标直投</a></li>
+                    <li role="presentation" class="relative active"><a class="sbzaa" href="#zqzr" aria-controls="zqzr" role="tab" data-toggle="tab" style="background-color:transparent">债权转让</a><img class="jian_p" src="images/public/jian_j.png"></li>
+                    <div class="right mt14 mr15 ">
+                        <a class="font-4ca2ff" href="#">查看更多</a>
+                    </div>
+                </ul>
+
+                <div class="tab-content mtf18">
+                    <!--散标直投 start-->
+                    <div role="tabpanel" class="tab-pane" id="sbzt">
+
+                        <ul class="list-product-index w-box-f100 font14 font-666 left pl30 ptb5">
+
+                            <li class="w-220 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转 谢谢支持</a></div>
+                            </li>
+                            <li class=" pl20 w-60 left font-ff7365 relative"><font class="font26 line-h20">8</font><font
+                                    class="font16">%</font></li>
+                            <li class="w-60 left">6个月</li>
+                            <li class=" w-170 left">剩余：200,000,000.00元</li>
+                            <li class="w-70 left">
+                                <div id="sbzt0-circle" class="probar-circle"></div>
+
+                            </li>
+                            <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 bj-3f9bff"
+                                                            onclick="buyFund();" target="_blank"
+                                                            href="/fund/buyFund.html">立即抢购</a></div>
+                        </ul>
+
+                        <div class="line3 left w-box-f100"></div>
+
+                        <ul class="list-product-index w-box-f100  font-666 font14 left pl30 ptb5">
+
+                            <li class="w-220 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转 谢谢支持</a></div>
+                            </li>
+                            <li class=" pl20 w-60 left font-ff7365 relative"><font class="font26 line-h20">8</font><font
+                                    class="font16">%</font></li>
+                            <li class="w-60 left">6个月</li>
+                            <li class=" w-170 left">剩余：200.00元</li>
+                            <li class="w-70 left">
+                                <div id="sbzt1-circle" class="probar-circle"></div>
+                            </li>
+                            <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 bj-3f9bff"
+                                                            onclick="buyFund();" target="_blank"
+                                                            href="/fund/buyFund.html">立即抢购</a></div>
+                        </ul>
+
+                        <div class="line3 left  w-box-f100"></div>
+
+                        <ul class="list-product-index w-box-f100 font-666 font14 left pl30 ptb5">
+
+                            <li class="w-220 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转 谢谢支持</a></div>
+                            </li>
+                            <li class=" pl20 w-60 left font-ff7365 relative"><font class="font26 line-h20">8</font><font
+                                    class="font16">%</font></li>
+                            <li class="w-60 left">6个月</li>
+                            <li class=" w-170 left">剩余：200.00元</li>
+                            <li class="w-70 left">
+                                <div id="sbzt2-circle" class="probar-circle"></div>
+                            </li>
+                            <div class="right mt12 mr46"><a class="btn-xxd-large size-btn-118x36 bj-3f9bff"
+                                                            onclick="buyFund();" target="_blank"
+                                                            href="/fund/buyFund.html">立即抢购</a></div>
+                        </ul>
+
+                        <div class="line3 left w-box-f100"></div>
+
+
+                        <ul class="list-product-index w-box-f100 font-666 font14 left pl30 ptb5">
+
+                            <li class="w-220 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转 谢谢支持</a></div>
+                            </li>
+                            <li class=" pl20 w-60 left font-ff7365 relative"><font class=" font26 line-h20">8</font><font
+                                    class="font16">%</font></li>
+                            <li class="w-60 left">6个月</li>
+                            <li class=" w-170 left">剩余：200.00元</li>
+                            <li class="w-70 left">
+                                <div id="sbzt3-circle" class="probar-circle"></div>
+                            </li>
+                            <div class="right mt12 mr46"><a class="btn btn-xxd btn-xxd-large disabledbt size-btn-118x36 "
+                                                            onclick="buyFund();" target="_blank"
+                                                            href="/fund/buyFund.html">已抢光</a></div>
+                        </ul>
+                    </div>
+                    <!--散标直投 end-->
+
+                    <!--债权转让 start-->
+                    <div role="tabpanel" class="tab-pane active" id="zqzr">
+                        <ul class="list-product-index w-box-f100 font14 font-666 left pl30 ptb5">
+
+                            <li class="w-180 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转</a></div>
+                            </li>
+                            <li class=" pl20 w-100 left font-ff7365 relative">
+                                <p class="font26 line-h48">13.<span class="font16">29%</span></p>
+                            <li class="w-100 left">剩余：6个月</li>
+                            <li class=" w-170 left">转让价：200,000,00.00</li>
+                            <div class="right mt12 mr46">
+                                <a class="btn-xxd-large size-btn-118x36 bj-3f9bff" onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                            </div>
+                        </ul>
+
+                        <div class="line3 left w-box-f100"></div>
+                        <ul class="list-product-index w-box-f100 font14 font-666 left pl30 ptb5">
+
+                            <li class="w-180 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转</a></div>
+                            </li>
+                            <li class=" pl20 w-100 left font-ff7365 relative">
+                                <p class="font26 line-h48">13.<span class="font16">29%</span></p>
+                            <li class="w-100 left">剩余：6个月</li>
+                            <li class=" w-170 left">转让价：200,000,00.00</li>
+                            <div class="right mt12 mr46">
+                                <a class="btn-xxd-large size-btn-118x36 bj-3f9bff" onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                            </div>
+                        </ul>
+
+                        <div class="line3 left w-box-f100"></div>
+                        <ul class="list-product-index w-box-f100 font14 font-666 left pl30 ptb5">
+
+                            <li class="w-180 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转</a></div>
+                            </li>
+                            <li class=" pl20 w-100 left font-ff7365 relative">
+                                <p class="font26 line-h48">13.<span class="font16">29%</span></p>
+                            <li class="w-100 left">剩余：3个月</li>
+                            <li class=" w-170 left">转让价：899.6</li>
+                            <div class="right mt12 mr46">
+                                <a class="btn-xxd-large size-btn-118x36 bj-3f9bff" onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                            </div>
+                        </ul>
+
+                        <div class="line3 left w-box-f100"></div>
+                        <ul class="list-product-index w-box-f100 font14 font-666 left pl30 ptb5">
+
+                            <li class="w-180 left relative">
+                                <div class="ind-icon"><span class="ic-xfd"> </span>
+                                </div>
+                                <div class="ind-xtit"><a href="#">生活周转</a></div>
+                            </li>
+                            <li class=" pl20 w-100 left font-ff7365 relative">
+                                <p class="font26 line-h48">13.<span class="font16">29%</span></p>
+                            <li class="w-100 left">剩余：3个月</li>
+                            <li class=" w-170 left">转让价：899.6</li>
+                            <div class="right mt12 mr46">
+                                <a class="btn-xxd-large size-btn-118x36 bj-3f9bff" onclick="buyFund();" target="_blank" href="/fund/buyFund.html">立即抢购</a>
+                            </div>
+                        </ul>
+                    </div>
+                    <!--债权转让 end-->
+
+                </div>
+            </div>
+            <!--散标直投  债权转让 end-->
+
+        </div>
+        <!-- 左侧内容 over-->
+
+        <!-- 右侧内容 start-->
+        <div class="w-right-300">
+
+            <!-- 成交金额 start -->
+            <div class="w-box-f100 border-eee mt15 bj-f4faff relative h-box-206">
+                <h2 class="ind-amount">
+                </h2>
+
+                <div class="clearfix ">
+                    <div class="index-logo-1 mt30 pl30">
+                        <p class="font20  font-4ca2ff "><img height="19" width="22"
+                                                             src="images/public/index-logo_02.png"><span
+                                class="pl10">3,839,927,201.05<font class="font16">元</font></span></p>
+                    </div>
+                    <div class="line2"></div>
+                    <div class="mt10 pl30 font-666">风险准备金余额： </div>
+                    <div class="index-logo-1 mt10 pl30">
+
+                        <p class="font20  font-4ca2ff"><img height="19" width="17"
+                                                            src="images/public/index-logo_04.png"><span
+                                class="pl10">36,559,257.71<font class="font16">元</font></span></p>
+                    </div>
+                    <div class="mt10 pl30 font-666">累计为用户赚取收益： </div>
+                    <div class="index-logo-1 mt10 pl30 ">
+                        <p class="font20  font-4ca2ff "><img height="19" width="20"
+                                                             src="images/public/index-logo_06.png"><span
+                                class="pl10">211,081,619.13<font class="font16">元</font></span></p>
+                    </div>
+                </div>
+
+            </div>
+            <!--成交金额 end -->
+
+            <!-- 最新公告start -->
+            <div class="w-box-f100 border-eee mt35 ">
+                <h2 class="font16 font-666 pl20">
+                    <span class=" w-180 mr20 dis_line_block">最新公告</span>
+                    <a href="#" class=" getmore_lastnews  font14 h16l16" style="margin-right:25px;margin-top:-26px;" target="_blank">更多</a></h2>
+
+                <div class="index-news">
+                    <ul id="last-news">
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                新新a贷全b国第四十c家营业网营业d网营业网ee
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 最新公告 end -->
+
+            <!-- 投资风云榜 start -->
+            <div class="w-box-f100 border-eee mt35 ">
+                <h2 class="font16 font-666 pl20">
+                    <span class=" w-180 mr20 dis_line_block">5月投资风云榜</span>
+                    <a href="#" class=" getmore_lastnews  font14 h16l16" style="margin-right:25px;margin-top:-26px;" target="_blank">更多</a></h2>
+
+                <div class="index_top_bd">
+                    <table class="index_toplist" style="">
+                        <tbody>
+                        <tr>
+                            <td class="w-55">排名
+                            </td>
+                            <td class="w-100">用户名
+                            </td>
+                            <td class="w120">投资金额
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span class="index_sqa">1</span></td>
+                            <td>wi****ang</td>
+                            <td class="font-ff7365">46,949,576.04元</td>
+                        </tr>
+                        <tr>
+                            <td><span class="index_sqa">2</span></td>
+                            <td>wi****ang</td>
+                            <td class="font-ff7365">46,949,576.04元</td>
+                        </tr>
+                        <tr>
+                            <td><span class="index_sqa">3</span></td>
+                            <td>wi****ang</td>
+                            <td class="font-ff7365">46,949,576.04元</td>
+                        </tr>
+                        <tr>
+                            <td><span class="index_sqa">4</span></td>
+                            <td>wi****ang</td>
+                            <td class="font-ff7365">46,949,576.04元</td>
+                        </tr>
+                        <tr>
+                            <td><span class="index_sqa">5</span></td>
+                            <td>wi****ang</td>
+                            <td class="font-ff7365">46,949,576.04元</td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- 投资风云榜 end -->
+
+            <div class="w-box-f100 border-eee mt35 " role="tabpanel">
+                <ul class="nav nav-tabs bg-transp pl20 " style=" margin:0px; border:none; padding-top:0px; height:45px; " role="tablist">
+                    <li role="presentation" class="newstp "><a href="#home" aria-controls="home" role="tab" data-toggle="tab" style="font-size:16px;background-color:transparent;height: 45px;
+  line-height: 28px;">最新动态</a>
+                    </li>
+                    <li role="presentation" class="newstp active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" style="font-size:16px;background-color:transparent;height: 45px;
+  line-height: 28px;">媒体报道</a>
+                    </li>
+                    <div class="right mt14 mr15 ">
+                        <a href="#" class=" getmore_lastnews  font14 h16l16" target="_blank">更多</a>
+                    </div>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane index-news" id="home">
+                        <ul>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1236">
+                                [最新动态] 新新贷：共享经济时代下的互联网金融生态产业链 </a> <span class="right">
+							2015-10-30 </span></li>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1235">
+                                [最新动态] 新新贷CTO李冠峰一行随团考察江浙沪互联网金融优秀企业 </a> <span class="right">
+							2015-10-30 </span></li>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1234">
+                                [最新动态] 新新贷CEO张扬应邀出席维氏盾“征查蜂”产品发布会 共话国内征信体系建设 </a> <span class="right">
+							2015-10-30 </span></li>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1229">
+                                [最新动态] 上海金融信息行业协会秘书长李娟一行到访新新贷 </a> <span class="right">
+							2015-09-24 </span></li>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1226">
+                                [最新动态] 新新贷与PICC达成战略合作 </a> <span class="right"> 2015-09-18 </span></li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane active index-news" id="profile">
+                        <ul>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1219">
+                                [媒体报道] 新闻晨报：新新贷张扬：P2P正式驶入“赛车道” </a> <span class="right">
+							2015-08-17 </span></li>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1191">
+                                [媒体报道] 农村金融时报：P2P乱象止于何时 </a> <span class="right"> 2015-06-01 </span>
+                            </li>
+
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1189">
+                                [媒体报道] 《凤凰财经》：牛市见顶后便是互联网金融的机遇 </a> <span class="right">
+							2015-05-25 </span></li>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1175">
+                                [媒体报道] 中华工商时报：P2P网贷平台数据安全存隐忧从第三方IT商购买“模板”的平台最易受到攻击 </a> <span class="right"> 2015-04-15 </span></li>
+                            <li><a target="_blank" href="/news/newsDetail.html?id=1174">
+                                [媒体报道] 金融时代杂志：如何看待P2P的流动性问题 </a> <span class="right">
+							2015-04-09 </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- banner 位start -->
+            <div class="w-box-f100 mt34">
+                <img src="images/ls/x-banner1.jpg" alt=""/>
+            </div>
+
+            <div class="w-box-f100  mt32 ">
+                <img src="images/ls/x-banner2.jpg" alt=""/>
+            </div>
+            <!-- banner 位end -->
+
+            <!-- 扫二维码start -->
+            <div class="w-box-f100 border-eee mt22 clearfix">
+                <div style="color:#165b96;padding-top: 13px;" class="text-center">扫一扫关注新新贷</div>
+                <div class="left left_erweima">
+                    <img src="images/public/left_phone.jpg" width="92">
+                </div>
+                <div class="right right_erweima">
+                    <img src="images/public/right_weixin.jpg" width="92">
+                </div>
+                <div class="left left_phone">
+                    手机客户端
+                </div>
+                <div class="right right_weixin">
+                    微信公众号
+                </div>
+            </div>
+            <!-- 扫二维码 end -->
+
+        </div>
+        <!-- 右侧内容 over-->
+    </div>
+
+    <!-- 合作伙伴 start -->
+    <div class="container-w1100  clearfix relative">
+        <div class="w-box-f100 border-eee mt30 ">
+            <h4 class=" pl30 pb10 pt15 ">合作伙伴</h4>
+
+            <div class="line-a left mt10 "></div>
+            <img src="images/public/index_l.png" class="parner_l pre">
+            <img src="images/public/index_r.png" class="parner_r next">
+            <div class="relative parner_firsdiv">
+                <div class="marquee">
+                    <ul class="xxd-partener xxd-moreinfom  clearfix" style="position: absolute" id="updateppt">
+                        <li>
+                            <div class="xxd-partener-img">
+                                <a href="http://www.cebbank.com/Site/ceb/cn" target="view_window">
+                                    <img src="images/public/v5index20140613_r1_c1.jpg" title="" width="150">
+                                </a>
+                            </div>
+                            <a href="http://www.cebbank.com/Site/ceb/cn" target="view_window" class="">中国光大银行股份有限公司</a>
+                        </li>
+                        <li>
+                            <div class="xxd-partener-img">
+                                <a href="http://www.yeepay.com/" target="view_window">
+                                    <img src="images/public/picc.png" title="" width="150">
+                                </a>
+                            </div>
+                            <a href="http://www.yeepay.com/" target="view_window" class="">中国人保财险</a>
+                        </li>
+                        <li>
+                            <div class="xxd-partener-img">
+                                <a href="http://www.dachengnet.com/" target="view_window">
+                                    <img src="images/public/v5index20140613_r1_c3.jpg" title="" width="150">
+                                </a>
+                            </div>
+                            <a href="http://www.dachengnet.com/" target="view_window">大成律师事务所</a>
+                        </li>
+                        <li>
+                            <div class="xxd-partener-img">
+                                <a href="https://www.fuiou.com/" target="view_window">
+                                    <img src="images/public/v5index20140613_r1_c4.jpg" title="" width="150">
+                                </a>
+                            </div>
+                            <a href="https://www.fuiou.com/" target="view_window">富友支付服务有限公司</a>
+                        </li>
+                        <li>
+                            <div class="xxd-partener-img">
+                                <a href="http://www.pycredit.cn/index.jsp" target="view_window">
+                                    <img src="images/public/v5index20140613_r1_c5.jpg" title="" width="150">
+                                </a>
+                            </div>
+                            <a href="http://www.pycredit.cn/index.jsp" target="view_window">鹏元征信有限公司</a>
+                        </li>
+                        <li>
+                            <div class="xxd-partener-img">
+                                <a href="http://www.shanghai-cis.com.cn/index2.aspx" target="view_window">
+                                    <img src="images/public/v5index20140613_r1_c6.jpg" title="" width="150">
+                                </a>
+                            </div>
+                            <a href="http://www.shanghai-cis.com.cn/index2.aspx" target="view_window">上海资信有限公司</a>
+                        </li>
+                        <li>
+                            <div class="xxd-partener-img">
+                                <a href="http://www.fadada.com" target="view_window">
+                                    <img src="images/public/fadada.jpg" title="" width="150">
+                                </a>
+                            </div>
+                            <a href="http://www.fadada.com" target="view_window">法大大</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 合作伙伴 end -->
+
+    <!-- 了解更多 start -->
+    <div class="container-w1100  clearfix pb30 ">
+        <div class="w-box-f100 border-eee mt30 ">
+            <h4 class=" pl30 pb10 pt15 ">了解更多</h4>
+
+            <div class="line-a left mt10 "></div>
+            <ul class="xxd-partener xxd-moreinfom clearfix pl50">
+                <li>
+                    <div class="xxd-partener-img"><a href="${path}/about/contactus.html" target="_blank"><img
+                            src="images/public/v5index20140613_r8_c3.png"></a></div>
+                    <a href="${path}/about/contactus.html">全国服务</a>
+                </li>
+                <li>
+                    <div class="xxd-partener-img"><a href="http://www.xinxindai.com/security/guarantee_plan.html"
+                                                     target="_blank"><img
+                            src="images/public/v5index20140613_r8_c7.png"></a></div>
+                    <a href="http://www.xinxindai.com/security/guarantee_plan.html">隐私保护</a>
+                </li>
+                <li>
+                    <div class="xxd-partener-img"><a href="${path}/news/newsDetail.html?id=864" target="_blank"><img
+                            src="images/public/v5index20140613_r8_c13.png"></a></div>
+                    <a href="${path}/news/newsDetail.html?id=864" target="_blank">中国小额信贷联盟P2P行业委员会</a>
+                </li>
+                <li>
+                    <div class="xxd-partener-img"><a
+                            href="${path}/news/newsDetail.html?id=816"
+                            target="_blank"><img src="images/public/v5index20140613_r8_c18.png"></a></div>
+                    <a href="${path}/news/newsDetail.html?id=816" target="_blank" class="">上海网络信贷服务业企业联盟成员</a>
+                </li>
+                <li>
+                    <div class="xxd-partener-img"><a
+                            href="${path}/news/newsDetail.html?id=746"
+                            target="_blank"><img src="images/public/v5index20140613_r8_c23.png"></a></div>
+                    <a href="${path}/news/newsDetail.html?id=746"
+                       target="_blank" class="">上海市信息服务业行业协会理事单位</a>
+                </li>
+                <li>
+                    <div class="xxd-partener-img"><a href="http://www.ceh.com.cn/jjzx/2013/03/179049.shtml"
+                                                     target="_blank"><img
+                            src="images/public/v5index20140613_r8_c28.png"></a></div>
+                    <a href="http://www.ceh.com.cn/jjzx/2013/03/179049.shtml" target="_blank">上海陕西商会副会长单位</a>
+                </li>
+                <li>
+                    <div class="xxd-partener-img"><a href="http://www.sfia.org.cn/"
+                                                     target="_blank"><img
+                            src="images/public/v5index20140613_r8_c29.png"></a></div>
+                    <a href="http://www.sfia.org.cn/" target="_blank">上海金融信息行业协会</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 了解更多 end -->
+</div>
+
+<!-- 浮动工具栏 start-->
+<div class="v6-sidebar">
+
+    <div class="relative sidebar-sh">
+        <a href="#" class="v6-sidebar-caculator"></a>
+        <a href="#" class="v6-sidebar-sh "><p class="font16" style="line-height: 55px;">在线计算器</p></a>
+    </div>
+    <div class="relative sidebar-sh" style="margin-top:2px;margin-bottom: 2px;">
+        <a href="#" class="v6-sidebar-qq"></a>
+        <a href="#" class="v6-sidebar-sh"><p class="font16" style="line-height: 55px;">在线客服</p></a>
+    </div>
+    <div class="relative sidebar-sh" style="margin-bottom: 2px;">
+        <a href="#" class="v6-sidebar-guide"></a>
+        <a href="#" class="v6-sidebar-sh"><p class="font16" style="line-height: 55px;">新手指引</p></a>
+    </div>
+
+    <div class="relative sidebar-sh" style="margin-top:2px;margin-bottom: 2px;" id="show_bankSet_id4">
+        <a href="#" class="v6-sidebar-yj"></a>
+        <a href="#" class="v6-sidebar-sh"><p class="font16" style="line-height: 55px;">意见反馈</p></a>
+    </div>
+    <div class="relative sidebar-sh">
+        <a href="#top-v6" class="v6-sidebar-top"> </a>
+    </div>
+</div>
+<!-- 浮动工具栏 over-->
+
+<!--  侧边栏效果之意见反馈 start -->
+<div class="bankSet_id4">
+    <div class="f_divyj">
+        <button type="button" class="close close_yjdiv"><span aria-hidden="true">×</span><span class="sr-only" id="aclose_mini">关闭</span></button>
+        <h4 class="modal-title"><span class="font-4ca2ff font18">意见反馈</span></h4>
+    </div>
+    <div class="s_divyj">
+        <p class="font14 font-666">您的意见<span class="font12 font-999 right">还可以输入200字</span></p>
+        <textarea class="yj_area" maxlength="200" placeholder="请填写您的意见，不超过200字"></textarea>
+
+        <p class="font14 font-666">联系方式(选填)</p>
+        <input class="w100p yj_input" type="text" placeholder="您的邮箱/QQ号/手机号">
+
+        <div class="pt15">
+            <button href="#" class="btn-xxd-large  submit_yj">确认提交</button>
+            <span class="font18 red-ff7d70">请填写您的意见</span>
+        </div>
+    </div>
+</div>
+<div class="bankSet_id4_s">
+    <p class="jy_succe font-4ca2ff font18">提交成功</p>
+</div>
+<!--  侧边栏效果之意见反馈 end -->
+
+<!-- footer start-->
+<div class="index-footer min-w1100">
+    <div class="container">
+        <div class="footer-cont">
+            <div class="footer-kf"></div>
+            <div class="footer-aboutus">
+                <span class="left">关注我们</span>
+
+                <div class="footer-weibo"></div>
+                <div class="footer-weixin"></div>
+                <span class="left ml50">下载手机客户端</span>
+
+                <div class="footer-apple"></div>
+                <div class="footer-android"></div>
+                <div class="erweima-box weibo-box">
+                    <div class="erweima-weibo"></div>
+                </div>
+                <div class="erweima-box weixin-box">
+                    <div class="erweima-weixin"></div>
+                </div>
+                <div class="erweima-box apple-box">
+                    <div class="erweima-apple"></div>
+                </div>
+                <div class="erweima-box android-box">
+                    <div class="erweima-android"></div>
+                </div>
+            </div>
+            <ul class="left mt40 mr20 fixaaa">
+                <li class="yh13">关于新新贷</li>
+                <li><a href="/about/aboutcompany.html">新新贷介绍</a>
+                </li>
+                <li><a href="/index/newsNoticesThree.html?typeName=news_notices">公告和新闻</a>
+                </li>
+                <li><a href="/about/contactus.html">联系我们</a>
+                </li>
+                <!--  <li><a href="/about/blogroll.html">友情链接</a>
+                </li>-->
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">安全保障</li>
+                <!--<li><a href="/security/guarantee_plan.html">本金保障</a>
+                </li>-->
+                <li><a href="/security/guarantee_plan.html">阳光透明</a>
+                </li>
+                <li><a href="/security/pwd_suggestion.html">隐私保护</a>
+                </li>
+                <li><a href="/security/risk_group.html">风险控制</a>
+                </li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">帮助中心</li>
+                <li><a href="/help/aboutxxd.html">常见问题</a>
+                </li>
+                <li><a href="/help/operation.html">操作演示</a>
+                </li>
+                <li><a href="/help/fee.html">资费介绍</a>
+                </li>
+            </ul>
+            <ul class="left mt40 mr20">
+                <li class="yh13">兄弟品牌</li>
+                <li><a href="http://www.xinxinwealth.com" id="xxcf" target="_blank"> </a></li>
+            </ul>
+        </div>
+
+        <div class="index_blog_roll">
+            <div class="blogrolltitlea">友情链接：</div>
+            <ul id="index_blog_rollul" class="showone">
+
+
+                <li><a href="http://www.sfia.org.cn/" target="view_window">上海金融信息行业协会</a></li>
+
+                <li><a href="https://www.weicaifu.com/v/index" target="view_window">新浪微财富</a></li>
+
+                <li><a href="http://p2p.hexun.com/" target="view_window">和讯P2P频道</a></li>
+
+                <li><a href="http://www.xinxindai.com" target="view_window">网贷平台</a></li>
+
+                <li><a href="http://www.wangdaizhijia.com/" target="view_window">网贷之家</a></li>
+
+                <li><a href="http://bbs.xinxindai.com/" target="view_window">P2P网贷论坛</a></li>
+
+                <li><a href="http://finance.ifeng.com/itfinance/" target="view_window">凤凰互联网金融</a></li>
+
+                <li><a href="http://www.zixinke.com" target="view_window">资信客</a></li>
+
+                <li><a href="http://www.xinxindai.com/jijin-229/" target="view_window">基金资讯</a></li>
+
+                <li><a href="http://www.shengcai18.com/" target="view_window">生菜网</a></li>
+
+                <li><a href="https://www.midaijihua.com/" target="view_window">米袋计划</a></li>
+
+                <li><a href="http://www.58jr.cn/mall/main.do" target="view_window">网投春秋</a></li>
+
+                <li><a href="http://www.xinxindai.com/daikuan-791/" target="view_window">贷款资讯</a></li>
+
+                <li><a href="http://www.xinxindai.com/P2Pwangdaipingtai-1080/" target="view_window">P2P网贷平台</a></li>
+
+                <li><a href="http://www.trjcn.com/" target="view_window">投融界</a></li>
+
+                <li><a href="http://iof.hexun.com" target="view_window">和讯互联网金融</a></li>
+
+                <li><a href="http://www.icaifu.com/" target="view_window">研报下载</a></li>
+
+                <li><a href="http://shenzhen.rong360.com/" target="view_window">深圳贷款</a></li>
+
+                <li><a href="http://shanghai.roadoor.com/" target="view_window">上海贷款</a></li>
+
+                <li><a href="http://www.dimeng.net" target="view_window">网贷系统</a></li>
+
+                <li><a href="http://www.xinxindai.com/licaigongju--3/" target="view_window">理财工具</a></li>
+
+                <li><a href="http://www.xinxindai.com/licaizhiye--7/" target="view_window">理财职业</a></li>
+
+                <li><a href="http://www.xinxindai.com/licaizhishi--2/" target="view_window">理财知识</a></li>
+
+                <li><a href="http://www.xinxindai.com/licaipingtai--9/" target="view_window">理财平台</a></li>
+
+                <li><a href="http://www.xinxindai.com/yinhanglicai--4/" target="view_window">银行理财</a></li>
+
+                <li><a href="http://www.xinxindai.com/diyulicai--6/" target="view_window">地域理财</a></li>
+
+                <li><a href="http://www.xinxindai.com/touzilicai--8/" target="view_window">投资理财</a></li>
+
+                <li><a href="http://www.xinxindai.com/licairenqun--10/" target="view_window">理财人群</a></li>
+
+                <li><a href="http://www.xinxindai.com/licaichanpin--5/" target="view_window">理财产品</a></li>
+
+                <li><a href="http://www.jfjinrong.com" target="view_window">票据理财</a></li>
+
+                <li><a href="http://www.xinxindai.com/licai-1/" target="view_window">理财资讯</a></li>
+
+                <li><a href="http://www.soudai360.com" target="view_window">P2P网贷</a></li>
+
+                <li><a href="http://h.shlxhd.gov.cn/xinxindai.lx" target="view_window">新新贷党支部</a></li>
+
+
+                <div class="clear"></div>
+            </ul>
+            <a class="showmoreblogroll show_more" id="show_more" style="display:block;"> </a>
+            <a class="showmoreblogroll show_reg" id="show_reg"> </a>
+        </div>
+    </div>
+    <!-- 版权与可信认证 start-->
+    <div class="xxd_pagefoot">
+        <div class="container">
+            <div class="newfoot_copyright">
+                Copyright @上海涌信金融信息服务有限公司 沪ICP备12026657号-1 版权所有，未经许可不得复制、转载或摘编，违者必究！
+                <!-- cnzz统计代码 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253077251'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253077251%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                <span id="cnzz_stat_icon_1253077251"><a href="http://www.cnzz.com/stat/website.php?web_id=1253077251"
+                                                        target="_blank" title="站长统计"><img border="0" hspace="0"
+                                                                                          vspace="0"
+                                                                                          src="http://icon.cnzz.com/img/pic.gif"></a></span>
+                <script src=" http://s19.cnzz.com/z_stat.php?id=1253077251&amp;show=pic"
+                        type="text/javascript"></script>
+                <script src="http://c.cnzz.com/core.php?web_id=1253077251&amp;show=pic&amp;t=z" charset="utf-8"
+                        type="text/javascript"></script>
+                <!-- 百度统计代码 -->
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78e9b60f68bcb0ca48e187efedec7fb9' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+                <script src=" http://hm.baidu.com/h.js?78e9b60f68bcb0ca48e187efedec7fb9"
+                        type="text/javascript"></script>
+            </div>
+            <div class="new_identification">
+                <!--  <a id="icon001" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank"><img src="/images/icon001.jpg"/></a>
+                <a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20140224003875003530' target='_blank'><img src='https://search.szfw.org/cert.png?l=CX20140224003875003530'></a>
+                <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                <span id="kx_verify"></span><script type="text/javascript">(function (){var _kxs = document.createElement('script');_kxs.id = 'kx_script';_kxs.async = true;_kxs.setAttribute('cid', 'kx_verify');_kxs.src = ('https:' == document.location.protocol ? 'https://ss.knet.cn' : 'http://rr.knet.cn')+'/js/icon3.js?sn=e14050731010948597brpb000000&tp=icon3';_kxs.setAttribute('size', 0);var _kx = document.getElementById('kx_verify');_kx.parentNode.insertBefore(_kxs, _kx);})();</script>-->
+                <a href="http://www.shjbzx.cn/" target="_blank" class="hlwjb"> </a>
+                <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank" class="id_xin"> </a>
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e14050731010948597brpb000000&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.xinxindai.com"
+                   target="_blank" class="id_kexin"> </a>
+                <a href="https://search.szfw.org/cert/l/CX20140224003875003530" target="_blank"
+                   class="id_chengxin"> </a>
+            </div>
+        </div>
+    </div>
+    <!-- 版权与可信认证 over-->
+</div>
+<!-- footer over-->
+<!-- index main content over-->
+<script src="js/jquery1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/stickUp.min.js"></script>
+<script src="js/jquery.roundabout-1.0.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/xxd.js"></script>
+<script src="js/echarts-all.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#moredata").click(function () {
+            $(".index-data").slideUp();
+            $(".small-data").delay(1000).fadeIn();
+        });
+        $(".xxd-partener>li").mouseover(function () {
+            $(this).children("div").addClass("borderd");
+            $(this).children("a").addClass("hover");
+        });
+        $(".xxd-partener>li").mouseout(function () {
+            $(this).children("div").removeClass("borderd");
+            $(this).children("a").removeClass("hover");
+        });
+        $("#show_more").click(function () {
+            $("#index_blog_rollul").addClass("showall");
+            $("#show_reg").show();
+            $("#show_more").hide();
+        });
+        $("#show_reg").click(function () {
+            $("#index_blog_rollul").removeClass("showall");
+            $("#show_reg").hide();
+            $("#show_more").show();
+        });
+        $(".footer-weibo").mouseover(function () {
+            $(".weibo-box").fadeIn(100);
+        });
+        $(".footer-weibo").mouseout(function () {
+            $(".weibo-box").fadeOut(100);
+        });
+        $(".footer-weixin").mouseover(function () {
+            $(".weixin-box").fadeIn(100);
+        });
+        $(".footer-weixin").mouseout(function () {
+            $(".weixin-box").fadeOut(100);
+        });
+        $(".footer-apple").mouseover(function () {
+            $(".apple-box").fadeIn(100);
+        });
+        $(".footer-apple").mouseout(function () {
+            $(".apple-box").fadeOut(100);
+        });
+        $(".footer-android").mouseover(function () {
+            $(".android-box").fadeIn(100);
+        });
+        $(".footer-android").mouseout(function () {
+            $(".android-box").fadeOut(100);
+        });
+        $('ul.nav li').hover(function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeIn(100);
+        }, function () {
+            $(this).find('.dropdown-menu').stop(true, true).fadeOut(100);
+        });
+        <!-- 悬浮加上小箭头 -->
+        $('ul.nav li.haslink').hover(function () {
+            $(this).addClass('navarrowdown');
+        }, function () {
+            $(this).removeClass('navarrowdown');
+        });
+
+        $('#featured-area ul').roundabout({
+            easing: 'easeOutInCirc',
+            duration: 600,
+            minOpacity: 0.5,
+            minScale: 0.75
+        });
+    });
+</script>
+<script type="text/javascript">
+    //initiating jQuery
+    jQuery(function ($) {
+        $(document).ready(function () {
+            //enabling stickUp on the '.navbar-wrapper' class
+            $('header.navbar-fixed-top').stickUp();
+        });
+    });
+
+</script>
+<script>
+
+    <!--鼠标悬浮 出现二维码 -->
+    $(".weixin_ver").hover(function () {
+        $(".weixin_erweima_ver").show();
+    }, function () {
+        $(".weixin_erweima_ver").hide();
+    });
+    $(".mobile_ver").hover(function () {
+        $(".mobile_erweima_ver").show();
+        $(".mobile_erweima_erver").show();
+    }, function () {
+        $(".mobile_erweima_ver").hide();
+        $(".mobile_erweima_erver").hide();
+    });
+    $(function () {
+
+        //圆环进度条 第一个参数为绑定div的id 第二个参数为剩余百分比 第三个参数为进度百分比 第四个参数为背景文字颜色 ,第五，六个参数控制圆环大小
+        //大显身手
+        dataChart('dxsh-circle', 0, 100, '#ff7d70', 30, 24);
+        //新元宝
+        dataChart('xyb0-circle', 0, 0, '#f9ac3a', 24, 20);
+        dataChart('xyb1-circle', 50, 50, '#f9ac3a', 24, 20);
+        dataChart('xyb2-circle', 50, 50, '#f9ac3a', 24, 20);
+
+        //散标直投
+        dataChart('sbzt0-circle', 50, 50, '#3f9bff', 24, 20);
+        dataChart('sbzt1-circle', 50, 50, '#3f9bff', 24, 20);
+        dataChart('sbzt2-circle', 50, 50, '#3f9bff', 24, 20);
+        dataChart('sbzt3-circle', 50, 50, '#3f9bff', 24, 20);
+    });
+
+</script>
+<script>
+    $(function () {
+        //点击 意见反馈 弹出框出现
+        $("#show_bankSet_id4").click(function () {
+            $(".bankSet_id4").show();
+        });
+        //叉号关闭意见弹出框
+        $(".close_yjdiv").click(function () {
+            $(".bankSet_id4").hide();
+            $(".bankSet_id4_s").hide();
+        });
+        //点击确认提交
+        $(".submit_yj").click(function () {
+            //清空输入框
+            $(".yj_area").val('');
+            $(".yj_input").val('');
+
+            //后台得到消息，成功则不拉不拉不阿鲁巴拉拉
+            //弹出成功提示
+            $(".bankSet_id4_s").show();
+
+            //关闭 意见反馈 弹出框 以及弹出消息
+            setTimeout(function () {
+                $(".bankSet_id4_s").hide();
+            }, 2000);
+            setTimeout(function () {
+                $(".bankSet_id4").hide();
+            }, 2000);
+            /*$(".bankSet_id4").hide();
+             $(".bankSet_id4_s").hide();*/
+        });
+    });
+    //侧边栏悬浮效果
+    var obj1;
+    var obj0;
+    var markClass;
+    $(".sidebar-sh").hover(function () {
+        obj0 = $(this).children().get(0);
+        obj1 = $(this).children().get(1);
+        markClass = $(obj0).attr("class");
+        $(obj0).addClass(markClass + "w").removeClass(markClass);
+        $(obj1).addClass("v6-sidebar-show").animate({left: "-149px", height: "55px", width: "150px"}, "slow");
+        $(obj1).show();
+    }, function () {
+        $(obj0).addClass(markClass).removeClass(markClass + "w");
+        $(obj1).removeClass("v6-sidebar-show").animate({left: "0", height: "0", width: "0"}, "slow");
+        $(obj1).hide();
+    });
+</script>
+
+<script>
+    //【产品改进】合作伙伴轮播功能
+    var mark_ul=$('.marquee').find('ul');
+    var wid_pading=12;
+    var mark_speed=500;
+    var mark_time=700;
+    var click_left=$('.pre');
+    var click_right=$('.next');
+    onebyone(mark_ul, wid_pading, mark_speed, mark_time, click_left, click_right);
+
+</script>
+</body>
+</html>
