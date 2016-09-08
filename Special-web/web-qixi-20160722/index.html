@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>七夕活动专题页</title>
+<link href="../../css/bootstrap.css" rel="stylesheet">
+<link href="../../css/bootstrap-blue.css" rel="stylesheet">
+<link href="../../css/xxd.css" rel="stylesheet">
+<style>
+.bg1{width:100%; height:103px; background:url(images/bg1.jpg) 50% 0 no-repeat;}
+.area1{width:1100px; height:103px; margin:0 auto; position:relative;}
+
+.bg2{width:100%; height:497px; background:url(images/bg2.jpg) 50% 0 no-repeat;}
+.area2{width:1100px; height:497px; margin:0 auto; position:relative;}
+.area2 .loginCon{width:330px; height:405px; top:100px; right:0; position:absolute; background-color:rgba(15,67,151,0.9); border:1px solid #6b9efc;}
+.area2 .loginCon h2{width:330px; height:40px; line-height:40px; font-size:24px; font-weight:bold; color:#ffffff; text-align:center; margin-top:20px; margin-bottom:20px;}
+.area2 .loginCon ul{width:280px; height:195px; margin:0 auto;}
+.area2 .loginCon ul li{width:280px; height:40px; margin-bottom:15px; list-style-type:none;}
+.area2 .loginCon ul li input[type="text"]{background:#ffffff; border:none; height:40px; border-radius:5px; float:left; display:inline; padding:0 10px; width:280px; font-size:16px;}
+.area2 .loginCon ul li img{width:75px; height:30px; margin-top:5px; float:left; display:inline; margin-left:13px;}
+.area2 .loginCon ul li span{width:15px; height:15px; float:left; display:inline; background:url(images/flash.png) 0 0 no-repeat; margin-top:12px; cursor:pointer; margin-left:13px;}
+.area2 .loginCon ul li strong{width:105px; height:40px; background:#5c9bf3; color:#ffffff; font-size:16px; text-align:center; border-radius:5px; float:left; display:inline; margin-left:10px; font-weight:normal; font-size:16px; line-height:40px; cursor:pointer;}
+.area2 .loginCon ul .sli input[type="text"]{width:160px;}
+.area2 .loginCon .tcon{width:280px; height:20px; line-height:20px; font-size:14px; color:#ffffff; margin:0 auto; margin-bottom:10px;}
+.area2 .loginCon .tcon checkbox{width:20px; height:20px; float:left; display:inline; margin-right:10px;}
+.area2 .loginCon .tcon a{color:#ffffff; font-size:14px;}
+.area2 .loginCon input[type="submit"]{width:272px; height:56px; background:url(images/btn1.png) 0 0 no-repeat; display:block; margin:0 auto; border:none; cursor:pointer;}
+.area2 .loginCon .bcon{width:280px; height:20px; line-height:20px; font-size:16px; color:#fff552; margin:0 auto; text-align:center; margin-top:10px;}
+.area2 .loginCon .bcon a{color:#fff552; font-size:16px; text-decoration:underline;}
+.area2 .loginCon .alerts{width:278px; height:24px; line-height:24px; border:1px solid #ffbbbb; background:#ffdddd; color:#ff4b4b; padding:0 10px; top:240px; left:50%; margin-left:-139px; position:absolute;}
+
+.bg3{width:100%; height:520px; background:url(images/bg3.jpg) 50% 0 no-repeat;}
+.area3{width:1100px; height:520px; margin:0 auto; position:relative;}
+
+.bg4{width:100%; height:302px; background:url(images/bg4.jpg) 50% 0 no-repeat;}
+.area4{width:1100px; height:302px; margin:0 auto; position:relative;}
+
+.bg5{width:100%; height:317px; background:url(images/bg5.jpg) 50% 0 no-repeat;}
+.area5{width:1100px; height:317px; margin:0 auto; position:relative;}
+.area5 .btn1{width:348px; height:71px; display:block; top:200px; left:50%; margin-left:-174px; position:absolute;}
+
+.bg6{width:100%; height:621px; background:url(images/bg6.jpg) 50% 0 no-repeat;}
+.area6{width:1100px; height:621px; margin:0 auto; position:relative;}
+.area6 .btn3{width:248px; height:57px; display:block; top:230px; left:135px; position:absolute;}
+.area6 .btn3.state1{background:url(images/btn3_1.png) 0 0 no-repeat;} /* 无法点击-灰色 */
+.area6 .btn3.state2{background:url(images/btn3_2.png) 0 0 no-repeat;} /* 可以点击-彩色 */
+.area6 .btn3.state3{background:url(images/btn3_3.png) 0 0 no-repeat;} /* 打钩 */
+.area6 .btn4{width:248px; height:57px; display:block; top:230px; right:135px; position:absolute;}
+.area6 .btn4.state1{background:url(images/btn4_1.png) 0 0 no-repeat;} /* 无法点击-灰色 */
+.area6 .btn4.state2{background:url(images/btn4_2.png) 0 0 no-repeat;} /* 可以点击-彩色 */
+.area6 .btn4.state3{background:url(images/btn4_3.png) 0 0 no-repeat;} /* 打钩 */
+
+.bg7{width:100%; height:826px; background:url(images/bg7.jpg) 50% 0 no-repeat;}
+.area7{width:1100px; height:826px; margin:0 auto; position:relative;}
+.area7 ul{width:960px; height:260px; top:160px; left:50%; margin-left:-480px; position:absolute;}
+.area7 ul li{width:198px; height:258px; float:left; display:inline; background-color:rgba(8,33,75,0.6); border:1px solid #3466c2; margin:0 20px;}
+.area7 ul li h3{width:175px; height:45px; line-height:45px; font-size:20px; color:#ffffff; text-align:center; font-weight:bold; margin:0 auto; border-radius:20px; background:#153877; margin-top:10px;}
+.area7 ul li strong{width:198px; height:80px; line-height:80px; text-align:center; display:block; font-size:70px; color:#fd55bc; position:relative; margin:12px 0;}
+.area7 ul li strong span{font-size:30px;}
+.area7 ul li strong em{font-style:normal; font-size:16px; top:15px; right:25px; position:absolute; height:auto; width:40px; height:20px; line-height:20px;}
+.area7 div{width:198px; height:24px; line-height:24px; color:#556a8d; font-size:16px; text-align:center;}
+.area7 div span{line-height:24px; margin:0 15px;}
+.area7 a{width:174px; height:43px; display:block; margin:0 auto; background:url(images/btn5.png) 0 0 no-repeat; margin-top:15px;}
+
+.bg8{width:100%; height:942px; background:url(images/bg8.jpg) 50% 0 no-repeat;}
+.area8{width:1100px; height:942px; margin:0 auto; position:relative;}
+.area8 ul{width:750px; top:100px; left:50%; margin-left:-375px; position:absolute;}
+.area8 ul li{width:750px; height:48px; line-height:48px; text-align:center; color:#5484d3; font-size:16px; list-style-type:none;}
+.area8 ul li#sli{background:#2955a4; border-radius:5px; color:#ffffff; font-size:20px;}
+.area8 ul li:nth-child(even){background-color:rgba(20,47,97,0.5);}
+.area8 ul li span{width:180px; float:left; display:inline; line-height:48px; text-align:center;}
+.area8 ul li span:last-child{width:210px;}
+
+.bg9{width:100%; height:692px; background:url(images/bg9.jpg) 50% 0 no-repeat;}
+.area9{width:1100px; height:692px; margin:0 auto; position:relative;}
+
+.scrolling{height:480px; overflow:hidden;}
+.layer{width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:9; top:0; left:0; position:fixed; display:none;}
+.alertBox{width:478px; background:#0f4397; height:275px; border:1px solid #6b9efc; border-radius:5px; z-index:10; top:100px; left:50%; margin-left:-239px; position:fixed; display:none;}
+.alertBox h3{width:478px; text-align:center; color:#ffffff; font-size:20px; font-weight:bold; margin-top:45px;}
+.alertBox h4{width:478px; text-align:center; color:#ffffff; font-size:18px; margin-top:30px;}
+.alertBox .btnBox{width:478px; text-align:center; margin-top:40px;}
+.alertBox img{width:35%; display:block; border:none; display:inline-block; margin:0 5%;}
+.alertBox .close{top:10px; right:10px; position:absolute; width:5%; margin:0; opacity:1;}
+</style>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!--[if lte IE 7]>
+<div id="errorie"><div>您所使用的IE浏览器版本过旧，为了您获得更好的浏览体验，请升级您的浏览器到 IE8以上版本</div></div>
+<![endif]-->
+</head>
+<body>
+<!--top start-->
+<header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a href="xxd-mobile.html" class="left top-mob"><span class="glyphicon glyphicon-phone"></span>手机新新贷</a>
+            <!-- 登录状态topbar start-->
+            <nav class="nav-collapse user">
+                <div class="user-info pull-right">
+                    <div class="btn-group">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                            <div>欢迎<span>新新贷用户户习大大</span></div>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href=""><span class="glyphicon glyphicon-user"></span> 我的新新贷</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-credit-card"></span> 充值</a></li>
+                            <li><a href=""><span class="glyphicon glyphicon-envelope"></span> 站内信<span class="badge">12</span></a></li>
+                            <li class="divider"></li>
+                            <li><a href=""><span class="icon-signout"></span> 退出登录</a></li>
+                        </ul>
+                        <a href="#" class="top-link right">帮助</a>
+                        <a href="#" class="top-link right">社区</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- 登录状态topbar over-->
+            <!-- 未登录状态topbar start-->
+            <nav class="nav-collapse user" style="display:none;">
+            	<div class="user-info pull-right nologin">
+                	<a href="#" class="top-link">帮助</a>
+                    <a href="#" class="top-link">社区</a>
+                    <a href="xxd-register.html" class="red">注册</a>
+                    <a href="xxd-register.html" class="blue">登录</a>
+                </div>
+            </nav>
+            <!-- 未登录状态topbar over-->
+        </div>
+    </div>
+    <!-- 
+    <div class="top-menu">
+    	<div class="container">
+    		<div class="xxd-logo"><img src="../images/public/xxd-logo-default.png"/></div>
+            <nav class="nav-collapse main-menu">
+            	<ul class="nav">
+            		<li>
+                    	<a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown" id="MenuDropdown1">我要出借</a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown1">
+                            <li><a href="#"> 散标投资</a></li>
+                            <li><a href="#"> 优选理财</a></li>
+                            <li><a href="#"> 债券转让</a></li>
+                            <li><a href="#"> 新新宝</a></li>
+                        </ul>
+                    </li>
+                	<li>
+                    	<a href="#" class="dropdown-toggle main-menu-tit" data-toggle="dropdown" id="MenuDropdown2">我要贷款</a>
+                        <ul class="dropdown-menu dropmenu-a" role="menu" aria-labelledby="MenuDropdown2">
+                            <li><a href="#"> 经营贷</a></li>
+                            <li><a href="#"> 消费贷</a></li>
+                            <li><a href="#"> 新生贷</a></li>
+                        </ul>
+                    </li>
+                	<li><a href="#" class="main-menu-tit">新新商城</a></li>
+                	<li><a href="#" class="main-menu-tit" style="padding-right:8px;">关于我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    -->
+</header>
+<!-- top over-->
+
+<!-- main content start-->
+<div class="bg1">
+	<div class="area1">
+		
+	</div>
+</div>
+<div class="bg2">
+	<div class="area2">
+		<div class="loginCon">
+			<h2>5秒注册 送108元</h2>
+			<ul>
+				<li>
+					<input type="text" placeholder="请输入手机号码" />
+				</li>
+				<li class="sli">
+					<input type="text" placeholder="请输入图片验证" />
+					<img src="images/bg1.jpg" />
+					<span></span>
+				</li>
+				<li class="sli">
+					<input type="text" placeholder="请输入短信验证码" />
+					<strong>获取验证码</strong>
+				</li>
+			</ul>
+			<div class="tcon">
+				<input type="checkbox" />
+				我已阅读并同意<a href="">《新新贷使用协议》</a>
+			</div>
+			<input type="submit" value="" />
+			<div class="bcon">
+				已有账号？<a href="">马上登录</a>
+			</div>
+			<div class="alerts">这里是错误提示！</div>
+		</div>
+	</div>
+</div>
+<div class="bg3">
+	<div class="area3">
+
+	</div>
+</div>
+<div class="bg4">
+	<div class="area4">
+
+	</div>
+</div>
+<div class="bg5">
+	<div class="area5">
+		<a href="">
+			<img src="images/btn2.png" class="btn1" />
+		</a>
+	</div>
+</div>
+<div class="bg6">
+	<div class="area6">
+		<a href="" class="btn3 state1"></a>
+		<a href="" class="btn4 state1"></a>
+	</div>
+</div>
+<div class="bg7">
+	<div class="area7">
+		<ul>
+			<li>
+				<h3>新元宝-1个月</h3>
+				<strong>7.0<span>%</span><em>年化</em></strong>
+				<div>
+					<span>100元起投</span>
+					<span>1个月</span>
+				</div>
+				<a href=""></a>
+			</li>
+			<li>
+				<h3>新元宝-3个月</h3>
+				<strong>8.0<span>%</span><em>年化</em></strong>
+				<div>
+					<span>100元起投</span>
+					<span>1个月</span>
+				</div>
+				<a href=""></a>
+			</li>
+			<li>
+				<h3>新元宝-6个月</h3>
+				<strong>9.0<span>%</span><em>年化</em></strong>
+				<div>
+					<span>100元起投</span>
+					<span>1个月</span>
+				</div>
+				<a href=""></a>
+			</li>
+			<li>
+				<h3>新元宝-12个月</h3>
+				<strong>11<span>%</span><em>年化</em></strong>
+				<div>
+					<span>100元起投</span>
+					<span>1个月</span>
+				</div>
+				<a href=""></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="bg8">
+	<div class="area8">
+		<ul class="rank">
+			<li id="sli">
+				<span>用户名</span>
+				<span>投资金额</span>
+				<span>投资产品</span>
+				<span>投资时间</span>
+			</li>
+			<div class="scrolling">
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			<li>
+				<span>dfdfdfdf</span>
+				<span>112312312321</span>
+				<span>新元宝-1个月</span>
+				<span>2016-11-11 13:33</span>
+			</li>
+			</div>
+		</ul>
+	</div>
+</div>
+<div class="bg9">
+	<div class="area9">
+
+	</div>
+</div>
+<div class="layer"></div>
+	<!-- 登录提示弹出窗 -->
+	<div class="alertBox">
+		<h3>提示</h3>
+		<h4>您还没有登录，请登录后参加活动！</h4>
+		<div class="btnBox">
+			<a href="">
+				<img src="images/btn9.png" />
+			</a>
+		</div>
+		<img src="images/close.png" class="close" />
+	</div>
+	<!-- 投资提示弹出窗 -->
+	<div class="alertBox">
+		<h3>提示</h3>
+		<h4>您还没有投资新元宝，请投资新元宝后参加活动！</h4>
+		<div class="btnBox">
+			<a href="">
+				<img src="images/btn6.png" />
+			</a>
+		</div>
+		<img src="images/close.png" class="close" />
+	</div>
+	<!-- 搭桥提示弹出窗 -->
+	<div class="alertBox">
+		<h3>提示</h3>
+		<h4>您确定为“玉露”队搭鹊桥吗，一旦选定无法更改！</h4>
+		<div class="btnBox">
+			<a href="">
+				<img src="images/btn7.png" />
+			</a>
+			<a href="">
+				<img src="images/btn8.png" />
+			</a>
+		</div>
+		<img src="images/close.png" class="close" />
+	</div>
+<script src="js/jquery.js"></script>
+<script>
+$('.scrolling').html($('.scrolling').html()+$('.scrolling').html());
+var x = 0;
+setInterval(function(){
+	x++;
+	$('.scrolling').find('li').eq(0).animate({'margin-top':-48*x},500);
+	if(x == 10){
+		x = 0;
+		$('.scrolling').find('li').eq(0).animate({'margin-top':0},0);
+	}
+},3000);
+
+/* 弹出窗口通用方法:ctr触发器,con需求窗口*/
+function alertBox(ctr,con){
+	$(ctr).click(function(){
+		$('.layer').fadeIn(0);
+		$(con).fadeIn(0);
+	});
+	$(con).find('.close').click(function(){
+		$('.layer').fadeOut(0);
+		$(con).fadeOut(0);
+	});
+}
+
+/* 点击按钮改变图片:ctr触发器,state1为原始样式,state2为修改样式 */
+function changePic(ctr,state1,state2){
+	$(ctr).click(function(){
+		$(this).removeClass(state1).addClass(state2)
+	});
+}
+
+$.each($('.rank').find('li:not(:first)'),function(){
+	var str1 = $(this).find('span').eq(0).html().substring($(this).find('span').eq(0).html().length-1,$(this).find('span').eq(0).html().length);
+	var str2 = $(this).find('span').eq(0).html().substring(0,parseInt(($(this).find('span').eq(0).html().length - 1)/3 * 2));
+	var str3 = '';
+	for(var i=0 ; i<$(this).find('span').eq(0).html().length-str1.length-str2.length ; i++){
+		str3+='*';
+	}
+	$(this).find('span').eq(0).html(str2+str3+str1);
+});
+</script>
+<!-- main content over-->
+
+<!-- footer start-->
+<div class="index-footer">
+	<div class="container">
+    	<div class="footer-cont">
+        	<div class="footer-kf"> </div>
+            <div class="footer-aboutus">
+            	<span class="left">关注我们</span>
+                <div class="footer-weibo"> </div>
+                <div class="footer-weixin"> </div>
+                <span class="left ml50">下载手机客户端</span>
+                <div class="footer-apple"> </div>
+                <div class="footer-android"> </div>
+                <div class="erweima-box weibo-box"><div class="erweima-weibo"></div></div>
+                <div class="erweima-box weixin-box"><div class="erweima-weixin"></div></div>
+                <div class="erweima-box apple-box"><div class="erweima-apple"></div></div>
+                <div class="erweima-box android-box"><div class="erweima-android"></div></div>
+            </div>
+			<ul class="left mt40 mr20 fixaaa">
+				<li class="yh13">关于新新贷</li>
+				<li><a href="/about/aboutcompany.html">新新贷介绍</a>
+				</li>
+				<li><a href="/index/newsNoticesThree.html?typeName=news_notices">公告和新闻</a>
+				</li>
+				<li><a href="/about/contactus.html">联系我们</a>
+				</li>
+				<!--  <li><a href="/about/blogroll.html">友情链接</a>
+				</li>-->
+			</ul>
+			<ul class="left mt40 mr20">
+				<li class="yh13">安全保障</li>
+				<!--<li><a href="/security/guarantee_plan.html">本金保障</a>
+				</li>-->
+				<li><a href="/security/guarantee_plan.html">阳光透明</a>
+				</li>
+				<li><a href="/security/pwd_suggestion.html">隐私保护</a>
+				</li>
+				<li><a href="/security/risk_group.html">风险控制</a>
+				</li>
+			</ul>
+			<ul class="left mt40 mr20">
+				<li class="yh13">帮助中心</li>
+				<li><a href="/help/aboutxxd.html">常见问题</a>
+				</li>
+				<li><a href="/help/operation.html">操作演示</a>
+				</li>
+				<li><a href="/help/fee.html">资费介绍</a>
+				</li>
+			</ul>
+			<ul class="left mt40 mr20">
+				<li class="yh13">兄弟品牌</li>
+				<li><a href="http://www.xinxinwealth.com" id="xxcf" target="_blank"> </a></li>
+			</ul>
+		</div>
+        <div class="index_blog_roll">
+			<div class="blogrolltitlea">友情链接：</div>
+			<ul id="index_blog_rollul" class="showone">
+			
+			<li><a href="http://www.xinxindai.com/loan/category.html" target="view_window">小额贷款条件</a></li>
+				
+			<li><a href="https://www.weicaifu.com/v/index" target="view_window">新浪微财富</a></li>
+				
+			<li><a href="http://www.rongjinsuo.com" target="view_window">P2P理财</a></li>
+				
+			<li><a href="http://www.xinxindai.com" target="view_window">网贷平台</a></li>
+				
+			<li><a href="http://bbs.xinxindai.com/" target="view_window">P2P网贷论坛</a></li>
+				
+			<li><a href="http://loans.cardbaobao.com/" target="view_window">小额贷款</a></li>
+				
+			<li><a href="http://www.cjdao.com" target="view_window">财经道</a></li>
+				
+			<li><a href="http://www.itf-mag.com" target="view_window">互联网金融杂志</a></li>
+				
+			<li><a href="http://finance.ifeng.com/itfinance/" target="view_window">凤凰互联网金融</a></li>
+				
+			<li><a href="http://www.zixinke.com" target="view_window">资信客</a></li>
+				
+			<li><a href="http://bbs.wacai.com/" target="view_window">挖财社区</a></li>
+				
+			<li><a href="http://www.itbt.com.cn/" target="view_window">P2P投资理财</a></li>
+				
+			<li><a href="http://www.cr.cn" target="view_window">从容网</a></li>
+				
+			<li><a href="http://iof.hexun.com" target="view_window">和讯互联网金融</a></li>
+				
+			<li><a href="http://www.icaifu.com/" target="view_window">研报下载</a></li>
+				
+			<li><a href="http://shenzhen.rong360.com/" target="view_window">深圳贷款</a></li>
+				
+			<li><a href="http://shanghai.roadoor.com/" target="view_window">上海贷款</a></li>
+				
+			<li><a href="http://www.rongdaitong.cn/" target="view_window">融贷通</a></li>
+				
+			<li><a href="http://www.wangdaidp.com" target="view_window">网贷点评</a></li>
+				
+			<li><a href="http://www.soudai360.com" target="view_window">P2P网贷</a></li>
+				
+			<div class="clear"> </div>
+							
+			</ul>			
+			<a class="showmoreblogroll show_more" id="show_more" style="display:block;"> </a>
+			<a class="showmoreblogroll show_reg" id="show_reg"> </a>
+		</div>
+    </div>
+    <!-- 版权与可信认证 start-->
+    <div class="xxd_pagefoot">
+    	<div class="container">
+            <div class="newfoot_copyright">
+                Copyright @上海涌信金融信息服务有限公司      沪ICP备12026657号-1     版权所有，未经许可不得复制、转载或摘编，违者必究！
+                <!-- cnzz统计代码 -->
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253077251'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1253077251%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1253077251"><a href="http://www.cnzz.com/stat/website.php?web_id=1253077251" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></span><script src=" http://s19.cnzz.com/z_stat.php?id=1253077251&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1253077251&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+                <!-- 百度统计代码 -->
+                <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F78e9b60f68bcb0ca48e187efedec7fb9' type='text/javascript'%3E%3C/script%3E"));
+                </script><script src=" http://hm.baidu.com/h.js?78e9b60f68bcb0ca48e187efedec7fb9" type="text/javascript"></script>				
+            </div>
+            <div class="new_identification">
+                <!--  <a id="icon001" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank"><img src="/images/icon001.jpg"/></a>
+                <a id='___szfw_logo___' href='https://search.szfw.org/cert/l/CX20140224003875003530' target='_blank'><img src='https://search.szfw.org/cert.png?l=CX20140224003875003530'></a>
+                <script type='text/javascript'>(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+                <span id="kx_verify"></span><script type="text/javascript">(function (){var _kxs = document.createElement('script');_kxs.id = 'kx_script';_kxs.async = true;_kxs.setAttribute('cid', 'kx_verify');_kxs.src = ('https:' == document.location.protocol ? 'https://ss.knet.cn' : 'http://rr.knet.cn')+'/static/js/icon3.js?sn=e14050731010948597brpb000000&tp=icon3';_kxs.setAttribute('size', 0);var _kx = document.getElementById('kx_verify');_kx.parentNode.insertBefore(_kxs, _kx);})();</script>-->
+                <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1057638558" target="_blank" class="id_xin"> </a> 
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e14050731010948597brpb000000&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.xinxindai.com" target="_blank" class="id_kexin"> </a> 
+                <a href="https://search.szfw.org/cert/l/CX20140224003875003530" target="_blank" class="id_chengxin"> </a> 
+            </div>
+        </div>
+    </div>
+    <!-- 版权与可信认证 over-->
+</div>
+<!-- footer over-->
+<!-- index main content over-->
+
+</body>
+</html>
+
