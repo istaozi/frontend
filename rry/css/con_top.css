@@ -1,0 +1,206 @@
+.con_top{
+	width: 996px;
+	height: 378px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	position: relative;
+	background: white;
+	color: #666666;
+}
+.cont_left{
+	float: left;
+	width: 673px;
+	height: 378px;
+	font-size: 15px;
+	border-right: 1px solid #DEDEDE;
+}
+.biaoti{
+	float: left;
+	width: 425px;
+	height: 66px;
+	background: url("../img/biaoti.png");
+	margin: 10px 220px 45px -17px;
+}
+.general{
+	float: left;
+	margin-right: 56px;
+	margin-bottom: 30px;
+}
+.general p span:nth-child(2){
+	font-size: 14px;
+}
+.yuqi{
+	margin-left: 38px;
+	margin-right: 100px;
+	position: relative;
+}
+.yidong{
+	position: absolute;
+	bottom: 35px;
+	right: -40px;
+}
+.cont_left .general p:nth-child(1){
+	font-size: 16px;
+	margin-bottom: 34px;
+}
+.yuqi p span:nth-child(1){
+	color: #f9ac3a;
+	font-size: 32px;
+	margin-right: 10px;
+}
+.yuqi p span:nth-child(2){
+	color: #ff7573;
+	font-size: 18px;
+}
+.da{
+	font-size: 28px;
+}
+.leiji{
+	margin-right: 40px;
+}
+.hehe{
+	width: 261px;
+	float: left;
+	margin-left: -200px;
+	font-size: 16px;
+}
+.hehe p{
+	font-size: 16px;
+}
+.jiaxi{
+	float: right;
+	margin-right: 55px;
+	margin-top: -25px;
+}
+.cont_right{
+	float: left;
+	width: 321px;
+	height: 384px;
+	padding-left: 42px;
+	padding-right: 40px;
+	padding-top: 35px;
+	box-sizing: border-box;
+}
+.yue{
+	margin-bottom: 30px;
+}
+.kgeneral{
+	width: 66px;
+	height: 24px;
+	float: left;
+	line-height: 24px;
+	text-align: center;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	cursor: pointer;
+}
+em{
+	font-style: normal;
+}
+.yb,.wb,.wq,.yw{
+	margin-bottom: 9px;
+	margin-right: 18px;
+}
+.quan{
+	float: left;
+}
+.lq{
+	margin-bottom: 9px;
+}
+.aj{
+	width: 321px;
+	height: 36px;
+	float: left;
+	margin-bottom: 13px;
+}
+.ageneral{
+	float: left;
+	width: 22px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	border: 1px solid #dedede;
+	cursor: pointer;
+}
+.aj input:nth-child(2){
+	display: block;
+	outline-style: none;
+	float: left;
+	width: 176px;
+	height: 36px;
+	padding: 10px 11px;
+	box-sizing: border-box;
+	border: 1px solid #dedede;
+	margin: 0 6px;
+}
+.jisuan{
+	width: 321px;
+	float: left;
+	margin-bottom: 20px;
+}
+.san{
+	float: left;
+	width: 214px;
+	height: 16px;
+	background: url("../img/san.png");
+	margin-bottom: 12px;
+}
+.llogin{
+	float: left;
+	width: 239px;
+	height: 43px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 43px;
+	color: white;
+	background: #f9ac3a;
+	cursor: pointer;
+}
+.llogin:hover{
+	background: #f5960a;
+	/*opacity: 0.8;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
