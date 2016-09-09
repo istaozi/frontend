@@ -944,12 +944,28 @@
             $("#bankzf_2_done").toggleClass("bankzf_2_can").toggleClass("bankzf_2_done");
 
             $('input[disabled]#bankzf_2_done').removeAttr("disabled");
+            $("#edite-bankzf_done").addClass("disnone");
+            $('input[type="text"]#bankzf_2_done').removeClass("w98");
 
            /*($('input[disabled]#bankzf_2_done').attr("disabled",true))?$('input[disabled]#bankzf_2_done').attr("disabled",false):($('input[disabled]#bankzf_2_done').attr("disabled",true));
            ($('input[disabled]#bankzf_2_done').attr("disabled",false))?$('input[disabled]#bankzf_2_done').attr("disabled",true):($('input[disabled]#bankzf_2_done').attr("disabled",false));
             console.info($('input[disabled]#bankzf_2_done').attr("disabled")==true+"+++++++++++++++++++++++");*/
 
         });
+
+      /*  $("#bankzf_2_done").blur(function(){*/
+          $("#kjcz_step2:not(#edite-bankzf_done)").click(function() {
+              alert(123);
+              $("#kjcz_step2:not(#edite-bankzf_done)").css("background-color","#000");
+            $("#bankzf_2_done").blur(abc());
+        });
+        function abc(){
+            console.log(12)
+            $("#edite-bankzf_done").removeClass("disnone").addClass("disblock");
+            $('input[type="text"]#bankzf_2_done').attr("disabled",true);
+            $("#bankzf_2_done").addClass("bankzf_2_done").removeClass("bankzf_2_can");
+            $('input[type="text"]#bankzf_2_done').addClass("w98");
+        }
 
     });
 </script>
