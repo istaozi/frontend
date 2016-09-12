@@ -328,9 +328,9 @@
 
                                     <div class="dataupload clearfix ml12 mb22">
                                         <span class="w110 font16 font-666 text-left">手机号：</span>
-                                        <input type="text" class="bankzf_2_done bg-fff font16 w98" value="999******11" maxlength="11"  disabled id="bankzf_2_done">
+                                        <input type="text" class="bankzf_2_done bg-fff font16 w98" about="edite-flag" value="999******11" maxlength="11"  disabled id="bankzf_2_done">
                                         <!--<span class="edite-bankzf_done" ></span>-->
-                                        <span class="q-small queblue queblue_pf1 edite-bankzf_done" id="edite-bankzf_done" data-toggle="tooltip" data-placement="top" data-original-title="修改银行预留手机号"></span>
+                                        <span class="q-small queblue queblue_pf1 edite-bankzf_done" about="edite-flag" id="edite-bankzf_done" data-toggle="tooltip" data-placement="top" data-original-title="修改银行预留手机号"></span>
                                     </div>
 
                                     <div class="dataupload clearfix ml12 mb22 w-auto">
@@ -941,31 +941,32 @@
 
 
         $("#edite-bankzf_done").click(function(){
-            $("#bankzf_2_done").toggleClass("bankzf_2_can").toggleClass("bankzf_2_done");
-
+            pencil();
+        });
+        //点击铅笔 样式变更为可编辑
+        function pencil(){
+            $("#bankzf_2_done").addClass("bankzf_2_can").removeClass("bankzf_2_done");
             $('input[disabled]#bankzf_2_done').removeAttr("disabled");
             $("#edite-bankzf_done").addClass("disnone");
             $('input[type="text"]#bankzf_2_done').removeClass("w98");
+        };
 
-           /*($('input[disabled]#bankzf_2_done').attr("disabled",true))?$('input[disabled]#bankzf_2_done').attr("disabled",false):($('input[disabled]#bankzf_2_done').attr("disabled",true));
-           ($('input[disabled]#bankzf_2_done').attr("disabled",false))?$('input[disabled]#bankzf_2_done').attr("disabled",true):($('input[disabled]#bankzf_2_done').attr("disabled",false));
-            console.info($('input[disabled]#bankzf_2_done').attr("disabled")==true+"+++++++++++++++++++++++");*/
+        //不可编辑样式
+        function orig_pencil(){
+                $("#edite-bankzf_done").removeClass("disnone").addClass("disblock");
+                $('input[type="text"]#bankzf_2_done').attr("disabled",true);
+                $("#bankzf_2_done").addClass("bankzf_2_done").removeClass("bankzf_2_can");
+                $('input[type="text"]#bankzf_2_done').addClass("w98");
+        };
+
+        //编辑之后 ，点击空白区域即可恢复不可编辑样式（ 短输入框+铅笔模式）
+        $("body").click(function() {
+            //当前事件的源
+            obj = event.srcElement ? event.srcElement : event.target;
+              return obj.getAttribute("about")=="edite-flag" ? pencil() : orig_pencil();
 
         });
 
-      /*  $("#bankzf_2_done").blur(function(){*/
-          $("#kjcz_step2:not(#edite-bankzf_done)").click(function() {
-              alert(123);
-              $("#kjcz_step2:not(#edite-bankzf_done)").css("background-color","#000");
-            $("#bankzf_2_done").blur(abc());
-        });
-        function abc(){
-            console.log(12)
-            $("#edite-bankzf_done").removeClass("disnone").addClass("disblock");
-            $('input[type="text"]#bankzf_2_done').attr("disabled",true);
-            $("#bankzf_2_done").addClass("bankzf_2_done").removeClass("bankzf_2_can");
-            $('input[type="text"]#bankzf_2_done').addClass("w98");
-        }
 
     });
 </script>
