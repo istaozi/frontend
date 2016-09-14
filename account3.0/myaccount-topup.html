@@ -328,7 +328,7 @@
 
                                     <div class="dataupload clearfix ml12 mb22">
                                         <span class="w110 font16 font-666 text-left">手机号：</span>
-                                        <input type="text" class="bankzf_2_done bg-fff font16 w98" about="edite-flag" value="999******11" maxlength="11"  disabled id="bankzf_2_done">
+                                        <input type="text" class="bankzf_2_done bg-fff font16 w98"  accept="edite-flaginput" about="edite-flag" value="999******11" maxlength="11"  disabled id="bankzf_2_done">
                                         <!--<span class="edite-bankzf_done" ></span>-->
                                         <span class="q-small queblue queblue_pf1 edite-bankzf_done" about="edite-flag" id="edite-bankzf_done" data-toggle="tooltip" data-placement="top" data-original-title="修改银行预留手机号"></span>
                                     </div>
@@ -941,7 +941,17 @@
 
 
         $("#edite-bankzf_done").click(function(){
+            if($(this).attr("disabled",false)){
             pencil();
+            }
+        });
+        $("#bankzf_2_done").blur(function(){
+            console.error($(this).attr("disabled"))
+            if($(this).attr("disabled")){
+            orig_pencil()
+            }else{
+                pencil();
+            }
         });
         //点击铅笔 样式变更为可编辑
         function pencil(){
@@ -960,11 +970,17 @@
         };
 
         //编辑之后 ，点击空白区域即可恢复不可编辑样式（ 短输入框+铅笔模式）
-        $("body").click(function() {
+        //火狐浏览器even兼容 传参event即可
+        $("body").click(function(event) {
+
             //当前事件的源
             obj = event.srcElement ? event.srcElement : event.target;
+            //解决不点击修改图标，也可以直接删除手机号码了
+            if(obj.getAttribute("accept")=="edite-flaginput" & $("#bankzf_2_done").attr("disabled")=="disabled"){
+                orig_pencil();
+            }else{
               return obj.getAttribute("about")=="edite-flag" ? pencil() : orig_pencil();
-
+            }
         });
 
 
