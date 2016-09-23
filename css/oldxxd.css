@@ -575,10 +575,10 @@ ul.joinus_a_panel li,ul.joinus_b_panel li,ul.joinus_c_panel li {
 	display:block;
 	border-bottom:1px solid #ddd;
 }
-.baidumap {
+/*.baidumap {
 	width:690px;
 	height:410px;
-}
+}*/
 .address_detailtable {
 	width:690px;
 	margin:0 auto;
