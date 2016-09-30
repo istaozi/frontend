@@ -30,6 +30,9 @@
     color: #666;
     cursor: pointer;
 }
+.xxpl_tab li:hover{
+    color: #3f9bff;
+}
 .xxpl_tab li.mid{
     width: 33.4%;
     border: 1px solid #dedede;
