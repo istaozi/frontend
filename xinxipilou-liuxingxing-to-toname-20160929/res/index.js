@@ -1,5 +1,5 @@
 $(function () {
-    /*tabÒ³ÃæÇÐ»»*/
+    /*tabÒ³ï¿½ï¿½ï¿½Ð»ï¿½*/
     $(".xxpl_tab li").each(function(){
         $(this).click(function(){
             $(this).addClass("active").siblings().removeClass("active");
@@ -7,21 +7,21 @@ $(function () {
             $("."+curAbout).removeClass("disnone").addClass("disblock").siblings().addClass("disnone");
         });
     });
-    /*ÔÂ±¨ ¼¾¿¯µã»÷ÊÂ¼þ*/
+    /*ï¿½Â±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½*/
     $(".ptsj_condi span").each(function(){
         $(this).click(function(){
             $(this).addClass("active").siblings().removeClass("active");
         });
     });
 
-    /*·ÖÒ³°´Å¥ÊÂ¼þ*/
+    /*ï¿½ï¿½Ò³ï¿½ï¿½Å¥ï¿½Â¼ï¿½*/
     $(".xxpl_spe_pa").each(function(){
         $(this).click(function(){
             $(this).addClass("current_page").siblings().removeClass("current_page");
         });
     });
 
-   /*¼¾¶È³É½»¶î*/
+   /*ï¿½ï¿½ï¿½È³É½ï¿½ï¿½ï¿½*/
     var dataChartC = echarts.init(document.getElementById('jdcje'));
     var optiona = {
         tooltip: {
@@ -32,10 +32,13 @@ $(function () {
         xAxis: [
             {
                 type: 'category',
-                boundaryGap: false,
-                splitLine:false,//Òþ²ØÊú×ÅµÄ·Ö¸îÏß
-                axisLine:false,//Òþ²Ø×ø±êÏß
-                axisLabel : { //xÖáÎÄ×ÖÑÕÉ«
+                //boundaryGap: false,
+                splitLine:false,//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅµÄ·Ö¸ï¿½ï¿½ï¿½
+                axisLine:false,//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                axisTick: {
+                    show: false
+                },
+                axisLabel : { //xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
                     show : true,
                     textStyle : {
                         fontSize: 16,
@@ -52,14 +55,14 @@ $(function () {
                 type: 'value',
                 axisLabel: {
                     show: true,
-                    textStyle: {  //yÖáÎÄ×ÖÑÕÉ«
+                    textStyle: {  //yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
                         fontSize: 16,
                         fontWeight: 'normal',
                         fontFamily: 'Arial',
                         color: '#666'
                     }
                 },
-                axisLine:false//Òþ²Ø×ø±êÏß
+                axisLine:false//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             }
         ],
         series: [
@@ -70,15 +73,79 @@ $(function () {
                     normal: {},
                     emphasis: {}
                 },
-                /*symbol:"res/img/plot.png",
-                symbolSize: 8,*/
-                symbol: 'arrow',
+                //symbolList:  [
+                //    'circle', 'rectangle', 'triangle', 'diamond',
+                //    'emptyCircle', 'emptyRectangle', 'emptyTriangle', 'emptyDiamond'
+                //],
+                symbol:'emptyCircle',
                 symbolSize: 6,
                 symbolRotate: -45,
                 data: [1, 2, 4, 9, 10, 9, 8, 10, 12, 15]
             }
         ],
-        grid: {borderWidth: 0}//Òþ²Øgrid±ß¿òÏß
+        grid: {borderWidth: 0}//ï¿½ï¿½ï¿½ï¿½gridï¿½ß¿ï¿½ï¿½ï¿½
+    }
+    dataChartC.setOption(optiona);
+
+    /*ï¿½ï¿½ï¿½È³É½ï¿½ï¿½ï¿½*/
+    var dataChartC = echarts.init(document.getElementById('fxzbjye'));
+    var optiona = {
+        tooltip: {
+            show: true,
+            formatter: "{b}xx : {c}"
+        },
+        calculable: true,
+        xAxis: [
+            {
+                type: 'category',
+                //boundaryGap: false,
+                splitLine:false,//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅµÄ·Ö¸ï¿½ï¿½ï¿½
+                axisLine:false,//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+                axisTick: {
+                    show: false
+                },
+                axisLabel : { //xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+                    show : true,
+                    textStyle : {
+                        fontSize: 16,
+                        fontWeight: 'normal',
+                        fontFamily: 'Arial',
+                        color : '#3f9bff'
+                    }
+                } ,
+                data: ['2015Q1', '2015Q3', '2015Q6', '2015Q9', '2014Q12', '2016Q1', '2016Q3', '2016Q6']
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                axisLabel: {
+                    show: true,
+                    textStyle: {  //yï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«
+                        fontSize: 16,
+                        fontWeight: 'normal',
+                        fontFamily: 'Arial',
+                        color: '#666'
+                    }
+                },
+                axisLine:false//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+            }
+        ],
+        series: [
+            {
+                name: 'yingli',
+                type: 'bar',
+                barWidth:30,
+                //barGap:'90%',
+                //barCategoryGap:'90%',
+                itemStyle: {
+                    normal: {},
+                    emphasis: {}
+                },
+                data: [1, 2, 4, 9, 10, 9, 8, 10, 12, 15]
+            }
+        ],
+        grid: {borderWidth: 0}//ï¿½ï¿½ï¿½ï¿½gridï¿½ß¿ï¿½ï¿½ï¿½
     }
     dataChartC.setOption(optiona);
 });
